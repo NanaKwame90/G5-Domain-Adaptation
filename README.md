@@ -1,6 +1,6 @@
 # Privacy-Aware KTO Fine-Tuning of Qwen3.5-9B
 
-This repository contains the code, data configurations, and evaluation pipeline for the **G5 Domain Adaptation project** under the **LM-Playschool Shared Task 2026**. We investigate **Kahneman-Tversky Optimization (KTO)** applied to `Qwen/Qwen3.5-9B` to improve performance across static reasoning benchmarks, privacy question-answering (`privacy_qa`), and interactive dialogue games within the **Playpen/CLEMbench** framework.
+This repository contains the code, data configurations, and evaluation pipeline for the **G5 Domain Adaptation project**. We investigate **Kahneman-Tversky Optimization (KTO)** applied to `Qwen/Qwen3.5-9B` to improve performance across static reasoning benchmarks, privacy question-answering (`privacy_qa`), and interactive dialogue games within the **Playpen/CLEMbench** framework.
 
 ---
 
