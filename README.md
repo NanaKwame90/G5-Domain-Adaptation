@@ -29,7 +29,7 @@ g5_adaptation/
 
 ## Key Methodology & Problem Formulation
 
-* **The Problem:** Large language models often achieve high performance on static knowledge benchmarks but fail to maintain structured multi-turn dialogue protocols in interactive games, leading to format violations and early aborts $\text{Played}_{\%}$.
+* **The Problem:** Large language models often achieve high performance on static knowledge benchmarks but fail to maintain structured multi-turn dialogue protocols in interactive games, leading to format violations and early aborts ($\text{Played}_{\%}$).
 * **Kahneman-Tversky Optimization (KTO):** Instead of paired preference comparisons (like DPO), KTO operates on singleton binary feedback $y \in \{+1, -1\}$, leveraging prospect theory's asymmetry between the psychological penalty of undesirable outputs and the reward of desirable outputs.
 * **Composite Evaluation Metric ($\text{clemscore}$):**
 
