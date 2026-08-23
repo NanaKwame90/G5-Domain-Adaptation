@@ -1,0 +1,3 @@
+,"-, clemscore","all, Average % Played","all, Average Quality Score","bbh, % Played","bbh, Quality Score","cladder, % Played","cladder, Quality Score","eqbench, % Played","eqbench, Quality Score","ifeval, % Played","ifeval, Quality Score","mmlu_pro, % Played","mmlu_pro, Quality Score","privacy_qa, % Played","privacy_qa, Quality Score"
+Qwen3.5-9B,20.84,100.0,20.84,,,,,,,,,,,100.0,20.84
+Qwen3.5-9B-KTO,45.13,99.8,45.22,100.0,0.0,100.0,61.0,99.0,72.12,100.0,54.0,100.0,39.0,,
