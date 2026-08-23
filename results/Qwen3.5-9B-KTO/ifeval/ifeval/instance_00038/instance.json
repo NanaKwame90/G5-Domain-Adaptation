@@ -1,0 +1,10 @@
+{
+  "game_id": 38,
+  "input": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "less than",
+      "num_words": 151
+    }
+  }
+}

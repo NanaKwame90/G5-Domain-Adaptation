@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "low_en",
+    "game_id": 14,
+    "player_name": "Player 1",
+    "game_role": "WordDescriber",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T14:07:03.711361",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\nstatue\n\nRelated words are:\n\n- sculpture\n- monument\n- figure\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\nstatue\n\nRelated words are:\n\n- sculpture\n- monument\n- figure\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"statue\"\n    *   Related Words (Forbidden): \"sculpture\", \"monument\", \"figure\".\n    *   Rules:\n        *   Reply format: `CLUE: <some text>`.\n        *   Guesses start with `GUESS`.\n        *   Cannot use target word or related words (or their parts/morphological variants).\n        *   Lose if I use forbidden words.\n        *   Win if user guesses in 3 tries.\n        *   Constraint: Short descriptions (time pressure).\n    *   Current State: First turn (I need to provide the first clue).\n\n2.  **Analyze the Target Word (\"statue\"):**\n    *   Meaning: A carved or cast image of a person or animal, usually in stone, metal, or wood, often placed in a public place.\n    *   Synonyms/Associations: Idol, bust, effigy, totem, memorial, art, stone, metal, pose, stand, still, silent, frozen, bronze, marble, pedestal, base, honor, dead, immortalized.\n    *   Forbidden Words: statue, sculpture, monument, figure.\n    *   Forbidden Variants: statues, sculpting,",
+          "clem_player": {
+            "call_start": "2026-07-30 14:05:51.731798",
+            "call_duration": "0:01:11.979267",
+            "response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"statue\"\n    *   Related Words (Forbidden): \"sculpture\", \"monument\", \"figure\".\n    *   Rules:\n        *   Reply format: `CLUE: some text`.\n        *   Guesses start with `GUESS`.\n        *   Cannot use target word or related words (or their parts/morphological variants).\n        *   Lose if I use forbidden words.\n        *   Win if user guesses in 3 tries.\n        *   Constraint: Short descriptions (time pressure).\n    *   Current State: First turn (I need to provide the first clue).\n\n2.  **Analyze the Target Word (\"statue\"):**\n    *   Meaning: A carved or cast image of a person or animal, usually in stone, metal, or wood, often placed in a public place.\n    *   Synonyms/Associations: Idol, bust, effigy, totem, memorial, art, stone, metal, pose, stand, still, silent, frozen, bronze, marble, pedestal, base, honor, dead, immortalized.\n    *   Forbidden Words: statue, sculpture, monument, figure.\n    *   Forbidden Variants: statues, sculpting,",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

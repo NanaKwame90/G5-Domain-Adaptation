@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 38,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:40:32.771136",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nMeet **Memora**, the digital photo frame that brings your life to the wall. No more digging through dusty albums or waiting for birthdays to share updates. Memora connects directly to your favorite social media accounts, automatically curating your latest moments into a stunning, rotating slideshow.\n\nFrom family vacations to your friends' latest adventures, see your world unfold in real-time. With a sleek, modern design and crystal-clear 4K display, every image pops with vibrant color and sharp detail. Simply plug it in, link your accounts, and let Memora handle the rest.\n\nPerfect for keeping grandparents connected, filling empty walls with joy, or simply reminding you of the good times every day. Stop storing memories; start living them.\n\nGet **Memora** today and watch your life come alive, one photo at a time. Available now at Memora.com.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:40:00.179341",
+            "call_duration": "0:00:32.591457",
+            "response": "Meet **Memora**, the digital photo frame that brings your life to the wall. No more digging through dusty albums or waiting for birthdays to share updates. Memora connects directly to your favorite social media accounts, automatically curating your latest moments into a stunning, rotating slideshow.\n\nFrom family vacations to your friends' latest adventures, see your world unfold in real-time. With a sleek, modern design and crystal-clear 4K display, every image pops with vibrant color and sharp detail. Simply plug it in, link your accounts, and let Memora handle the rest.\n\nPerfect for keeping grandparents connected, filling empty walls with joy, or simply reminding you of the good times every day. Stop storing memories; start living them.\n\nGet **Memora** today and watch your life come alive, one photo at a time. Available now at Memora.com.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

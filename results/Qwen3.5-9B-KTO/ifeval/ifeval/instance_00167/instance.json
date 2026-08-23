@@ -1,0 +1,10 @@
+{
+  "game_id": 167,
+  "input": "Create a blog post for professionals in the field of computer science in the form of a funny riddle. Your entire reply should contain 600 to 700 words.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "less than",
+      "num_words": 701
+    }
+  }
+}

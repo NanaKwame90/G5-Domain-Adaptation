@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 261,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:30:43.065296",
+        "action": {
+          "type": "send message",
+          "content": "Can you expand the following sentences: \"I have never seen a localized version of the software. I have seen an international version.\"\n\nI would like for there to be exactly 3 paragraphs each separated by three asterisk symbols (***) and for the word humming to be used at least once.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:30:43.065357",
+        "action": {
+          "type": "get message",
+          "content": "Throughout my extensive experience with this digital platform, I have never encountered a localized version of the software tailored specifically for my region or language preferences. Every interface I have interacted with has remained strictly in English, regardless of the geographic location from which I access it, leaving users in non-English speaking countries without the option to view menus, error messages, or help documentation in their native tongues.\n\n***\n\nIn contrast, I have frequently seen an international version of the application that serves as a global standard, designed to accommodate a wide array of users without adapting to local cultural nuances or linguistic specifics. This universal iteration operates with a consistent layout and terminology across all borders, creating a seamless but impersonal experience where the software feels detached from the specific context of the user's daily life.\n\n***\n\nWhile the international version functions efficiently with a steady, mechanical rhythm, the absence of localization makes the entire process feel somewhat lifeless, lacking the subtle, organic **humming** of a system that truly understands and resonates with its local audience. Without these regional adaptations, the software remains a distant tool rather than an integrated part of the user's environment, highlighting a significant gap in its current development strategy.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:30:43.065435",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_paragraphs": {
+              "num_paragraphs": 3
+            },
+            "keywords:frequency": {
+              "relation": "at least",
+              "keyword": "humming",
+              "frequency": 1
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:30:43.066398",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "high_en",
+    "game_id": 13,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "WordDescriber",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "WordGuesser",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T13:28:51.148485",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\nmarine\n\nRelated words are:\n\n- aquatic\n- nautical\n- oceangoing\n\nImportant: You are under time pressure, give short descriptions that are to the point!",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:28:51.148551",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"marine\"\n    *   Related Words (Forbidden): \"aquatic\", \"nautical\", \"oceangoing\" (and their variants/parts).\n    *   Constraint: Cannot use target word or related words in description.\n    *   Format: \"CLUE: some text\".\n    *   Goal: Help the user guess \"marine\" within 3 tries.\n    *   Tone: Short, to the point (time pressure).\n\n2.  **Analyze the Target Word (\"marine\"):**\n    *   Meaning 1: Relating to the sea (e.g., marine biology, marine life).\n    *   Meaning 2: Relating to the navy/military (e.g., marine corps).\n    *   Meaning 3: Relating to the ocean (synonym for aquatic/oceanic).\n    *   Context: Usually refers to the sea or ocean environment.\n\n3.  **Analyze the Forbidden Words:**\n    *   \"aquatic\" (relating to water)\n    *   \"nautical\" (relating to ships/sailing)\n    *   \"oceangoing\" (relating to the ocean)\n    *   Variants/parts of these (e.g., \"",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:28:51.148637",
+        "action": {
+          "type": "invalid format",
+          "content": "abort game"
+        }
+      }
+    ]
+  ]
+}

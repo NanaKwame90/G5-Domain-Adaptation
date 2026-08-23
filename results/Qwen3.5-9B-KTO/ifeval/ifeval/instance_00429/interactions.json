@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 429,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T21:03:57.131361",
+        "action": {
+          "type": "send message",
+          "content": "Is \"jiang\" a Chinese name? What are other names similar to \"jiang\"? Separate your two answers with ******",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:57.131435",
+        "action": {
+          "type": "get message",
+          "content": "Yes, \"Jiang\" (江) is a very common Chinese surname. It is the 15th most common surname in China and is also widely used in other East Asian countries like Korea and Japan (where it is often romanized as Kang or Ko). The character literally means \"river,\" and many families adopted it as a surname due to their ancestral connection to a specific river or region.\n\n******\n\nOther Chinese names that sound similar to \"Jiang\" or share the same pronunciation include:\n*   **Jiang** (江): The standard surname.\n*   **Jiang** (蒋): A different surname with the same pronunciation but a different character meaning \"to select\" or \"to choose.\"\n*   **Jiang** (姜): Another common surname with the same pronunciation, often associated with ginger.\n*   **Jiang** (蒋): Sometimes romanized differently depending on the dialect, but generally shares the sound.\n*   **Jiang** (将): A less common surname meaning \"general.\"\n*   **Jiang** (江): In some contexts, people might confuse it with **Gang** (刚) or **Gong** (公), but these have distinct meanings and tones.\n\nNote: In Mandarin Chinese, these characters are pronounced with the same initial and final sounds but may differ slightly in tone (Jiāng, Jiǎng, Jiàng), though in English romanization, they are often all written as \"Jiang.\"||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:57.131523",
+        "action": {
+          "type": "target",
+          "content": {
+            "combination:two_responses": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:57.131712",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

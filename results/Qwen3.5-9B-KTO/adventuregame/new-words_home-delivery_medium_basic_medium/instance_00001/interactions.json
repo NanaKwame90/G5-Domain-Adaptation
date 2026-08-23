@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_home-delivery_medium_basic_medium",
+    "game_id": 1,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:29:04.763648",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can natin, perce and trion.\n\nYour goal for this game is: Put the aphon in the mator, the book on the remiced and the proart on the table.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a enticed now. There are a wardrobe, a bed, a aphon and a book. The wardrobe is closed. The aphon is on the bed. The book is on the floor. There is a passage to a hallway here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:29:04.763717",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Text adventure game player.\n    *   Input: Description of the current state/perception.\n    *   Output: A single action starting with ``.\n    *   Constraint: Only reply with an action (no explanations, no extra text).\n    *   Special Commands: `natin`, `perce`, `trion` (though these seem like typos for `narrate`, `perceive`, `trion`? Or maybe specific game commands? The prompt says \"In addition to common actions, you can natin, perce and trion.\" I should probably stick to common actions unless I need to investigate further, but the goal is clear).\n    *   Goal: Put the **aphon** in the **mator**, the **book** on the **remiced**, and the **proart** on the **table**.\n    *   Current State:\n        *   Location: \"enticed\" (likely a typo for \"entrance\" or \"room\", but I'll treat it as the current room).\n        *   Objects: wardrobe, bed, aphon, book.\n        *   Wardrobe: closed.\n        *   Aphon: on the bed.\n        *   Book: on the floor.\n        *   Passage: to a hallway.\n    *   Missing Objects for Goal",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:29:04.763787",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:29:04.763874",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:29:04.763962",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 14,
+    "goal_count": 3
+  }
+}

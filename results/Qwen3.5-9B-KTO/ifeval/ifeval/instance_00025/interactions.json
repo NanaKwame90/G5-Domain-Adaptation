@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 25,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T19:39:46.992010",
+        "action": {
+          "type": "send message",
+          "content": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:39:46.992086",
+        "action": {
+          "type": "get message",
+          "content": "(VERSE 1)\nWAKE UP IN THE ASH, FEEL THE HEAT RISE\nNO MORE SLEEPING ON THE SHINING LIES\nTHEY SAID WE WERE BROKEN, SAID WE WERE SMALL\nBUT WE BUILT A FIRE IN THE WALL OF ALL\n\n(VERSE 2)\nGRIT YOUR TEETH AND GRIP THE STEEL\nTHEY CAN'T BREAK WHAT THEY CAN'T FEEL\nFROM THE DUST TO THE SKY, WE ARE THE SOUND\nWHERE THE LOST AND THE FOUND ARE BOUND\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(VERSE 3)\nNO SOFT SONGS FOR THIS HEART OF STONE\nWE OWN THIS PLACE, WE OWN THIS THRONE\nEVERY NOTE IS A CLASH OF BONES\nEVERY CHORD IS A HOUSE OF STONES\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(OUTRO)\nNOT GIFTED...\nBUT GIFTED...\nBREAK IT ALL...\nBREAK IT ALL...\n(FINAL STRUM)||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:39:46.992188",
+        "action": {
+          "type": "target",
+          "content": {
+            "change_case:english_capital": {},
+            "keywords:forbidden_words": {
+              "forbidden_words": [
+                "rock"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:39:47.623383",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

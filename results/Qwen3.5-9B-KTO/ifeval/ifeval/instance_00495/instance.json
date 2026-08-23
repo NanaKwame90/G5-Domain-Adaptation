@@ -1,0 +1,9 @@
+{
+  "game_id": 495,
+  "input": "Write a book review for a new book called \"The Secrets of Homeschooling: Revealed!\". Make the review a conversation between two people. The response should be a conversation in Urdu only, no other language is allowed throughout your entire response.",
+  "target": {
+    "language:response_language": {
+      "language": "ur"
+    }
+  }
+}

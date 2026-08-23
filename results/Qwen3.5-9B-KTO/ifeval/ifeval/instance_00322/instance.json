@@ -1,0 +1,9 @@
+{
+  "game_id": 322,
+  "input": "Please give me some recommendations for good books about the history of the United States. Your response should be completely in Kannada, no other language is allowed.",
+  "target": {
+    "language:response_language": {
+      "language": "kn"
+    }
+  }
+}

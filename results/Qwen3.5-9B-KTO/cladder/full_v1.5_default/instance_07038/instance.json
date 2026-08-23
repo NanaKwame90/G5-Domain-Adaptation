@@ -1,0 +1,5 @@
+{
+  "game_id": 7038,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Hwax has a direct effect on gyzp and jyka. Jyka has a direct effect on lirg. Gyzp has a direct effect on lirg. For those who are not jyka and are not gyzp, the probability of lirg is 57%. For those who are not jyka and are gyzp, the probability of lirg is 13%. For those who are jyka and are not gyzp, the probability of lirg is 35%. For those who are jyka and are gyzp, the probability of lirg is 3%. For those who are not jyka, the probability of gyzp is 25%. For those who are jyka, the probability of gyzp is 8%. For those who are jyka, would it be less likely to see lirg if the individual was not jyka?",
+  "target": "no"
+}

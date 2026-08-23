@@ -1,0 +1,5 @@
+{
+  "game_id": 401,
+  "input": "Question:\nThe marginal cost of producing an item is y' = 3 + x + [(e^-x) / 4]. What does it cost to produce one item if the fixed cost is $4?\nOptions:\nA. $7.45\nB. $7.30\nC. $7.20\nD. $7.55\nE. $8.00\nF. $7.85\nG. $7.66\nH. $8.25\nI. $7.77\nJ. $7.99\n",
+  "target": "G"
+}

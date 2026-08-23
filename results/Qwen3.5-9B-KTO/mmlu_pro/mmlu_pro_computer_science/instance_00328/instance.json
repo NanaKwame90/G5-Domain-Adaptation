@@ -1,0 +1,5 @@
+{
+  "game_id": 328,
+  "input": "Question:\nStatement 1| In AdaBoost weights of the misclassified examples go up by the same multiplicative factor. Statement 2| In AdaBoost, weighted training error e_t of the tth weak classifier on training data with weights D_t tends to increase as a function of t.\nOptions:\nA. True, Partially True\nB. Partially True, True\nC. Partially False, False\nD. Partially False, True\nE. False, Partially False\nF. Partially True, Partially True\nG. False, False\nH. True, True\nI. True, False\nJ. False, True\n",
+  "target": "H"
+}

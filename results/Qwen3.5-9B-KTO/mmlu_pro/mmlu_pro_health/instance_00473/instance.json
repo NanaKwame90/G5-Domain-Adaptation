@@ -1,0 +1,5 @@
+{
+  "game_id": 473,
+  "input": "Question:\nWhich of the following trisomy karyotypes has the mildest effect on human development?\nOptions:\nA. 47,XY,+21\nB. 47,XXY,+21\nC. 47,XY,+13\nD. 48,XXYY\nE. 47,XXX\nF. 47,XX,+13\nG. 47,XXY\nH. 48,XX,+21,+18\nI. 47,XY,+18\nJ. 47,XX,+18\n",
+  "target": "E"
+}

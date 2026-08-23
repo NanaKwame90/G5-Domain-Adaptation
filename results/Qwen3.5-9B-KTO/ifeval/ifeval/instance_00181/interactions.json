@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 181,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:22:25.924007",
+        "action": {
+          "type": "send message",
+          "content": "What are some startup ideas that could help improve the lives of people in developing regions? Make sure your response is in English and only use lowercase letters. Your response should contain less than 20 sentences.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:22:25.924065",
+        "action": {
+          "type": "get message",
+          "content": "a mobile app connecting farmers directly to buyers can cut out middlemen and increase profits.\nsolar-powered water purification kits could provide clean drinking water to remote villages.\nlow-cost telemedicine platforms would allow doctors to consult patients in rural areas via smartphones.\naffordable solar lanterns would replace dangerous kerosene lamps and save families money.\ndigital literacy training programs could empower youth with essential coding and internet skills.\nmicrofinance apps tailored for local currencies would help small entrepreneurs access capital.\ndrought-resistant seed distribution networks could boost food security in arid regions.\ncommunity-based waste recycling initiatives would create jobs while reducing environmental pollution.\nportable solar charging stations would keep essential medical devices powered during outages.\nonline marketplaces for local crafts could generate income by reaching global customers.\nthese simple solutions focus on accessibility and sustainability for underserved communities.\neach idea aims to solve a specific problem without requiring expensive infrastructure.\ncollaboration between local leaders and tech innovators is key to successful implementation.\nscaling these projects slowly ensures they meet real needs rather than imposed trends.\nultimately, technology can bridge the gap between resource scarcity and human potential.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:22:25.924134",
+        "action": {
+          "type": "target",
+          "content": {
+            "change_case:english_lowercase": {},
+            "length_constraints:number_sentences": {
+              "relation": "less than",
+              "num_sentences": 20
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:22:25.950576",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

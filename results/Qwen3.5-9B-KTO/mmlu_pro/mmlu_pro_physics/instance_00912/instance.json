@@ -1,0 +1,5 @@
+{
+  "game_id": 912,
+  "input": "Question:\nFind the value of the integral $\\int_S \\mathbf{A} \\cdot d \\mathbf{a}$, where $\\mathbf{A}=x \\mathbf{i}-y \\mathbf{j}+z \\mathbf{k}$ and $S$ is the closed surface defined by the cylinder $c^2=x^2+y^2$. The top and bottom of the cylinder are at $z=d$ and 0 , respectively.\nOptions:\nA.  $\\pi$ $c^2 d$\nB. $0$ (zero)\nC. $\\pi c^3 d$\nD. $3\\pi c^2 d$\nE. $\\pi$ $c d^2$\nF. $\\frac{1}{2}$ $\\pi$ $c^2 d$\nG. $2\\pi c d^2$\nH. $\\frac{3}{2}\\pi c^2 d$\nI. $2$ $\\pi$ $c^2 d$\nJ. $4\\pi c^2 d$\n",
+  "target": "A"
+}

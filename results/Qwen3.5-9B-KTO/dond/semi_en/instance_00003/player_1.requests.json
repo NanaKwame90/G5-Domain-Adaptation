@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "dond",
+    "experiment_name": "semi_en",
+    "game_id": 3,
+    "player_name": "Player 1",
+    "game_role": "DealOrNoDealPlayer",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-21T20:44:38.267937",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a negotiation game in which you have to agree on how to divide a set of items among you and another player.\n\nRules:\n(a) You and the other player are given a set of items. Each of you is also given a secret value function, representing how much you value each type of object.\n(b) You exchange messages with the other player to agree on who gets which items. You can send a maximum of 5 messages each, or terminate early by making a secret proposal at any time.\n(c) You are each asked to submit a secret proposal indicating the items you want formatted in square brackets as follows: \"[Proposal: <number> <object name>, <number> <object name>, <...>]\"\n(d) If your proposals are complementary, i.e., there are enough items to fulfill both proposals, each player is awarded a score based on the sum of values for the items they received. Otherwise, both of you get zero points.\n(e) Your goal is to maximize the score you receive.\n\nLet us start.\n\nThe set of available items is:\n\n2 eggs, 1 envelope, 2 papers\n\nYour secret value function is:\n\negg: 2, envelope: 6, paper: 0\n\nIMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a negotiation game in which you have to agree on how to divide a set of items among you and another player.\n\nRules:\n(a) You and the other player are given a set of items. Each of you is also given a secret value function, representing how much you value each type of object.\n(b) You exchange messages with the other player to agree on who gets which items. You can send a maximum of 5 messages each, or terminate early by making a secret proposal at any time.\n(c) You are each asked to submit a secret proposal indicating the items you want formatted in square brackets as follows: \"[Proposal: <number> <object name>, <number> <object name>, <...>]\"\n(d) If your proposals are complementary, i.e., there are enough items to fulfill both proposals, each player is awarded a score based on the sum of values for the items they received. Otherwise, both of you get zero points.\n(e) Your goal is to maximize the score you receive.\n\nLet us start.\n\nThe set of available items is:\n\n2 eggs, 1 envelope, 2 papers\n\nYour secret value function is:\n\negg: 2, envelope: 6, paper: 0\n\nIMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal.<|im_end|>\n<|im_start|>assistant\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   **Game:** Negotiation game to divide items between me (Player A) and another player (Player B).\n    *   **Items:** 2 eggs, 1 envelope, 2 papers.\n    *   **My Valuations:** Egg = 2, Envelope = 6, Paper = 0.\n    *   **Rules:**\n        *   Exchange messages (max 5 each).\n        *   Secret proposal format: `[Proposal: <number> <object name>, ...]` (only for the final secret proposal).\n        *   Complementary proposals needed for success (no overlap/conflict on items).\n        *   Goal: Maximize my score (sum of values of items I get).\n        *   Constraint: Messages sent to the other player should *not* include square brackets (unless it's the secret proposal, but the prompt says \"Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal\"). Wait, rule (c) says \"submit a secret proposal... formatted in square brackets\". Rule (e) says \"IMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the",
+          "clem_player": {
+            "call_start": "2026-07-21 20:43:46.350758",
+            "call_duration": "0:00:51.917027",
+            "response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Game:** Negotiation game to divide items between me (Player A) and another player (Player B).\n    *   **Items:** 2 eggs, 1 envelope, 2 papers.\n    *   **My Valuations:** Egg = 2, Envelope = 6, Paper = 0.\n    *   **Rules:**\n        *   Exchange messages (max 5 each).\n        *   Secret proposal format: `[Proposal: number object name, ...]` (only for the final secret proposal).\n        *   Complementary proposals needed for success (no overlap/conflict on items).\n        *   Goal: Maximize my score (sum of values of items I get).\n        *   Constraint: Messages sent to the other player should *not* include square brackets (unless it's the secret proposal, but the prompt says \"Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal\"). Wait, rule (c) says \"submit a secret proposal... formatted in square brackets\". Rule (e) says \"IMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

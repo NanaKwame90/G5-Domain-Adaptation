@@ -1,0 +1,5 @@
+{
+  "game_id": 963,
+  "input": "Question:\nWrite theorbitals, in the order of increasing energy, for hydrogen - like atoms.\nOptions:\nA. 1s < 2p < 2s < 3p < 3s < 3d\nB. 2s < 2p < 1s < 3s < 3p < 3d\nC. 1s < 2s = 2p < 3s = 3p = 3d < 4s = 4p = 4d = 4f < 5s = 5p = 5d = 5f = 5g\nD. 2s = 2p < 1s = 3p = 3d\nE. 1s < 3s < 2s < 5s < 4s\nF. 1s < 2s < 3s < 4s < 5s\nG. 1s < 2s < 2p < 3p < 3s < 4p < 4s < 4d\nH. 1s < 2s < 2p < 3d < 3p < 3s < 4f < 4d < 4p < 4s\nI. 1s < 2s < 2p < 3s < 3d < 3p < 4s\nJ. 1s < 3s < 2p < 2s < 4s < 3p < 3d\n",
+  "target": "C"
+}

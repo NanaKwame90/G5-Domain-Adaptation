@@ -1,0 +1,5 @@
+{
+  "game_id": 663,
+  "input": "Question:\nThe dissociation sequence of thepolyproticacid H_3PO_4 showsthreeBronsted-Lowry acids. Rank them in order of decreasingstrengths.\nOptions:\nA. H_2PO_4^-, HPO_4^2-, H_3PO_4\nB. HPO_4^-2 , H_3PO_4 , H_2PO_4^-\nC. HPO_4^2-, H_2PO_4^-, H_3PO_4\nD. H_2PO_4^-, H_3PO_4, PO_4^3-\nE. PO_4^3-, HPO_4^2-, H_2PO_4^-\nF. HPO_4^2-, H_2PO_4^-, PO_4^3-\nG. H_2PO_4^- ,HPO_4^-2 , H_3PO_4\nH. H_3PO_4 , H_2PO_4^- ,HPO_4^-2\nI. H_2PO_4^- , H_3PO_4 ,HPO_4^-2\nJ. H_3PO_4, HPO_4^2-, H_2PO_4^-\n",
+  "target": "H"
+}

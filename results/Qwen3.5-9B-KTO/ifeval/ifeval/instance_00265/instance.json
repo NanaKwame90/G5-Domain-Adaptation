@@ -1,0 +1,9 @@
+{
+  "game_id": 265,
+  "input": "Write me a poem about a long lasting war. Add a postscript at the end starting with P.P.S",
+  "target": {
+    "detectable_content:postscript": {
+      "postscript_marker": "P.P.S"
+    }
+  }
+}

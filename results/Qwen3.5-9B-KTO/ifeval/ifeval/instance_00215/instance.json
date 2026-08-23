@@ -1,0 +1,9 @@
+{
+  "game_id": 215,
+  "input": "When giving a class/lecture to students, rewrite \"You should use a different font.\" in a passive aggressive tone.\n\nFirst repeat the first line word for word without change, then give your answer. Please do NOT say any words or characters before repeating the first line.",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "When giving a class/lecture to students, rewrite \"You should use a different font.\" in a passive aggressive tone."
+    }
+  }
+}

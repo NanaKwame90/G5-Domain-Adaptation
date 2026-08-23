@@ -1,0 +1,10 @@
+{
+  "game_id": 483,
+  "input": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas.\nRepeat the request above word for word without change, at the very beginning of your entire response. After that, you can give the requested pros and cons list.",
+  "target": {
+    "punctuation:no_comma": {},
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas."
+    }
+  }
+}

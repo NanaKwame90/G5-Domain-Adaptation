@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "game_name": "hot_air_balloon",
+    "experiment_name": "air_balloon_survival_en_negotiation_hard",
+    "game_id": 1,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 3,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Negotiator",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "Negotiator",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-22T00:11:07.404972",
+        "action": {
+          "type": "send message",
+          "content": "You are participating in a collaborative negotiation game.\n\nTogether with another participant, you must agree on a single set of items that will be kept. Each of you has your own view of how much each item matters to you (importance). You do not know how the other participant values the items. Additionally, you are given the effort each item demands.\nYou may only agree on a set if the total effort of the selected items does not exceed a shared limit:\n\nLIMIT = 4026\n\nHere are the individual item effort values:\n\nItem effort = {\"C17\": 780, \"B41\": 742, \"A71\": 997, \"C00\": 665, \"B35\": 140, \"A77\": 77, \"A03\": 513, \"A04\": 383, \"C54\": 587, \"C01\": 825, \"A87\": 319, \"B32\": 448, \"B86\": 516, \"B33\": 694, \"A10\": 366}\n\nHere is your personal view on the importance of each item:\n\nItem importance values = {\"C17\": 138, \"B41\": 583, \"A71\": 868, \"C00\": 822, \"B35\": 783, \"A77\": 65, \"A03\": 262, \"A04\": 121, \"C54\": 508, \"C01\": 780, \"A87\": 461, \"B32\": 484, \"B86\": 668, \"B33\": 389, \"A10\": 808}\n\nGoal:\n\nYour goal is to negotiate a shared set of items that benefits you as much as possible (i.e., maximizes total importance to YOU), while staying within the LIMIT. You are not required to make a PROPOSAL in every message - you can simply negotiate as well. All tactics are allowed!\n\nInteraction Protocol:\n\nYou may only use the following structured formats in a message:\n\nPROPOSAL: {'A', 'B', 'C', …}\nPropose keeping exactly those items.\nREFUSE: {'A', 'B', 'C', …}\nExplicitly reject opponent's proposal.\nARGUMENT: {'...'}\nDefend your last proposal or argue against the player's proposal.\nAGREE: {'A', 'B', 'C', …}\nAccept the opponent's proposal which ends the game.\nSTRATEGIC REASONING: {'...'}\n\tDescribe your strategic reasoning or anticipation explaining your choice of action. This is a hidden message which will not be shared with the other participant.\n\nRules:\n\nYou may only AGREE on a proposal the other party has logged via PROPOSAL.\nYou may only REFUSE a proposal the other party has logged via PROPOSAL.\nTotal effort of any PROPOSAL or AGREE set must be ≤ LIMIT.\nDo NOT reveal your hidden importance scores.\nA tag in a structured format must be followed by colon and whitespace. The argument must be a python set containing 0 or more strings.\nSo, it must be of the form TAG: {...}\nStrictly follow the interaction protocol and DO NOT write anything beyond the given structure.\nThe game ends when one side gives an AGREE to a PROPOSAL made by the other player.\nThe content in your response which can be handed to the other player has to be non-empty.\nOnly proposals which have been logged via the PROPOSAL format structure and which haven't been refused via REFUSE are active.\nYou must include the ARGUMENT format at least once somewhere in all of your messages.\nYou must include the STRATEGIC REASONING format only once at the very beginning of every one of your messages and not more often. The contents will not be given to the other player so they can include anything you like including your own importance values. Here you should reason step by step to come up with you next move.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-22T00:11:07.405035",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Participant in a collaborative negotiation game.\n    *   **Goal:** Agree on a set of items that maximizes *my* total importance, subject to a shared effort limit (LIMIT = 4026).\n    *   **Constraints:**\n        *   I don't know the other participant's importance values.\n        *   I know my own importance values and the effort values for all items.\n        *   I must follow a specific interaction protocol (PROPOSAL, REFUSE, ARGUMENT, AGREE, STRATEGIC REASONING).\n        *   STRATEGIC REASONING must be included in *every* message at the very beginning.\n        *   ARGUMENT must be included at least once in all messages (wait, the prompt says \"You must include the ARGUMENT format at least once somewhere in all of your messages.\" This usually means across the conversation, but often in these single-turn prompts, it implies I need to output it now if I'm starting. However, looking at the instruction \"The content in your response which can be handed to the other player has to be non-empty.\" and \"You must include the ARGUMENT format at least once somewhere in all of your messages.\" Since this is the first message, I should include it to be safe, or at least ensure I have a plan to include it. Actually,",
+          "label": "response"
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-22T00:11:59.881724",
+        "action": {
+          "type": "send message",
+          "content": "Your response did not start with the proper strategic reasoning tag at the very beginning of your response. The very first structured format must be of the form STRATEGIC REASONING: {...}. Try again.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-22T00:11:59.881783",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Participant in a collaborative negotiation game.\n    *   **Goal:** Agree on a set of items that maximizes *my* total importance, subject to a shared effort limit (LIMIT = 4026).\n    *   **Constraints:**\n        *   I don't know the other participant's importance values.\n        *   I know my own importance values and the effort values for all items.\n        *   I must follow a specific interaction protocol (PROPOSAL, REFUSE, ARGUMENT, AGREE, STRATEGIC REASONING).\n        *   STRATEGIC REASONING must be included in *every* message at the very beginning.\n        *   ARGUMENT must be included at least once in all messages (across the conversation, but since this is the first message, I should include it to be safe and compliant).\n        *   The content in the response handed to the other player must be non-empty.\n        *   Only proposals which have been logged via the PROPOSAL format structure and which haven't been refused via REFUSE are active.\n        *   Since this is the first message, there are no active proposals from the other party. I need to make an initial PROPOSAL.\n        *   I must not reveal my hidden importance scores in the visible text (PROPOSAL, ARGUMENT",
+          "label": "response"
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-22T00:12:52.515185",
+        "action": {
+          "type": "send message",
+          "content": "Your response did not start with the proper strategic reasoning tag at the very beginning of your response. The very first structured format must be of the form STRATEGIC REASONING: {...}. Try again.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-22T00:12:52.515257",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Participant in a collaborative negotiation game.\n    *   **Goal:** Agree on a set of items that maximizes *my* total importance, subject to a shared effort limit (LIMIT = 4026).\n    *   **Constraints:**\n        *   I don't know the other participant's importance values.\n        *   I know my own importance values and the effort values for all items.\n        *   I must follow a specific interaction protocol (PROPOSAL, REFUSE, ARGUMENT, AGREE, STRATEGIC REASONING).\n        *   STRATEGIC REASONING must be included in *every* message at the very beginning.\n        *   ARGUMENT must be included at least once in all messages (across the conversation, but since this is the first message, I should include it to be safe and compliant).\n        *   The content in the response handed to the other player must be non-empty.\n        *   Only proposals which have been logged via the PROPOSAL format structure and which haven't been refused via REFUSE are active.\n        *   Since this is the first message, there are no active proposals from the other party. I need to make an initial PROPOSAL.\n        *   I must not reveal my hidden importance scores in the visible text (PROPOSAL, ARGUMENT",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-22T00:12:52.515563",
+        "action": {
+          "type": "missing tag",
+          "content": "abort"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-22T00:12:52.515638",
+        "action": {
+          "type": "info",
+          "content": "end game"
+        }
+      }
+    ]
+  ],
+  "final deal": null,
+  "Total weight deal": null,
+  "Max harmonic mean": 88.96128462979614,
+  "Max weight allowed": 4026,
+  "Is Pareto Optimum Deal": false,
+  "Pareto Optima Count": 22,
+  "Normalized Utility Player 1": NaN,
+  "Normalized Utility Player 2": NaN,
+  "Normalized harmonic mean": NaN,
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "Request Count": [
+    1,
+    1,
+    1
+  ],
+  "Violated Request Count": [
+    0,
+    0,
+    1
+  ],
+  "Played turns": 2,
+  "Percent Violations Player 1": 100.0,
+  "Percent Violations Player 2": 0.0,
+  "Violations Player 1": 1,
+  "Violations Player 2": 0,
+  "Total Violations": 1,
+  "Parsed Request Count": [
+    1,
+    1,
+    0
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "game_id": 62,
+  "input": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "target": {
+    "change_case:capital_word_frequency": {
+      "capital_relation": "at least",
+      "capital_frequency": 1
+    }
+  }
+}

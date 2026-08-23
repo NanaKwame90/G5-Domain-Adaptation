@@ -1,0 +1,5 @@
+{
+  "game_id": 660,
+  "input": "Question:\nThe masses of _1H^1 and _2He^4 atoms are 1.00813 amu and 4.00386 amu, respectively. How much hydrogen must be converted to helium in the sun per second if the solar constant is 1.35 kW\\textbulletm^2 and the earth is 1.5 × 10^8 km from the sun?\nOptions:\nA. 4.5 × 10^11 kg\nB. 6.75 × 10^11 kg\nC. 5.99 × 10^11 kg\nD. 5.55 × 10^11 kg\nE. 7.25 × 10^11 kg\nF. 5.01 × 10^11 kg\nG. 7.0 × 10^11 kg\nH. 6.22 × 10^11 kg\nI. 5.89 × 10^11 kg\nJ. 6.5 × 10^11 kg\n",
+  "target": "C"
+}

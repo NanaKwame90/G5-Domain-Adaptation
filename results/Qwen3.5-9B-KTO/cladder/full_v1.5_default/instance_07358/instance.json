@@ -1,0 +1,5 @@
+{
+  "game_id": 7358,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Zupj has a direct effect on xyfo and yupt. Yupt has a direct effect on muvq. Xyfo has a direct effect on muvq. For those who are not zupj and are not yupt, the probability of muvq is 94%. For those who are not zupj and are yupt, the probability of muvq is 58%. For those who are zupj and are not yupt, the probability of muvq is 92%. For those who are zupj and are yupt, the probability of muvq is 55%. The overall probability of zupj is 95%. Will yupt increase the chance of muvq?",
+  "target": "no"
+}

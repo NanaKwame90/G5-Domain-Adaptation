@@ -1,0 +1,5 @@
+{
+  "game_id": 183,
+  "input": "Question:\n(A) How many gallons are there in 12 liters? (B) How many liters are there in 10 quarts? Metric to Customary Units Customary to Metric Units 1 liter = 1.057 quarts .264 gallon 1 quart = .946 liter 1 gallon = 3.785 liters 1 milliliter = .0338 ounce 1 ounce = 29.57 milliliters\nOptions:\nA. (A) 3.168 gallons (B) 9.46 liters\nB. (A) 3.18 gallons (B) 9.6 liters\nC. (A) 2.64 gallons (B) 9.46 liters\nD. (A) 2.5 gallons (B) 9 liters\nE. (A) 2.64 gallons (B) 10.5 liters\nF. (A) 3.5 gallons (B) 9.46 liters\nG. (A) 3 gallons (B) 9.5 liters\nH. (A) 3.168 gallons (B) 10.46 liters\nI. (A) 3.168 gallons (B) 11 liters\nJ. (A) 3.2 gallons (B) 10 liters\n",
+  "target": "A"
+}

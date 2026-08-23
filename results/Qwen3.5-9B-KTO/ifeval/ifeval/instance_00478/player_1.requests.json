@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 478,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:06:43.153199",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a song for the person named 'Guerrero'. Make sure to not include the words 'name', 'song', 'person', 'man', 'woman' throughout your entire output. Also avoid using commas in your entire response.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a song for the person named 'Guerrero'. Make sure to not include the words 'name', 'song', 'person', 'man', 'woman' throughout your entire output. Also avoid using commas in your entire response.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nRise up Guerrero with a heart so true\nThe path ahead is bright and new\nNo shadow can stand against your light\nYou fight with all your might tonight\n\nThe wind blows strong across the plain\nYou walk through rain and walk through pain\nA warrior spirit fills the air\nWith courage that you hold so dear\n\nNo need to speak or make a sound\nJust let your actions be the ground\nUpon which others learn to stand\nAs you take up the heavy hand\n\nGo forward now with head held high\nBeneaming stars above the sky\nThe world will see your glorious name\nAnd sing your praises in the same<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:06:19.103943",
+            "call_duration": "0:00:24.049139",
+            "response": "Rise up Guerrero with a heart so true\nThe path ahead is bright and new\nNo shadow can stand against your light\nYou fight with all your might tonight\n\nThe wind blows strong across the plain\nYou walk through rain and walk through pain\nA warrior spirit fills the air\nWith courage that you hold so dear\n\nNo need to speak or make a sound\nJust let your actions be the ground\nUpon which others learn to stand\nAs you take up the heavy hand\n\nGo forward now with head held high\nBeneaming stars above the sky\nThe world will see your glorious name\nAnd sing your praises in the same||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

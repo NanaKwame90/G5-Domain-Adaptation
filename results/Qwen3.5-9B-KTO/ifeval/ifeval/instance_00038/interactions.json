@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 38,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T19:40:32.771459",
+        "action": {
+          "type": "send message",
+          "content": "Write an ad copy for a new product, a digital photo frame that connects to your social media accounts and displays your photos. Respond with at most 150 words.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:40:32.771533",
+        "action": {
+          "type": "get message",
+          "content": "Meet **Memora**, the digital photo frame that brings your life to the wall. No more digging through dusty albums or waiting for birthdays to share updates. Memora connects directly to your favorite social media accounts, automatically curating your latest moments into a stunning, rotating slideshow.\n\nFrom family vacations to your friends' latest adventures, see your world unfold in real-time. With a sleek, modern design and crystal-clear 4K display, every image pops with vibrant color and sharp detail. Simply plug it in, link your accounts, and let Memora handle the rest.\n\nPerfect for keeping grandparents connected, filling empty walls with joy, or simply reminding you of the good times every day. Stop storing memories; start living them.\n\nGet **Memora** today and watch your life come alive, one photo at a time. Available now at Memora.com.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:40:32.771624",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_words": {
+              "relation": "less than",
+              "num_words": 151
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:40:32.772749",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

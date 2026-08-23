@@ -1,0 +1,5 @@
+{
+  "game_id": 102,
+  "input": "Question:\nSuppose a bank has made a total of $100,000 in loans and still has excess reserves of $25,000. If the required re-serve ratio is 10%, how much must the bank's demand deposit liabilities be? Assume that other liabilities and net worth are just matched by assets other than loans and reserves.\nOptions:\nA. $175,000\nB. $138,889\nC. $125,000\nD. $130,000\nE. $145,000\nF. $100,000\nG. $160,000\nH. $110,000\nI. $200,000\nJ. $150,000\n",
+  "target": "B"
+}

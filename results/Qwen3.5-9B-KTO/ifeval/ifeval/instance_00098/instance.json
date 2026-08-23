@@ -1,0 +1,9 @@
+{
+  "game_id": 98,
+  "input": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "target": {
+    "detectable_content:postscript": {
+      "postscript_marker": "P.P.S"
+    }
+  }
+}

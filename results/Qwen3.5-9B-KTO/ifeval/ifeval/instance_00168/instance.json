@@ -1,0 +1,9 @@
+{
+  "game_id": 168,
+  "input": "How can I learn to code? Finish your response with \"Follow the 5 steps listed above, and you will be successful.\" No other words should follow this.",
+  "target": {
+    "startend:end_checker": {
+      "end_phrase": "Follow the 5 steps listed above, and you will be successful."
+    }
+  }
+}

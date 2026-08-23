@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_home-delivery_medium_basic_medium",
+    "game_id": 4,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:32:36.291644",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can tedne, sulphy and derman.\n\nYour goal for this game is: Put the sioust in the reele, the pacia on the table and the inging on the menny.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a bedroom now. There are a book, a pillow, a wardrobe and a prust. The book is on the floor. The pillow is on the prust. The wardrobe is closed. There is a passage to a unflued here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:32:36.291722",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Text adventure game player.\n    *   **Input:** Description of the current state/perception.\n    *   **Output:** A single action starting with ``.\n    *   **Constraint:** Only reply with an action (no explanations, no extra text).\n    *   **Special Actions:** `tedne`, `sulphy`, `derman` (in addition to common actions).\n    *   **Goal:**\n        1.  Put the `sioust` in the `reele`.\n        2.  Put the `pacia` on the `table`.\n        3.  Put the `inging` on the `menny`.\n    *   **Current State:** Bedroom. Items: book (on floor), pillow (on prust), wardrobe (closed). Passage to a `unflued`.\n    *   **Observation:** The goal items (`sioust`, `pacia`, `inging`) and goal containers/locations (`reele`, `table`, `menny`) are *not* mentioned in the current perception. This suggests I need to explore or use special actions to find them.\n\n2.  **Evaluate the Goal vs. Current State:**\n    *   Goal items: `sioust`, `pacia`, `inging`.\n    *   Current items: `book`, `",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:32:36.291790",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:32:36.291874",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:32:36.291964",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 17,
+    "goal_count": 3
+  }
+}

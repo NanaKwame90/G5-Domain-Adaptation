@@ -1,0 +1,10 @@
+{
+  "game_id": 147,
+  "input": "A filmmaker is trying to get financing for a film about the history of the Internet. Write an essay to be used in the proposal to potential investors. The essay should be at least 50 sentences long.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 50
+    }
+  }
+}

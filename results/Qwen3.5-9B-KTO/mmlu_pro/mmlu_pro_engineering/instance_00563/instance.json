@@ -1,0 +1,5 @@
+{
+  "game_id": 563,
+  "input": "Question:\nIf the mean radius of atoroidalcoil is 10 cm and it has 1500 turns, find the average self-inductance (a) with an air core (b) with an iron core having an average relative incremental permeability of 100.\nOptions:\nA. (a) 75.88mH, (b) 7.588 Henrys\nB. (a) 200mH, (b) 20 Henrys\nC. (a) 210.47mH, (b) 21.047 Henrys\nD. (a) 141.37mH, (b) 14.137 Henrys\nE. (a) 160.55mH, (b) 8.027 Henrys\nF. (a) 98.76mH, (b) 9.876 Henrys\nG. (a) 180.40mH, (b) 18.040 Henrys\nH. (a) 50.45mH, (b) 6.069 Henrys\nI. (a) 122.24mH, (b) 12.224 Henrys\nJ. (a) 130.21mH, (b) 13.021 Henrys\n",
+  "target": "D"
+}

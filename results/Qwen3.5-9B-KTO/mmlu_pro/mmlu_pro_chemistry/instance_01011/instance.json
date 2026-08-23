@@ -1,0 +1,5 @@
+{
+  "game_id": 1011,
+  "input": "Question:\nHydrogen gas will dissociate into atoms at a high enough temperature, i.e., H_2 = 2H. Assuming ideal gas behavior for H_2 and H, what should be the density of hydrogen at 2000°C if it is 33% dissociated into atoms? The pressure is 1 atm.\nOptions:\nA. 6.07 × 10^-3 gm/liter\nB. 5.07 × 10^-3 gm/liter\nC. 8.07 × 10^-3 gm/liter\nD. 12.07 × 10^-3 gm/liter\nE. 13.07 × 10^-3 gm/liter\nF. 10.07 × 10^-3 gm/liter\nG. 11.07 × 10^-3 gm/liter\nH. 7.07 × 10^-3 gm/liter\nI. 9.07 × 10^-3 gm/liter\nJ. 4.07 × 10^-3 gm/liter\n",
+  "target": "C"
+}

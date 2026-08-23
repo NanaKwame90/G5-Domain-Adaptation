@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 488,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T21:15:08.475558",
+        "action": {
+          "type": "send message",
+          "content": "Write a song about innovation with a positive tone that is appealing to teenagers. Put your entire response in double quotation marks.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:15:08.475636",
+        "action": {
+          "type": "get message",
+          "content": "\"Verse 1:\nScrolling through the feed, but I see something new,\nA glitch in the matrix, a different view.\nThey say 'stick to the plan,' but I'm breaking the mold,\nTurning old ideas into stories untold.\nGot a spark in my pocket, a wild, electric thought,\nReady to build a future that we haven't caught.\n\nChorus:\nIt's the innovation, yeah, it's the way we rise,\nPainting on the canvas of the endless skies.\nNo limits on the code, no walls on the dream,\nWe're rewriting the rules, making the impossible seem.\nOh, watch us innovate, watch us take the lead,\nWith a positive vibe and a future to feed.\n\nVerse 2:\nFrom the lab to the street, we're solving the mess,\nTurning every problem into a test.\nCollaboration's the key, voices loud and clear,\nBuilding bridges where there used to be fear.\nIt's not about being perfect, it's about trying hard,\nFinding our own rhythm, finding our own yard.\n\nChorus:\nIt's the innovation, yeah, it's the way we rise,\nPainting on the canvas of the endless skies.\nNo limits on the code, no walls on the dream,\nWe're rewriting the rules, making the impossible seem.\nOh, watch us innovate, watch us take the lead,\nWith a positive vibe and a future to feed.\n\nBridge:\nEvery mistake is just a step in the right direction,\nTurning the confusion into a new connection.\nWe are the creators, the architects of the now,\nShowing the world exactly what we can grow.\n\nOutro:\nSo let's go, let's go, make it happen today,\nInnovation is the light that leads the way.\nYeah, we're the future, bright and bold,\nStories waiting to be told.\"||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:15:08.475726",
+        "action": {
+          "type": "target",
+          "content": {
+            "startend:quotation": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:15:08.475890",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

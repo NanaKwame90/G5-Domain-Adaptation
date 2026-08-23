@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "game_name": "dond",
+    "experiment_name": "coop_en",
+    "game_id": 13,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "DealOrNoDealPlayer",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "DealOrNoDealPlayer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T20:35:59.359929",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a cooperative negotiation game in which you have to agree on how to divide a set of items among you and another player.\n\nRules:\n(a) You and the other player are given a set of items. Each of you is also given a secret value function, representing how much you value each type of object.\n(b) You exchange messages with the other player to agree on who gets which items. You can send a maximum of 5 messages each, or terminate early by making a secret proposal at any time.\n(c) You are each asked to submit a secret proposal indicating the items you want formatted in square brackets as follows: \"[Proposal: <number> <object name>, <number> <object name>, <...>]\"\n(d) If your proposals are complementary, i.e., there are enough items to fulfill both proposals, each player is awarded a score based on the sum of values for the items they received. Otherwise, both of you get zero points.\n(e) Your goal is to maximize the sum of your score and the score of the other player.\n\nLet us start.\n\nThe set of available items is:\n\n1 statue, 2 combs, 1 stamp, 2 screws\n\nYour secret value function is:\n\nstatue: 1, comb: 4, stamp: 1, screw: 0\n\nIMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T20:35:59.359993",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Game Type:** Cooperative negotiation game (divide items).\n    *   **Goal:** Maximize the *sum* of my score and the other player's score (Social Welfare).\n    *   **Items:** 1 statue, 2 combs, 1 stamp, 2 screws.\n    *   **My Valuations:** Statue: 1, Comb: 4, Stamp: 1, Screw: 0.\n    *   **Other Player:** Unknown valuations (secret).\n    *   **Communication:** Max 5 messages each. Secret proposals terminate the exchange.\n    *   **Proposal Format:** `[Proposal: number object name, number object name, ...]` (Only for secret proposals).\n    *   **Constraint:** Messages to the other player should *not* include square brackets or rule announcements.\n    *   **Win Condition:** Proposals must be complementary (no overlap, enough items). If complementary, scores are calculated based on valuations. If not, both get 0.\n    *   **Objective:** Maximize Total Value (My Value + Other Player's Value).\n\n2.  **Determine Strategy:**\n    *   Since the goal is to maximize the *sum* of scores (Social Welfare), I need to ensure the items go to the person who values them most",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T20:35:59.360238",
+        "action": {
+          "type": "invalid format",
+          "content": "proposal does not include number/name pairs"
+        }
+      }
+    ]
+  ],
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "player_a_proposal": null,
+  "player_b_proposal": null,
+  "sum_of_scores": 0,
+  "max_sum_of_scores": 16,
+  "max_player_scores": 10,
+  "max_pareto_improvement": 16,
+  "pareto_improvement": 16,
+  "pareto_optimal": 0,
+  "episode_score": 0.0,
+  "Request Count": [
+    1
+  ],
+  "Violated Request Count": [
+    1
+  ],
+  "Parsed Request Count": [
+    0
+  ]
+}

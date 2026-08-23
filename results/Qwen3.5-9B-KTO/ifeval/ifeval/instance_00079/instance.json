@@ -1,0 +1,17 @@
+{
+  "game_id": 79,
+  "input": "I'm interested in a college with open enrollment and a regional accreditation. Which college would you recommend? Don't include the keywords \"DuPage\" and \"Dade\" in your response. Let's make it a constrained writing problem: be sure the letter p appears at least 15 times in your response.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "at least",
+      "letter": "p",
+      "let_frequency": 15
+    },
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "dupage",
+        "dade"
+      ]
+    }
+  }
+}

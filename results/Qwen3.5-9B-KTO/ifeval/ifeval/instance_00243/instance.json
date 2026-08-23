@@ -1,0 +1,9 @@
+{
+  "game_id": 243,
+  "input": "Tell a joke that has the words thursday and amalgamation in it, but use Swahili language only, no other language is allowed.",
+  "target": {
+    "language:response_language": {
+      "language": "sw"
+    }
+  }
+}

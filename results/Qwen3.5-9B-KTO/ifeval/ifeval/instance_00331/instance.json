@@ -1,0 +1,10 @@
+{
+  "game_id": 331,
+  "input": "Write a blog post about the benefits of using a digital marketing agency, make sure to write at least 20 sentences.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 20
+    }
+  }
+}

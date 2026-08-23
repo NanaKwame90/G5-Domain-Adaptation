@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_created_basic_hard",
+    "game_id": 0,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:36:51.196388",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can mator, unbal, gatic, remic, ratic and proar.\n\nYour goal for this game is: Make the inat mateny, the diale unsust and the subst dented.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a cally now. There are a eness, a sness, a mical, a pante, a inat and a subst. There is a passage to a unree here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:36:51.196455",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Text adventure game player.\n    *   **Input:** I (the user) describe the current state/perception.\n    *   **Output:** A single action starting with ``.\n    *   **Constraint:** Only reply with an action (no explanations, no extra text).\n    *   **Special Actions:** I can use `mator`, `unbal`, `gatic`, `remic`, `ratic`, `proar` (in addition to common actions).\n    *   **Goal:** Make the `inat` `mateny`, the `diale` `unsust`, and the `subst` `dented`.\n    *   **Current State:** \"You are in a cally now. There are a eness, a sness, a mical, a pante, a inat and a subst. There is a passage to a unree here.\"\n    *   **Note:** The text seems intentionally garbled or encoded (e.g., \"cally\" instead of \"cave\", \"eness\" instead of \"chest\", \"sness\" instead of \"stone\", \"mical\" instead of \"mirror\", \"pante\" instead of \"pant\", \"inat\" instead of \"plant\", \"subst\" instead of \"substance\", \"unree\" instead of \"unreal\" or",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:36:51.196524",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:36:51.196610",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:36:51.196693",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 6,
+    "goal_count": 3
+  }
+}

@@ -1,0 +1,1576 @@
+game,experiment,instance,category,reason_snippet
+guesswhat,Abs_Level_2,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_2,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_2,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_3,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Abs_Level_1,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_3,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00008,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00001,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00009,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00006,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00004,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00002,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00005,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00003,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00000,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+guesswhat,Level_1,instance_00007,format_violation,invalid format: Invalid format. Guesser must use the form 'QUESTION: ' or 'GUESS: '. | invalid format: abort game
+privateshared,restaurant,instance_00008,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00001,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00009,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00006,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00004,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00002,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00005,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00003,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00000,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,restaurant,instance_00007,format_violation,metadata: Answer for APPETIZER invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00008,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00001,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00009,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00006,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00004,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00002,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00005,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00003,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00000,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,letter-number,instance_00007,format_violation,metadata: Answer for A invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00008,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00001,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00009,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00006,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00004,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00002,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00005,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00003,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00000,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,job-interview,instance_00007,format_violation,metadata: Answer for BACHELOR invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00008,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00001,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00009,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00006,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00004,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00002,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00005,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00003,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00000,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,travel-booking,instance_00007,format_violation,metadata: Answer for FROM invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00008,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00001,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00009,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00006,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00004,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00002,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00005,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00003,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00000,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+privateshared,things-places,instance_00007,format_violation,metadata: Answer for LEFT invalid after max attempts. | invalid format: Abort: invalid format in probing.
+mmlu_pro,mmlu_pro_history,instance_00145,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_history,instance_00216,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_history,instance_00222,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_biology,instance_00664,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_biology,instance_00379,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_biology,instance_00340,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_biology,instance_00252,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_economics,instance_00823,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_economics,instance_00102,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_economics,instance_00286,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00483,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00796,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00220,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00181,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00002,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00688,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00464,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00337,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00395,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00637,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00349,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_01049,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00374,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00455,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00463,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00660,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00408,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00470,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_physics,instance_00912,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00441,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00623,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00476,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00082,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00499,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00718,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_other,instance_00347,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00847,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00623,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00925,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00630,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00563,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_engineering,instance_00527,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00780,format_violation,"metadata: ParseError: Response contains more than a one answer, but the expected format is to only give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00566,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00757,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00091,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00172,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00589,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00381,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00286,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_psychology,instance_00365,format_violation,"metadata: ParseError: Response contains more than a one answer, but the expected format is to only give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_philosophy,instance_00001,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_philosophy,instance_00193,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_philosophy,instance_00362,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_philosophy,instance_00448,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00466,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00013,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00221,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00909,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00789,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_00329,format_violation,"metadata: ParseError: Response contains more than a one answer, but the expected format is to only give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_01340,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_math,instance_01057,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00794,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00111,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00473,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00036,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00721,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00709,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00305,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_health,instance_00584,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_computer_science,instance_00367,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_computer_science,instance_00328,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_computer_science,instance_00226,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00732,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00960,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00029,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00266,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00841,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_01033,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_01086,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00586,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_00308,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_law,instance_01085,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00263,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_01011,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00663,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00922,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00390,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_01043,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00963,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00816,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_chemistry,instance_00244,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00401,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00504,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00641,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00047,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00573,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mmlu_pro,mmlu_pro_business,instance_00183,format_violation,"metadata: ParseError: Response doesn't contain any answer, but the expected format give one. | invalid format: game_result = ABORT"
+mm_mapworld,large_cycle,instance_00008,no_reason_logged,
+mm_mapworld,large_cycle,instance_00001,no_reason_logged,
+mm_mapworld,large_cycle,instance_00009,no_reason_logged,
+mm_mapworld,large_cycle,instance_00006,no_reason_logged,
+mm_mapworld,large_cycle,instance_00004,no_reason_logged,
+mm_mapworld,large_cycle,instance_00002,no_reason_logged,
+mm_mapworld,large_cycle,instance_00005,no_reason_logged,
+mm_mapworld,large_cycle,instance_00003,no_reason_logged,
+mm_mapworld,large_cycle,instance_00000,no_reason_logged,
+mm_mapworld,large_cycle,instance_00007,no_reason_logged,
+mm_mapworld,medium,instance_00008,no_reason_logged,
+mm_mapworld,medium,instance_00001,no_reason_logged,
+mm_mapworld,medium,instance_00009,no_reason_logged,
+mm_mapworld,medium,instance_00006,no_reason_logged,
+mm_mapworld,medium,instance_00004,no_reason_logged,
+mm_mapworld,medium,instance_00002,no_reason_logged,
+mm_mapworld,medium,instance_00005,no_reason_logged,
+mm_mapworld,medium,instance_00003,no_reason_logged,
+mm_mapworld,medium,instance_00000,no_reason_logged,
+mm_mapworld,medium,instance_00007,no_reason_logged,
+mm_mapworld,small,instance_00008,no_reason_logged,
+mm_mapworld,small,instance_00001,no_reason_logged,
+mm_mapworld,small,instance_00009,no_reason_logged,
+mm_mapworld,small,instance_00006,no_reason_logged,
+mm_mapworld,small,instance_00004,no_reason_logged,
+mm_mapworld,small,instance_00002,no_reason_logged,
+mm_mapworld,small,instance_00005,no_reason_logged,
+mm_mapworld,small,instance_00003,no_reason_logged,
+mm_mapworld,small,instance_00000,no_reason_logged,
+mm_mapworld,small,instance_00007,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00008,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00001,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00009,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00006,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00004,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00002,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00005,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00003,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00000,no_reason_logged,
+mm_mapworld,medium_cycle,instance_00007,no_reason_logged,
+mm_mapworld,large,instance_00008,no_reason_logged,
+mm_mapworld,large,instance_00001,no_reason_logged,
+mm_mapworld,large,instance_00009,no_reason_logged,
+mm_mapworld,large,instance_00006,no_reason_logged,
+mm_mapworld,large,instance_00004,no_reason_logged,
+mm_mapworld,large,instance_00002,no_reason_logged,
+mm_mapworld,large,instance_00005,no_reason_logged,
+mm_mapworld,large,instance_00003,no_reason_logged,
+mm_mapworld,large,instance_00000,no_reason_logged,
+mm_mapworld,large,instance_00007,no_reason_logged,
+referencegame,letter_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+referencegame,letter_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00008,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00014,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00001,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00009,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00006,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00004,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00011,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00002,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00013,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00010,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00005,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00016,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00017,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00015,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00003,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00000,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00012,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_columns,instance_00007,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+referencegame,random_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+referencegame,number_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00008,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00014,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00001,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00009,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00006,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00004,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00011,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00002,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00013,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00010,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00005,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00016,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00017,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00015,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00003,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00000,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00012,format_violation,invalid format: Invalid generated expression
+referencegame,line_grids_rows,instance_00007,format_violation,invalid format: Invalid generated expression
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00001,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00006,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00004,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00002,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00005,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00003,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00000,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_medium_basic_medium,instance_00007,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00001,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00006,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00004,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00002,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00005,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00003,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00000,other,metadata: Round: 0
+adventuregame,new-words_home-delivery_easy_basic_easy,instance_00007,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00001,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00006,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00004,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00002,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00005,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00003,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00000,other,metadata: Round: 0
+adventuregame,new-words_created_basic_hard,instance_00007,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00001,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00006,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00004,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00002,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00005,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00003,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00000,other,metadata: Round: 0
+adventuregame,potion_brewing_basic_undefined,instance_00007,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00001,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00006,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00004,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00002,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00005,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00003,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00000,other,metadata: Round: 0
+adventuregame,home_deliver_three_basic_hard_invlimittwo,instance_00007,other,metadata: Round: 0
+wordle,medium_frequency_words_no_clue_no_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00014,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00020,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00011,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00018,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00013,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00016,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00017,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00015,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00012,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,medium_frequency_words_no_clue_no_critic,instance_00019,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle,high_frequency_words_no_clue_no_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+imagegame,random_grids,instance_00008,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00014,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00001,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00009,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00006,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00004,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00011,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00002,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00018,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00013,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00010,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00005,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00016,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00017,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00015,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00003,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00000,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00012,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00007,format_violation,invalid format: Invalid instruction format
+imagegame,random_grids,instance_00019,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00008,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00014,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00001,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00009,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00006,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00004,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00011,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00002,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00018,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00013,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00010,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00005,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00016,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00017,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00015,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00003,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00000,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00012,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00007,format_violation,invalid format: Invalid instruction format
+imagegame,compact_grids,instance_00019,format_violation,invalid format: Invalid instruction format
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,high_frequency_words_clue_no_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00014,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00020,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00011,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00018,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00013,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00016,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00017,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00015,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00012,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withclue,medium_frequency_words_clue_no_critic,instance_00019,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+eqbench,eq_bench,instance_00072,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00027,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00008,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00108,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00156,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00014,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00089,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00124,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00099,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00122,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00141,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00022,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00120,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00023,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00113,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00111,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00131,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00050,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00145,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00084,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00009,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00079,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00040,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00006,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00059,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00073,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00026,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00032,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00011,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00126,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00039,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00057,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00134,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00074,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00085,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00037,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00062,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00110,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00010,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00136,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00118,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00146,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00034,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00162,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00005,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00088,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00096,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00031,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00016,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00139,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00116,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00102,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00123,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00158,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00048,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00164,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00157,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00051,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00160,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00090,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00055,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00130,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00086,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00077,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00154,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00081,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00015,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00041,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00100,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00056,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00163,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00083,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00052,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00169,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00133,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00046,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00047,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00065,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00092,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00097,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00012,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00075,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00067,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00007,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00106,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00155,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00135,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00069,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00151,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00104,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00142,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00105,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00053,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00159,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00098,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00128,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00129,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00115,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00060,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+eqbench,eq_bench,instance_00140,format_violation,"metadata: ParseError: Number of scored emotion is '1', but the expected format lists '4' | invalid format: game_result = ABORT"
+multimodal_referencegame,diagonal_grids,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,diagonal_grids,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,letter_grids,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,pentomino_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_columns,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,random_grids,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,ADE_static_target_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,line_grids_rows,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,CLEVR_static_target_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_static_target_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,DOCCI_images,instance_00019,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00027,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00008,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00014,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00001,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00020,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00022,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00023,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00009,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00006,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00004,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00026,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00011,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00021,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00002,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00018,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00013,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00010,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00005,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00029,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00016,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00017,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00028,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00024,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00015,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00003,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00000,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00012,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00007,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00025,format_violation,invalid format: Invalid generated expression
+multimodal_referencegame,shape_grids,instance_00019,format_violation,invalid format: Invalid generated expression
+taboo,high_en,instance_00008,format_violation,invalid format: abort game
+taboo,high_en,instance_00014,format_violation,invalid format: abort game
+taboo,high_en,instance_00001,format_violation,invalid format: abort game
+taboo,high_en,instance_00009,format_violation,invalid format: abort game
+taboo,high_en,instance_00006,format_violation,invalid format: abort game
+taboo,high_en,instance_00004,format_violation,invalid format: abort game
+taboo,high_en,instance_00011,format_violation,invalid format: abort game
+taboo,high_en,instance_00002,format_violation,invalid format: abort game
+taboo,high_en,instance_00018,format_violation,invalid format: abort game
+taboo,high_en,instance_00013,format_violation,invalid format: abort game
+taboo,high_en,instance_00010,format_violation,invalid format: abort game
+taboo,high_en,instance_00005,format_violation,invalid format: abort game
+taboo,high_en,instance_00016,format_violation,invalid format: abort game
+taboo,high_en,instance_00017,format_violation,invalid format: abort game
+taboo,high_en,instance_00015,format_violation,invalid format: abort game
+taboo,high_en,instance_00003,format_violation,invalid format: abort game
+taboo,high_en,instance_00000,format_violation,invalid format: abort game
+taboo,high_en,instance_00012,format_violation,invalid format: abort game
+taboo,high_en,instance_00007,format_violation,invalid format: abort game
+taboo,high_en,instance_00019,format_violation,invalid format: abort game
+taboo,low_en,instance_00008,format_violation,invalid format: abort game
+taboo,low_en,instance_00014,format_violation,invalid format: abort game
+taboo,low_en,instance_00001,format_violation,invalid format: abort game
+taboo,low_en,instance_00009,format_violation,invalid format: abort game
+taboo,low_en,instance_00006,format_violation,invalid format: abort game
+taboo,low_en,instance_00004,format_violation,invalid format: abort game
+taboo,low_en,instance_00011,format_violation,invalid format: abort game
+taboo,low_en,instance_00002,format_violation,invalid format: abort game
+taboo,low_en,instance_00018,format_violation,invalid format: abort game
+taboo,low_en,instance_00013,format_violation,invalid format: abort game
+taboo,low_en,instance_00010,format_violation,invalid format: abort game
+taboo,low_en,instance_00005,format_violation,invalid format: abort game
+taboo,low_en,instance_00016,format_violation,invalid format: abort game
+taboo,low_en,instance_00017,format_violation,invalid format: abort game
+taboo,low_en,instance_00015,format_violation,invalid format: abort game
+taboo,low_en,instance_00003,format_violation,invalid format: abort game
+taboo,low_en,instance_00000,format_violation,invalid format: abort game
+taboo,low_en,instance_00012,format_violation,invalid format: abort game
+taboo,low_en,instance_00007,format_violation,invalid format: abort game
+taboo,low_en,instance_00019,format_violation,invalid format: abort game
+taboo,medium_en,instance_00008,format_violation,invalid format: abort game
+taboo,medium_en,instance_00014,format_violation,invalid format: abort game
+taboo,medium_en,instance_00001,format_violation,invalid format: abort game
+taboo,medium_en,instance_00009,format_violation,invalid format: abort game
+taboo,medium_en,instance_00006,format_violation,invalid format: abort game
+taboo,medium_en,instance_00004,format_violation,invalid format: abort game
+taboo,medium_en,instance_00011,format_violation,invalid format: abort game
+taboo,medium_en,instance_00002,format_violation,invalid format: abort game
+taboo,medium_en,instance_00018,format_violation,invalid format: abort game
+taboo,medium_en,instance_00013,format_violation,invalid format: abort game
+taboo,medium_en,instance_00010,format_violation,invalid format: abort game
+taboo,medium_en,instance_00005,format_violation,invalid format: abort game
+taboo,medium_en,instance_00016,format_violation,invalid format: abort game
+taboo,medium_en,instance_00017,format_violation,invalid format: abort game
+taboo,medium_en,instance_00015,format_violation,invalid format: abort game
+taboo,medium_en,instance_00003,format_violation,invalid format: abort game
+taboo,medium_en,instance_00000,format_violation,invalid format: abort game
+taboo,medium_en,instance_00012,format_violation,invalid format: abort game
+taboo,medium_en,instance_00007,format_violation,invalid format: abort game
+taboo,medium_en,instance_00019,format_violation,invalid format: abort game
+dond,coop_en,instance_00008,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00014,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00001,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00009,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00006,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00004,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00011,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00002,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00018,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00013,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00010,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00005,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00016,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00017,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00015,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00003,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00000,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00012,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00007,format_violation,invalid format: proposal does not include number/name pairs
+dond,coop_en,instance_00019,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00008,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00014,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00001,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00009,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00006,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00004,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00011,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00002,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00018,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00013,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00010,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00005,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00016,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00017,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00015,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00003,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00000,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00012,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00007,format_violation,invalid format: proposal does not include number/name pairs
+dond,semi_en,instance_00019,format_violation,invalid format: proposal does not include number/name pairs
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,high_frequency_words_clue_with_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00008,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00014,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00001,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00020,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00009,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00006,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00004,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00011,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00002,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00018,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00013,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00010,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00005,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00016,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00017,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00015,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00003,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00012,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00007,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+wordle_withcritic,medium_frequency_words_clue_with_critic,instance_00019,format_violation,metadata: Error: The response should always start with the keyword 'explanation:' | invalid format: game_result = ABORT
+cladder,full_v1.5_default,instance_01972,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09027,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06954,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01393,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09626,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00223,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08849,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02177,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00759,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07358,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05574,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08898,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09874,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01266,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07096,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07789,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03589,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02769,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07938,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05994,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07675,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06322,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but The | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05296,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08743,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09662,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04300,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02512,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06973,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00456,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02151,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06305,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03574,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03285,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but The | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03630,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09888,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02362,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01192,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01764,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06246,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06587,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01040,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09497,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09149,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09871,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04771,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06956,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but The | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04507,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02391,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07292,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06747,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09032,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01512,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04831,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00929,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00576,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06139,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05205,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01615,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03293,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01117,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05393,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00130,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08995,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04191,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04835,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04588,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08303,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_08981,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09040,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_10088,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06126,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06638,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03768,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03256,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02160,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06682,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00669,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03329,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_04382,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03083,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01338,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01304,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_09069,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07086,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03288,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03253,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but The | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_06218,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02227,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01071,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00770,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_03508,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_02280,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07008,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07097,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01942,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01961,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_00128,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_01661,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Thinking | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_05796,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but Heres | invalid format: game_result = ABORT"
+cladder,full_v1.5_default,instance_07038,format_violation,"metadata: ParseError: The response doesn't start with one of the required word ['yes', 'no'], but The | invalid format: game_result = ABORT"
+textmapworld,large_cycle,instance_00042,no_reason_logged,
+textmapworld,large_cycle,instance_00044,no_reason_logged,
+textmapworld,large_cycle,instance_00040,no_reason_logged,
+textmapworld,large_cycle,instance_00048,no_reason_logged,
+textmapworld,large_cycle,instance_00041,no_reason_logged,
+textmapworld,large_cycle,instance_00046,no_reason_logged,
+textmapworld,large_cycle,instance_00047,no_reason_logged,
+textmapworld,large_cycle,instance_00043,no_reason_logged,
+textmapworld,large_cycle,instance_00045,no_reason_logged,
+textmapworld,large_cycle,instance_00049,no_reason_logged,
+textmapworld,medium,instance_00014,no_reason_logged,
+textmapworld,medium,instance_00011,no_reason_logged,
+textmapworld,medium,instance_00018,no_reason_logged,
+textmapworld,medium,instance_00013,no_reason_logged,
+textmapworld,medium,instance_00010,no_reason_logged,
+textmapworld,medium,instance_00016,no_reason_logged,
+textmapworld,medium,instance_00017,no_reason_logged,
+textmapworld,medium,instance_00015,no_reason_logged,
+textmapworld,medium,instance_00012,no_reason_logged,
+textmapworld,medium,instance_00019,no_reason_logged,
+textmapworld,small,instance_00008,no_reason_logged,
+textmapworld,small,instance_00001,no_reason_logged,
+textmapworld,small,instance_00009,no_reason_logged,
+textmapworld,small,instance_00006,no_reason_logged,
+textmapworld,small,instance_00004,no_reason_logged,
+textmapworld,small,instance_00002,no_reason_logged,
+textmapworld,small,instance_00005,no_reason_logged,
+textmapworld,small,instance_00003,no_reason_logged,
+textmapworld,small,instance_00000,no_reason_logged,
+textmapworld,small,instance_00007,no_reason_logged,
+textmapworld,medium_cycle,instance_00032,no_reason_logged,
+textmapworld,medium_cycle,instance_00033,no_reason_logged,
+textmapworld,medium_cycle,instance_00039,no_reason_logged,
+textmapworld,medium_cycle,instance_00037,no_reason_logged,
+textmapworld,medium_cycle,instance_00036,no_reason_logged,
+textmapworld,medium_cycle,instance_00034,no_reason_logged,
+textmapworld,medium_cycle,instance_00035,no_reason_logged,
+textmapworld,medium_cycle,instance_00031,no_reason_logged,
+textmapworld,medium_cycle,instance_00030,no_reason_logged,
+textmapworld,medium_cycle,instance_00038,no_reason_logged,
+textmapworld,large,instance_00027,no_reason_logged,
+textmapworld,large,instance_00020,no_reason_logged,
+textmapworld,large,instance_00022,no_reason_logged,
+textmapworld,large,instance_00023,no_reason_logged,
+textmapworld,large,instance_00026,no_reason_logged,
+textmapworld,large,instance_00021,no_reason_logged,
+textmapworld,large,instance_00029,no_reason_logged,
+textmapworld,large,instance_00028,no_reason_logged,
+textmapworld,large,instance_00024,no_reason_logged,
+textmapworld,large,instance_00025,no_reason_logged,
+matchit,same_image,instance_00008,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00001,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00009,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00006,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00004,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00002,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00005,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00003,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00000,format_violation,"invalid format: abort, first word: Thinking"
+matchit,same_image,instance_00007,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00008,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00001,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00009,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00006,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00004,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00002,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00005,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00003,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00000,format_violation,"invalid format: abort, first word: Thinking"
+matchit,similar_image,instance_00007,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00008,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00001,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00009,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00006,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00004,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00002,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00005,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00003,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00000,format_violation,"invalid format: abort, first word: Thinking"
+matchit,different_image,instance_00007,format_violation,"invalid format: abort, first word: Thinking"
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_easy,instance_00000,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_hard,instance_00000,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_easy,instance_00000,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_complexity_easy,instance_00000,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_reasoning off_hard,instance_00000,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00001,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00004,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00002,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00005,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00003,no_reason_logged,
+hot_air_balloon,air_balloon_survival_en_negotiation_hard,instance_00000,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00008,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00001,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00009,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00006,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00004,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00002,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00005,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00003,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00000,no_reason_logged,
+mm_mapworld_graphs,medium,instance_00007,no_reason_logged,
+mm_mapworld_graphs,small,instance_00008,no_reason_logged,
+mm_mapworld_graphs,small,instance_00001,no_reason_logged,
+mm_mapworld_graphs,small,instance_00009,no_reason_logged,
+mm_mapworld_graphs,small,instance_00006,no_reason_logged,
+mm_mapworld_graphs,small,instance_00004,no_reason_logged,
+mm_mapworld_graphs,small,instance_00002,no_reason_logged,
+mm_mapworld_graphs,small,instance_00005,no_reason_logged,
+mm_mapworld_graphs,small,instance_00003,no_reason_logged,
+mm_mapworld_graphs,small,instance_00000,no_reason_logged,
+mm_mapworld_graphs,small,instance_00007,no_reason_logged,
+mm_mapworld_graphs,large,instance_00008,no_reason_logged,
+mm_mapworld_graphs,large,instance_00001,no_reason_logged,
+mm_mapworld_graphs,large,instance_00009,no_reason_logged,
+mm_mapworld_graphs,large,instance_00006,no_reason_logged,
+mm_mapworld_graphs,large,instance_00004,no_reason_logged,
+mm_mapworld_graphs,large,instance_00002,no_reason_logged,
+mm_mapworld_graphs,large,instance_00005,no_reason_logged,
+mm_mapworld_graphs,large,instance_00003,no_reason_logged,
+mm_mapworld_graphs,large,instance_00000,no_reason_logged,
+mm_mapworld_graphs,large,instance_00007,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00014,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00011,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00018,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00013,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00010,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00016,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00017,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00015,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00012,no_reason_logged,
+textmapworld_graphreasoning,medium,instance_00019,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00008,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00001,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00009,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00006,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00004,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00002,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00005,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00003,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00000,no_reason_logged,
+textmapworld_graphreasoning,small,instance_00007,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00027,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00020,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00022,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00023,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00026,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00021,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00029,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00028,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00024,no_reason_logged,
+textmapworld_graphreasoning,large,instance_00025,no_reason_logged,
+textmapworld_specificroom,close,instance_00014,no_reason_logged,
+textmapworld_specificroom,close,instance_00011,no_reason_logged,
+textmapworld_specificroom,close,instance_00018,no_reason_logged,
+textmapworld_specificroom,close,instance_00013,no_reason_logged,
+textmapworld_specificroom,close,instance_00010,no_reason_logged,
+textmapworld_specificroom,close,instance_00016,no_reason_logged,
+textmapworld_specificroom,close,instance_00017,no_reason_logged,
+textmapworld_specificroom,close,instance_00015,no_reason_logged,
+textmapworld_specificroom,close,instance_00012,no_reason_logged,
+textmapworld_specificroom,close,instance_00019,no_reason_logged,
+textmapworld_specificroom,on,instance_00008,no_reason_logged,
+textmapworld_specificroom,on,instance_00001,no_reason_logged,
+textmapworld_specificroom,on,instance_00009,no_reason_logged,
+textmapworld_specificroom,on,instance_00006,no_reason_logged,
+textmapworld_specificroom,on,instance_00004,no_reason_logged,
+textmapworld_specificroom,on,instance_00002,no_reason_logged,
+textmapworld_specificroom,on,instance_00005,no_reason_logged,
+textmapworld_specificroom,on,instance_00003,no_reason_logged,
+textmapworld_specificroom,on,instance_00000,no_reason_logged,
+textmapworld_specificroom,on,instance_00007,no_reason_logged,
+textmapworld_specificroom,far,instance_00027,no_reason_logged,
+textmapworld_specificroom,far,instance_00020,no_reason_logged,
+textmapworld_specificroom,far,instance_00022,no_reason_logged,
+textmapworld_specificroom,far,instance_00023,no_reason_logged,
+textmapworld_specificroom,far,instance_00026,no_reason_logged,
+textmapworld_specificroom,far,instance_00021,no_reason_logged,
+textmapworld_specificroom,far,instance_00029,no_reason_logged,
+textmapworld_specificroom,far,instance_00028,no_reason_logged,
+textmapworld_specificroom,far,instance_00024,no_reason_logged,
+textmapworld_specificroom,far,instance_00025,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00008,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00001,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00009,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00006,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00004,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00002,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00005,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00003,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00000,no_reason_logged,
+mm_mapworld_specificroom,close,instance_00007,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00008,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00001,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00009,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00006,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00004,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00002,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00005,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00003,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00000,no_reason_logged,
+mm_mapworld_specificroom,on,instance_00007,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00008,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00001,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00009,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00006,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00004,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00002,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00005,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00003,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00000,no_reason_logged,
+mm_mapworld_specificroom,far,instance_00007,no_reason_logged,
+codenames,association_easy,instance_00008,no_reason_logged,
+codenames,association_easy,instance_00001,no_reason_logged,
+codenames,association_easy,instance_00009,no_reason_logged,
+codenames,association_easy,instance_00006,no_reason_logged,
+codenames,association_easy,instance_00004,no_reason_logged,
+codenames,association_easy,instance_00002,no_reason_logged,
+codenames,association_easy,instance_00005,no_reason_logged,
+codenames,association_easy,instance_00003,no_reason_logged,
+codenames,association_easy,instance_00000,no_reason_logged,
+codenames,association_easy,instance_00007,no_reason_logged,
+codenames,opponent_easy,instance_00008,no_reason_logged,
+codenames,opponent_easy,instance_00001,no_reason_logged,
+codenames,opponent_easy,instance_00009,no_reason_logged,
+codenames,opponent_easy,instance_00006,no_reason_logged,
+codenames,opponent_easy,instance_00004,no_reason_logged,
+codenames,opponent_easy,instance_00002,no_reason_logged,
+codenames,opponent_easy,instance_00005,no_reason_logged,
+codenames,opponent_easy,instance_00003,no_reason_logged,
+codenames,opponent_easy,instance_00000,no_reason_logged,
+codenames,opponent_easy,instance_00007,no_reason_logged,
+codenames,association_difficult,instance_00008,no_reason_logged,
+codenames,association_difficult,instance_00001,no_reason_logged,
+codenames,association_difficult,instance_00009,no_reason_logged,
+codenames,association_difficult,instance_00006,no_reason_logged,
+codenames,association_difficult,instance_00004,no_reason_logged,
+codenames,association_difficult,instance_00002,no_reason_logged,
+codenames,association_difficult,instance_00005,no_reason_logged,
+codenames,association_difficult,instance_00003,no_reason_logged,
+codenames,association_difficult,instance_00000,no_reason_logged,
+codenames,association_difficult,instance_00007,no_reason_logged,
+codenames,frequency_low,instance_00008,no_reason_logged,
+codenames,frequency_low,instance_00001,no_reason_logged,
+codenames,frequency_low,instance_00009,no_reason_logged,
+codenames,frequency_low,instance_00006,no_reason_logged,
+codenames,frequency_low,instance_00004,no_reason_logged,
+codenames,frequency_low,instance_00002,no_reason_logged,
+codenames,frequency_low,instance_00005,no_reason_logged,
+codenames,frequency_low,instance_00003,no_reason_logged,
+codenames,frequency_low,instance_00000,no_reason_logged,
+codenames,frequency_low,instance_00007,no_reason_logged,
+codenames,concrete,instance_00008,no_reason_logged,
+codenames,concrete,instance_00001,no_reason_logged,
+codenames,concrete,instance_00009,no_reason_logged,
+codenames,concrete,instance_00006,no_reason_logged,
+codenames,concrete,instance_00004,no_reason_logged,
+codenames,concrete,instance_00002,no_reason_logged,
+codenames,concrete,instance_00005,no_reason_logged,
+codenames,concrete,instance_00003,no_reason_logged,
+codenames,concrete,instance_00000,no_reason_logged,
+codenames,concrete,instance_00007,no_reason_logged,
+codenames,abstract,instance_00008,no_reason_logged,
+codenames,abstract,instance_00001,no_reason_logged,
+codenames,abstract,instance_00009,no_reason_logged,
+codenames,abstract,instance_00006,no_reason_logged,
+codenames,abstract,instance_00004,no_reason_logged,
+codenames,abstract,instance_00002,no_reason_logged,
+codenames,abstract,instance_00005,no_reason_logged,
+codenames,abstract,instance_00003,no_reason_logged,
+codenames,abstract,instance_00000,no_reason_logged,
+codenames,abstract,instance_00007,no_reason_logged,
+codenames,ambiguous,instance_00008,no_reason_logged,
+codenames,ambiguous,instance_00001,no_reason_logged,
+codenames,ambiguous,instance_00009,no_reason_logged,
+codenames,ambiguous,instance_00006,no_reason_logged,
+codenames,ambiguous,instance_00004,no_reason_logged,
+codenames,ambiguous,instance_00002,no_reason_logged,
+codenames,ambiguous,instance_00005,no_reason_logged,
+codenames,ambiguous,instance_00003,no_reason_logged,
+codenames,ambiguous,instance_00000,no_reason_logged,
+codenames,ambiguous,instance_00007,no_reason_logged,
+codenames,risk_low,instance_00008,no_reason_logged,
+codenames,risk_low,instance_00001,no_reason_logged,
+codenames,risk_low,instance_00009,no_reason_logged,
+codenames,risk_low,instance_00006,no_reason_logged,
+codenames,risk_low,instance_00004,no_reason_logged,
+codenames,risk_low,instance_00002,no_reason_logged,
+codenames,risk_low,instance_00005,no_reason_logged,
+codenames,risk_low,instance_00003,no_reason_logged,
+codenames,risk_low,instance_00000,no_reason_logged,
+codenames,risk_low,instance_00007,no_reason_logged,
+codenames,opponent_none,instance_00008,no_reason_logged,
+codenames,opponent_none,instance_00001,no_reason_logged,
+codenames,opponent_none,instance_00009,no_reason_logged,
+codenames,opponent_none,instance_00006,no_reason_logged,
+codenames,opponent_none,instance_00004,no_reason_logged,
+codenames,opponent_none,instance_00002,no_reason_logged,
+codenames,opponent_none,instance_00005,no_reason_logged,
+codenames,opponent_none,instance_00003,no_reason_logged,
+codenames,opponent_none,instance_00000,no_reason_logged,
+codenames,opponent_none,instance_00007,no_reason_logged,
+codenames,opponent_difficult,instance_00008,no_reason_logged,
+codenames,opponent_difficult,instance_00001,no_reason_logged,
+codenames,opponent_difficult,instance_00009,no_reason_logged,
+codenames,opponent_difficult,instance_00006,no_reason_logged,
+codenames,opponent_difficult,instance_00004,no_reason_logged,
+codenames,opponent_difficult,instance_00002,no_reason_logged,
+codenames,opponent_difficult,instance_00005,no_reason_logged,
+codenames,opponent_difficult,instance_00003,no_reason_logged,
+codenames,opponent_difficult,instance_00000,no_reason_logged,
+codenames,opponent_difficult,instance_00007,no_reason_logged,
+codenames,unambiguous,instance_00008,no_reason_logged,
+codenames,unambiguous,instance_00001,no_reason_logged,
+codenames,unambiguous,instance_00009,no_reason_logged,
+codenames,unambiguous,instance_00006,no_reason_logged,
+codenames,unambiguous,instance_00004,no_reason_logged,
+codenames,unambiguous,instance_00002,no_reason_logged,
+codenames,unambiguous,instance_00005,no_reason_logged,
+codenames,unambiguous,instance_00003,no_reason_logged,
+codenames,unambiguous,instance_00000,no_reason_logged,
+codenames,unambiguous,instance_00007,no_reason_logged,
+codenames,risk_high,instance_00008,no_reason_logged,
+codenames,risk_high,instance_00001,no_reason_logged,
+codenames,risk_high,instance_00009,no_reason_logged,
+codenames,risk_high,instance_00006,no_reason_logged,
+codenames,risk_high,instance_00004,no_reason_logged,
+codenames,risk_high,instance_00002,no_reason_logged,
+codenames,risk_high,instance_00005,no_reason_logged,
+codenames,risk_high,instance_00003,no_reason_logged,
+codenames,risk_high,instance_00000,no_reason_logged,
+codenames,risk_high,instance_00007,no_reason_logged,
+codenames,frequency_high,instance_00008,no_reason_logged,
+codenames,frequency_high,instance_00001,no_reason_logged,
+codenames,frequency_high,instance_00009,no_reason_logged,
+codenames,frequency_high,instance_00006,no_reason_logged,
+codenames,frequency_high,instance_00004,no_reason_logged,
+codenames,frequency_high,instance_00002,no_reason_logged,
+codenames,frequency_high,instance_00005,no_reason_logged,
+codenames,frequency_high,instance_00003,no_reason_logged,
+codenames,frequency_high,instance_00000,no_reason_logged,
+codenames,frequency_high,instance_00007,no_reason_logged,

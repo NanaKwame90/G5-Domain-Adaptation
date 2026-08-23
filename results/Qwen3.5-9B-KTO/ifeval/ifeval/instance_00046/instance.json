@@ -1,0 +1,9 @@
+{
+  "game_id": 46,
+  "input": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+  "target": {
+    "detectable_content:postscript": {
+      "postscript_marker": "P.P.S"
+    }
+  }
+}

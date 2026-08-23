@@ -1,0 +1,5 @@
+{
+  "game_id": 244,
+  "input": "Question:\nA student made three successiveweighingsof an object as follows: 9.17 g, 9.15 g, and 9.20 g. What is the average weight of the object in milligrams?\nOptions:\nA. 9180 mg\nB. 9150 mg\nC. 9200 mg\nD. 9135 mg\nE. 9155 mg\nF. 9190 mg\nG. 9145 mg\nH. 30650 mg\nI. 27520 mg\nJ. 9170 mg\n",
+  "target": "J"
+}

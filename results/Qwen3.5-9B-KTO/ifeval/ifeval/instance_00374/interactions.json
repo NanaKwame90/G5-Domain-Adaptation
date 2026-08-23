@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 374,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:48:44.595226",
+        "action": {
+          "type": "send message",
+          "content": "Write a joke about anarchists in Tulsa in 3 sections. Mark the beginning of each section with SECTION X.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:48:44.595286",
+        "action": {
+          "type": "get message",
+          "content": "SECTION 1\nIn 1921 Tulsa, a group of self-proclaimed anarchists decided to hold a town hall meeting to discuss the abolition of property rights and the establishment of a communal society. They gathered in the basement of a local church, bringing nothing but a few crates of dynamite and a very optimistic attitude.\n\nSECTION 2\nThe meeting was interrupted by the arrival of the Greenwood District's finest, who were confused by the lack of a formal agenda and the sudden appearance of a sign reading \"Everything is Free.\" The anarchists explained that they had come to liberate the city from the concept of ownership, but the crowd simply asked if they could borrow a cup of sugar, to which the anarchists replied, \"Only if you promise to never own the spoon again.\"\n\nSECTION 3\nJust as the debate reached a fever pitch about the philosophical implications of shared resources, the wind blew a stray match from a nearby lantern into a pile of discarded newspapers. The anarchists immediately cheered, shouting, \"Finally, a spontaneous combustion of the old order!\" while the rest of Tulsa watched in horror as the basement began to fill with smoke, realizing that in a city built on order, even chaos needs a little more planning than just lighting a match.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:48:44.595362",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:multiple_sections": {
+              "section_spliter": "SECTION",
+              "num_sections": 3
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:48:44.595660",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

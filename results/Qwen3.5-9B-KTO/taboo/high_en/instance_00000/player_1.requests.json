@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "high_en",
+    "game_id": 0,
+    "player_name": "Player 1",
+    "game_role": "WordDescriber",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T13:17:19.449874",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\naway\n\nRelated words are:\n\n- gone\n- distance\n- here\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\naway\n\nRelated words are:\n\n- gone\n- distance\n- here\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"away\"\n    *   Related Words (Forbidden): \"gone\", \"distance\", \"here\"\n    *   Rules:\n        *   Reply format: `CLUE: <some text>`.\n        *   No target word, parts, or morphological variants in description.\n        *   No related words in description.\n        *   Win condition: User guesses correctly within 3 tries.\n        *   Lose condition: I use forbidden words.\n        *   Constraint: Short descriptions (time pressure).\n\n2.  **Analyze the Target Word (\"away\"):**\n    *   Meaning: Not here, at a distance, removed, departed.\n    *   Synonyms/Associations: Gone, far, off, out, leave, depart, elsewhere, separation.\n    *   Forbidden Words: \"gone\", \"distance\", \"here\".\n    *   Morphological Variants: \"away\" (adverb/adjective), \"away\" (noun - rare).\n    *   Parts: \"a\", \"way\".\n\n3.  **Drafting Clues:**\n    *   *Attempt 1:* CLUE: Opposite of here. (Too close to \"here\"? No, \"here\" is forbidden, but",
+          "clem_player": {
+            "call_start": "2026-07-30 13:16:15.447739",
+            "call_duration": "0:01:04.001843",
+            "response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"away\"\n    *   Related Words (Forbidden): \"gone\", \"distance\", \"here\"\n    *   Rules:\n        *   Reply format: `CLUE: some text`.\n        *   No target word, parts, or morphological variants in description.\n        *   No related words in description.\n        *   Win condition: User guesses correctly within 3 tries.\n        *   Lose condition: I use forbidden words.\n        *   Constraint: Short descriptions (time pressure).\n\n2.  **Analyze the Target Word (\"away\"):**\n    *   Meaning: Not here, at a distance, removed, departed.\n    *   Synonyms/Associations: Gone, far, off, out, leave, depart, elsewhere, separation.\n    *   Forbidden Words: \"gone\", \"distance\", \"here\".\n    *   Morphological Variants: \"away\" (adverb/adjective), \"away\" (noun - rare).\n    *   Parts: \"a\", \"way\".\n\n3.  **Drafting Clues:**\n    *   *Attempt 1:* CLUE: Opposite of here. (Too close to \"here\"? No, \"here\" is forbidden, but",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

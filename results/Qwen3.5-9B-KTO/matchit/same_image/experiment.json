@@ -1,0 +1,43 @@
+{
+  "name": "same_image",
+  "initial_prompt": "You are participating in a collaborative guessing game.\nThe goal is to find out whether this picture and another picture only I can see, are the same.\nPlease describe your image first. Then, I will provide my description and we can ask each other questions about the images to figure out whether they are the same. Now start your short image description with \"DESCRIPTION:\" followed by the description. Do not add anything else.",
+  "q_reprompt": "Now ask a question in order to find out new aspects of my image that may be different to your image. Start with \"QUESTION:\" and do not add anything else.",
+  "d_reprompt": "Now come to a decision. What do you think: are your picture and the other picture described the same picture?  Write \"DECISION: same image\" if you think they are the same picture or \"DECISION: different images\" if you think they are different pictures. Do not add anything else.\n",
+  "a_request": " Start your answer with \"ANSWER:\" and do not add anything else.",
+  "desc_intro": "This is my ",
+  "flags": {
+    "description": "DESCRIPTION:",
+    "question": "QUESTION:",
+    "answer": "ANSWER:",
+    "decision": "DECISION:"
+  },
+  "solution": "same image",
+  "wrong_solution": "different images",
+  "timestamp": "2026-07-21T11:49:23.133050",
+  "game_name": "matchit",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

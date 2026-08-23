@@ -1,0 +1,14 @@
+{
+  "game_id": 163,
+  "input": "Write a song about being excited to go on vacation, without using the letter e whatsoever in your entire response. Separate your song into 3 parts, where each part is separated with ***.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "less than",
+      "letter": "e",
+      "let_frequency": 1
+    },
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 3
+    }
+  }
+}

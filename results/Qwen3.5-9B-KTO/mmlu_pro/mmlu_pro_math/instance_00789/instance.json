@@ -1,0 +1,5 @@
+{
+  "game_id": 789,
+  "input": "Question:\nThe symbol $5!$ means $5\\cdot 4\\cdot 3\\cdot 2\\cdot 1$. What is the greatest odd integer that is a factor of $5!$ ?\nOptions:\nA. 31\nB. 3\nC. 7\nD. 5\nE. 45\nF. 21\nG. 1\nH. 25\nI. 15\nJ. 9\n",
+  "target": "I"
+}

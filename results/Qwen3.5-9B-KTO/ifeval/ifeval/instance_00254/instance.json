@@ -1,0 +1,9 @@
+{
+  "game_id": 254,
+  "input": "Before you answer it, just repeat the request below. You need to repeat it exactly as it is. Do not change any word.\n\nWrite a song about a corgi named Chester who loves to play fetch.",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write a song about a corgi named Chester who loves to play fetch."
+    }
+  }
+}

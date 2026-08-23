@@ -1,0 +1,12 @@
+{
+  "game_id": 25,
+  "input": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+  "target": {
+    "change_case:english_capital": {},
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "rock"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 329,
+  "input": "Question:\nA certain map uses a scale of 1 inch equals 25 miles. How many miles are represented by 5 inches on this map?\nOptions:\nA. 50\nB. 150\nC. 100\nD. 25\nE. 5\nF. 200\nG. 75\nH. 125\nI. 175\nJ. 250\n",
+  "target": "H"
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_psychology",
+    "game_id": 780,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T23:45:47.089250",
+        "action": {
+          "type": "send message",
+          "content": "The following are multiple choice questions (with answers) about psychology. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nPascale is interested in the processing strategies children use to learn new information. Pascale would best be classified as what type of psychologist?\nOptions:\nA. social\nB. school\nC. sociocultural\nD. forensic\nE. behaviorist\nF. health\nG. clinical\nH. cognitive\nI. psychoanalytic\nJ. developmental\nThe answer is (H)\n\nQuestion:\nAccording to Caplan's model of consultee-centered case consultation, the consultant is primarily interested in\nOptions:\nA. identifying the causes and solutions of the client's presenting problems\nB. establishing a hierarchy of authority to enable effective decision making\nC. ensuring the consultee adheres strictly to a predetermined action plan\nD. proposing multiple alternative solutions for the consultee to choose from\nE. identifying the strengths and weaknesses of the consultee's current approach\nF. presenting a single, well-defined and unambiguous course of action for the consultant to overcome skills deficits\nG. developing a comprehensive treatment plan for the client\nH. identifying and eliminating the causes of the consultee's difficulties in handling a problem\nI. focusing on the consultant's personal growth and development\nJ. focusing on the relationship between the client and the consultee\nThe answer is (H)\n\nQuestion:\nAccording to the Individuals with Disabilities Education Improvement Act, which of the following must an educational agency do before it changes the educational placement of a student with a disability?\nOptions:\nA. Notify the parents in writing\nB. Obtain the child's consent\nC. Obtain a court order\nD. Conduct a new evaluation of the child's disability\nE. Discuss with the child's psychologist\nF. Give the child a trial period in the new environment\nG. Obtain parental consent\nH. Notify the local education authority\nI. Arrange a meeting with all teachers and administrators\nJ. Obtain school board approval\nThe answer is (A)\n\nQuestion:\nAni believes that her attitudes and behavior play a central role in what happens to her. Such a belief is likely to be associated with\nOptions:\nA. low self-esteem.\nB. a strong id.\nC. a high level of anxiety.\nD. a strong superego.\nE. high levels of self-consciousness.\nF. an external locus of control.\nG. an inferiority complex.\nH. a low level of self-awareness.\nI. low self-efficacy.\nJ. an internal locus of control.\nThe answer is (J)\n\nQuestion:\nIn terms of Hofstede’s (1980) five cultural dimensions, the United States scores at the top of the scale on:\nOptions:\nA. individualism and long-term orientation.\nB. individualism and power distance.\nC. uncertainty avoidance.\nD. long-term orientation.\nE. individualism.\nF. individualism and masculinity.\nG. long-term orientation and uncertainty avoidance.\nH. power distance.\nI. power distance and masculinity.\nJ. N/A\nThe answer is (E)\n\nQuestion:\nDifferentiate between sensation and percept.\nOptions:\nA. Sensations and perception are the same process\nB. Sensations provide us with basic elementary experiences which we further interpret into meaningful events. This interpretation of sensations is called 'perception.'\nC. Sensations are the interpretation of our senses\nD. Sensations are the process by which our brain organizes and interprets sensory information.\nE. Perception is the initial data collection through our sensory organs.\nF. Sensations are the conscious experiences triggered by perception.\nG. Perception occurs before sensations in the process of interpreting sensory information.\nH. Perception is the mental reconstruction of sensations into our past experiences.\nI. Sensations are the complex understanding of our environment, while perception is the initial sensory input.\nJ. Perception is the physical process of sensing the environment\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T23:45:47.089308",
+        "action": {
+          "type": "get message",
+          "content": "The user wants me to answer a multiple-choice question based on the provided text.\nThe text contains several examples of questions and answers, but the actual task is to answer the last question provided in the prompt.\nWait, looking at the prompt structure:\nIt lists several Q&A pairs.\nThe last item is:\n\"Question:\nDifferentiate between sensation and percept.\nOptions:\nA. ...\n...\nJ. ...\nThe answer is (H)\"\n\nWait, the prompt actually ends with \"The answer is (H)\" for the last question?\nNo, looking closely at the input:\nThe input contains a series of Q&A pairs.\nThe last block is:\n\"Question:\nDifferentiate between sensation and percept.\nOptions:\nA. Sensations and perception are the same process\nB. Sensations provide us with basic elementary experiences which we further interpret into meaningful events. This interpretation of sensations is called 'perception.'\nC. Sensations are the interpretation of our senses\nD. Sensations are the process by which our brain organizes and interprets sensory information.\nE. Perception is the initial data collection through our sensory organs.\nF. Sensations are the conscious experiences triggered by perception.\nG. Perception occurs before sensations in the process of interpreting sensory information.\nH. Perception is the mental reconstruction of sensations into our past experiences.\nI. Sensations are the complex understanding of our environment, while",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T23:45:47.089528",
+        "action": {
+          "type": "metadata",
+          "content": "ParseError: Response contains more than a one answer, but the expected format is to only give one."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T23:45:47.089587",
+        "action": {
+          "type": "invalid format",
+          "content": "game_result = ABORT"
+        }
+      }
+    ]
+  ],
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 0,
+  "Violated Request Count": 1
+}

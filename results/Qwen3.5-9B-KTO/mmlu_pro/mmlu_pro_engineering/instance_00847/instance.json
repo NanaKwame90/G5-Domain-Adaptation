@@ -1,0 +1,5 @@
+{
+  "game_id": 847,
+  "input": "Question:\nA compressible gas flows over a flat plate. Properties of the gasare closely similar to those of air. The flow is at a temperatureand pressure of 700°F and 30psia, respectively. The plate is 1 in. in length and is assumed to beperfectly insulated. If the gas is moving at a speed of 500 ft/sec, calculate the surface temperature of the plate. (Note: the speed is too great to neglect the effects of viscous dissipation.)\nOptions:\nA. 700.5°F\nB. 700°F\nC. 780°F\nD. 772°F\nE. 735°F\nF. 800°F\nG. 750°F\nH. 685°F\nI. 716.25°F\nJ. 810°F\n",
+  "target": "I"
+}

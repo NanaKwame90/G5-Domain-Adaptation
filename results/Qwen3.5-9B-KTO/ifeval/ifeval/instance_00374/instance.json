@@ -1,0 +1,10 @@
+{
+  "game_id": 374,
+  "input": "Write a joke about anarchists in Tulsa in 3 sections. Mark the beginning of each section with SECTION X.",
+  "target": {
+    "detectable_format:multiple_sections": {
+      "section_spliter": "SECTION",
+      "num_sections": 3
+    }
+  }
+}

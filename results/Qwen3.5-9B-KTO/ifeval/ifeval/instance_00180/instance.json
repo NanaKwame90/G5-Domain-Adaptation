@@ -1,0 +1,15 @@
+{
+  "game_id": 180,
+  "input": "Write a 100-word advertisement for a company called \"Drags and Races\". Don't contain the letter \"p\" in your reply.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "less than",
+      "letter": "p",
+      "let_frequency": 1
+    },
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 100
+    }
+  }
+}

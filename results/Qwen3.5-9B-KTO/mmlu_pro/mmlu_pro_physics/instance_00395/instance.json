@@ -1,0 +1,5 @@
+{
+  "game_id": 395,
+  "input": "Question:\nMalus' law: $I=I_0*cos^2($\\theta$)$. Where I is the intensity of polarized light that has passed through the polarizer, I_0 is the intensity of polarized light before the polarizer, and $\\theta$ is the angle between the polarized light and the polarizer. Unpolarized light passes through a polarizer. It then passes through another polarizer at angle 30 degree to the first, and then another at angle 50 degree to the second. What percentage of the original intensity was the light coming out of the third polarizer?\nOptions:\nA. 40.0\nB. 45.0\nC. 55.0\nD. 60.0\nE. 50.0\nF. 12.5\nG. 15.0\nH. 25.0\nI. 70.0\nJ. 31.0\n",
+  "target": "J"
+}

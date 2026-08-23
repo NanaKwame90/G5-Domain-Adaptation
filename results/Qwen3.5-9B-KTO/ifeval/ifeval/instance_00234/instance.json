@@ -1,0 +1,7 @@
+{
+  "game_id": 234,
+  "input": "I have a golden retriever and a poodle. Is the poodle bigger than the golden retriever? Choose from the following: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- please include the exact phrase in your response.",
+  "target": {
+    "detectable_format:constrained_response": {}
+  }
+}

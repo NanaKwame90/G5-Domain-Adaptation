@@ -1,0 +1,13 @@
+{
+  "game_id": 531,
+  "input": "Rewrite the haiku below into two versions. Both of them should be funny. Separate the two versions using six asterisk symbols (******). Include the keywords ['dog', 'day'] in the response.\n\nOn a chilly winter night\nA cat meows at the moon\nHoping for some warmth",
+  "target": {
+    "combination:two_responses": {},
+    "keywords:existence": {
+      "keywords": [
+        "dog",
+        "day"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "game_id": 378,
+  "input": "Write me a letter in the style of Shakespeare about the mandates and instructions of the King. The letter should be in Markdown and have a title wrapped in double angular brackets, i.e. <<title>>.",
+  "target": {
+    "detectable_format:title": {}
+  }
+}

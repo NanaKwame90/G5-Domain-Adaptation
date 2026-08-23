@@ -1,0 +1,5 @@
+{
+  "game_id": 337,
+  "input": "Question:\nHow many electrons must be added to a spherical conductor (radius 10 cm) to produce a field of 2 × 10^\\rule{1em}{1pt}3 N/couljust above the surface?\nOptions:\nA. 9.50 × 10^3\nB. 1.00 × 10^4\nC. 1.29 × 10^4\nD. 1.72 × 10^4\nE. 2.00 × 10^4\nF. 1.11 × 10^4\nG. 8.85 × 10^3\nH. 1.39 × 10^4\nI. 2.22 × 10^4\nJ. 1.59 × 10^4\n",
+  "target": "H"
+}

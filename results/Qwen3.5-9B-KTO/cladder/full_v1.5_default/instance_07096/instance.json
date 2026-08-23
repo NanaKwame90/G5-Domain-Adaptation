@@ -1,0 +1,5 @@
+{
+  "game_id": 7096,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Yupt has a direct effect on jyka and kwox. Jyka has a direct effect on kwox. The overall probability of jyka is 11%. For those who are not jyka, the probability of kwox is 24%. For those who are jyka, the probability of kwox is 32%. Is kwox less likely than not kwox overall?",
+  "target": "yes"
+}

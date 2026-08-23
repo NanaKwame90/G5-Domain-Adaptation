@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 91,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:46:00.428175",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a haiku about a lion that includes the keywords \"forests\" and \"riddle\". Refrain from using commas in your haiku.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a haiku about a lion that includes the keywords \"forests\" and \"riddle\". Refrain from using commas in your haiku.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nLion hunts the forests\nAncient riddle in his eyes\nSilent king awakes<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:45:55.888270",
+            "call_duration": "0:00:04.539766",
+            "response": "Lion hunts the forests\nAncient riddle in his eyes\nSilent king awakes||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

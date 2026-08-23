@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_home-delivery_easy_basic_easy",
+    "game_id": 5,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:25:14.139856",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can perce. To perce is to make something physically unobstructed and uncovered, and make its contents available for use or interaction.\n\nYour goal for this game is: Put the uner on the trion, the natin on the trion and the peach on the trion.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a bedroom now. There are a book, a pillow, a wardrobe and a bed. The book is on the floor. The pillow is on the bed. The wardrobe is closed. There is a passage to a hallway here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:25:14.139930",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Text adventure game player.\n    *   Input: Description of the current state/perception.\n    *   Output: A single action starting with ``.\n    *   Constraint: Only reply with an action (no explanations, no extra text).\n    *   Special Command: `perce` (perceive) - makes something unobstructed/uncovered and contents available.\n    *   Goal: Put the *uner* on the *trion*, the *natin* on the *trion*, and the *peach* on the *trion*.\n    *   Current State: Bedroom. Items: book (floor), pillow (bed), wardrobe (closed), bed. Passage to hallway.\n    *   Note: The goal items (*uner*, *natin*, *peach*) and target (*trion*) are not currently visible in the description. I need to find them.\n\n2.  **Evaluate Current State vs. Goal:**\n    *   Goal items: uner, natin, peach.\n    *   Goal location: trion.\n    *   Current items: book, pillow, wardrobe, bed.\n    *   Missing items: uner, natin, peach, trion.\n    *   Missing location: trion.\n    *   Action needed: Explore to find the missing items and",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:25:14.139997",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:25:14.140084",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:25:14.140171",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 18,
+    "goal_count": 3
+  }
+}

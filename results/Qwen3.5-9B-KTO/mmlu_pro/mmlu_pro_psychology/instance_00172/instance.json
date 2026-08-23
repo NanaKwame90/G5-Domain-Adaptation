@@ -1,0 +1,5 @@
+{
+  "game_id": 172,
+  "input": "Question:\nThe scores of Brian's team on the quiz were: 8, 6, 9, 7, 10, 9, 5, 4, 9. The median of the team's scores is\nOptions:\nA. 10\nB. 7\nC. 9.5\nD. 8\nE. 6\nF. 9\nG. 7.5\nH. 6.5\nI. 8.5\nJ. 7.8\n",
+  "target": "D"
+}

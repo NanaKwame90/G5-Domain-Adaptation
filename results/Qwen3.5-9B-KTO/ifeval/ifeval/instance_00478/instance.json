@@ -1,0 +1,16 @@
+{
+  "game_id": 478,
+  "input": "Write a song for the person named 'Guerrero'. Make sure to not include the words 'name', 'song', 'person', 'man', 'woman' throughout your entire output. Also avoid using commas in your entire response.\n",
+  "target": {
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "name",
+        "song",
+        "person",
+        "man",
+        "woman"
+      ]
+    },
+    "punctuation:no_comma": {}
+  }
+}

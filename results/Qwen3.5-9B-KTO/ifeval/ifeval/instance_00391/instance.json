@@ -1,0 +1,9 @@
+{
+  "game_id": 391,
+  "input": "Write a poem about the top 20 tallest buildings in the world and their heights. End your response with the exact question: Is there anything else I can help with?",
+  "target": {
+    "startend:end_checker": {
+      "end_phrase": "Is there anything else I can help with?"
+    }
+  }
+}

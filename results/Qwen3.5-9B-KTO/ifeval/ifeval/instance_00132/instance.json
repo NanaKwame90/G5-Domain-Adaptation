@@ -1,0 +1,9 @@
+{
+  "game_id": 132,
+  "input": "Write a funny and sarcastic template for rating the quality of a marriage between two people who are both moms. This is for the couple themselves. Please highlight at least 3 sections with markdown,  i.e *highlighted section*.",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 3
+    }
+  }
+}

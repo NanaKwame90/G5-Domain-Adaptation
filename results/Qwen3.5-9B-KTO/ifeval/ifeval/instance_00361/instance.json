@@ -1,0 +1,11 @@
+{
+  "game_id": 361,
+  "input": "Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "fiesta",
+      "frequency": 2
+    }
+  }
+}

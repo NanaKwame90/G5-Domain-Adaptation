@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 523,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T21:19:33.078874",
+        "action": {
+          "type": "send message",
+          "content": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:19:33.078931",
+        "action": {
+          "type": "get message",
+          "content": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. resume of xyz. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.\n\nresume of xyz\n\nJOHN DOE\nSENIOR OPERATIONS OFFICER\n\nSUMMARY\nDedicated leader with extensive combat experience in Iraq and specialized training in private security operations. Proven track record of strategic planning and team management in high-risk environments.\n\nEXPERIENCE\n\nUNITED STATES ARMY\nINFANTRY OFFICER\n2005 TO 2010\n- Led squad operations during conflict zones in Iraq\n- Trained local forces on security protocols\n- Executed direct action missions with zero casualties\n\nBLACK OAK SECURITY SOLUTIONS\nCONTRACT OPERATIONS MANAGER\n2011 TO 2015\n- Managed private military teams in unstable regions\n- Developed risk assessment frameworks for client sites\n- Coordinated logistics for international deployment teams\n\nSKILLS\n- Tactical Leadership\n- Crisis Management\n- Strategic Planning\n- Foreign Language Proficiency\n- Security Operations\n\nEDUCATION\nBACHELOR OF SCIENCE IN MILITARY SCIENCE\nUNIVERSITY OF TEXAS AT AUSTIN\n2001 TO 2005||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:19:33.079002",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:title": {},
+            "combination:repeat_prompt": {
+              "prompt_to_repeat": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response."
+            },
+            "punctuation:no_comma": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:19:33.079267",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

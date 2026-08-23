@@ -1,0 +1,5 @@
+{
+  "game_id": 13,
+  "input": "Question:\nTwo dice are rolled simultaneously. If both dice show 6, then the player wins $20; otherwise the player loses the game. It costs $2.00 to play the game. What is the expected gain or loss per game?\nOptions:\nA. The player will lose about $1.44.\nB. The player will gain about $1.00.\nC. The player will lose about $0.89.\nD. The player will lose about $1.00.\nE. The player will gain about $2.00.\nF. The player will gain about $1.44.\nG. The player will lose about $2.00.\nH. The player will gain about $0.89.\nI. The player will lose about $0.55.\nJ. The player will gain about $0.55.\n",
+  "target": "A"
+}

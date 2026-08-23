@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 132,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:01:59.896461",
+        "action": {
+          "type": "send message",
+          "content": "Write a funny and sarcastic template for rating the quality of a marriage between two people who are both moms. This is for the couple themselves. Please highlight at least 3 sections with markdown,  i.e *highlighted section*.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:01:59.896544",
+        "action": {
+          "type": "get message",
+          "content": "# The \"We Still Have Our Marital License\" Survival Rating Scale\n*(A Sarcastic Guide for Two Moms Who Are Basically Roommates With Benefits and Shared Trauma)*\n\nWelcome to the only relationship rating system where the \"D\" in \"Doomsday\" stands for \"Dinner Time\" and the \"A\" in \"A+ Couple\" stands for \"Adulting.\" Since you are both moms, your marriage is less of a romance novel and more of a high-stakes negotiation between two people who haven't slept in 48 hours and are currently fighting over who gets to be the villain in the kids' bedtime stories.\n\nGrab a coffee (or a third one), take a deep breath, and rate your union using the following metrics. Be honest; the kids are listening anyway.\n\n### 1. *The \"Who Actually Did the Laundry?\" Audit*\nIn a normal marriage, laundry is a chore. In a marriage between two moms, laundry is a psychological warfare tactic. This section rates your ability to delegate without triggering a full-blown \"I did it all yesterday!\" meltdown.\n*   **1/10 (The Cold War):** You both pretend the other person never existed until the pile of socks reaches the ceiling. You communicate exclusively through text messages about where the missing underwear is.\n*   **5/10 (The Truce):** You have a system. Maybe it's \"I fold, you put away,\" or maybe it's \"We both fold, we both put away, and we both pretend we didn't see the other person's mess.\"\n*   **10/10 (The Zen Garden):** You have a robot vacuum, a hired cleaner, or you both genuinely enjoy folding fitted sheets while listening to true crime podcasts. You are gods among mortals.\n\n### 2. *The \"Parental Alignment\" Stress Test*\nThis measures how well your parenting philosophies align when the kids are screaming, the house is on fire, and you are both running on caffeine and spite. Are you a team, or are you two competing CEOs trying to bankrupt each other's sanity?\n*   **1/10 (Hostile Takeover):** One of you is the \"Strict Parent\" and the other is the \"Free Range Anarchist.\" The kids are confused, and you are currently drafting a prenup just in case.\n*   **5/10 (The United Front):** You agree on the basics (no sugar before noon, homework before screens), but you secretly disagree on everything else. You manage to keep the peace long enough to get through the day without throwing a toaster at the wall.\n*   **10/10 (The Power Couple):** You are so perfectly in sync that you can finish each other's sentences and know exactly when the other person needs a glass of wine before they even ask. The kids think you are mind readers; you know you are just sharing the same level of exhaustion.\n\n### 3. *The \"Romance vs. Survival\" Ratio*\nLet's be real: your last romantic gesture was probably buying matching pajamas so you could nap in them together. This section rates how much actual love exists in the relationship versus how much exists in the form of shared trauma and mutual survival.\n*   **1/10 (Roommates With Benefits):** You haven't held hands since the kids were born. Your last kiss was accidental, and it involved a sneeze. You mostly communicate via \"Did you take out the trash?\"\n*   **5/10 (The Best Friends):** You laugh at the same terrible jokes, you complain about the same annoying neighbors, and you still remember each other's birthdays. You are a solid team, even if you haven't gone on a date in three years.\n*   **10/10 (The Soulmates):** You still find time for date nights (even if they happen in the car while driving to the grocery store). You still know each other's favorite songs, and you still look at each other with a mix of annoyance and deep, abiding love. You are the definition of \"power couple,\" even if your power is mostly just enduring the chaos together.\n\n***\n\n**Final Verdict:**\n*   **If you scored low:** Don't panic. You're still married, which means you're already the best of friends.\n*   **If you scored high:** Congratulations, you are a miracle. Now go hug each other before someone asks for a snack.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:01:59.896642",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:number_highlighted_sections": {
+              "num_highlights": 3
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:01:59.896996",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

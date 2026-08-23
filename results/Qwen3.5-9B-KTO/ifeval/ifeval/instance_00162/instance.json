@@ -1,0 +1,15 @@
+{
+  "game_id": 162,
+  "input": "Write a short article about the morphology of the Ukrainian language, with 200 words or less. Make sure the letter c appears at least 60 times in your response.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "at least",
+      "letter": "c",
+      "let_frequency": 60
+    },
+    "length_constraints:number_words": {
+      "relation": "less than",
+      "num_words": 201
+    }
+  }
+}

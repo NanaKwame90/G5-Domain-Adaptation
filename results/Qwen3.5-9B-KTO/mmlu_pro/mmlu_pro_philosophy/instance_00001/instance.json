@@ -1,0 +1,5 @@
+{
+  "game_id": 1,
+  "input": "Question:\n Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\n(~M ⊃ ~N) ∨ (O ≡ N) and (~M · N) · [(~O ∨ ~N) · (O ∨ N)]\nOptions:\nA. Both logically equivalent and consistent\nB. Both consistent and contradictory\nC. Both logically equivalent and contradictory\nD. Contradictory\nE. Neither logically equivalent nor contradictory, but inconsistent\nF. Logically equivalent\nG. Both inconsistent and contradictory\nH. Inconsistent\nI. Neither logically equivalent nor contradictory, but consistent\nJ. Neither logically equivalent nor inconsistent, but contradictory\n",
+  "target": "D"
+}

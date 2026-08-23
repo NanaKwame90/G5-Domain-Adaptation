@@ -1,0 +1,5 @@
+{
+  "game_id": 1049,
+  "input": "Question:\nSuppose you live on the Moon. How long is a day (i.e. from sunrise to sunrise)?\nOptions:\nA. 12 Earth hours\nB. 365 Earth days\nC. about 18 years\nD. 48 Earth hours\nE. 1 Earth hour\nF. a year\nG. 24 hours\nH. 7 Earth days\nI. about 50 years\nJ. 29 Earth days\n",
+  "target": "J"
+}

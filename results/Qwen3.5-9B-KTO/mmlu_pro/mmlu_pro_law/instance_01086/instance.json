@@ -1,0 +1,5 @@
+{
+  "game_id": 1086,
+  "input": "Question:\nA defendant worked as a patent attorney in a law firm. Late one evening, she left the office and walked outside to her car. While in the parking lot, she noticed a gold watch lying on the ground. When the defendant picked it up, she immediately identified the watch as belonging to one of the other lawyers in her law firm. She took it home with her, intending to return it the next day. The following morning, however, the defendant decided to keep the watch, and did so. The defendant has committed\nOptions:\nA. both theft and embezzlement.\nB. neither theft nor robbery.\nC. embezzlement only.\nD. neither larceny nor embezzlement.\nE. larceny only.\nF. both larceny and embezzlement.\nG. both larceny and robbery.\nH. robbery only.\nI. both robbery and embezzlement.\nJ. theft only.\n",
+  "target": "D"
+}

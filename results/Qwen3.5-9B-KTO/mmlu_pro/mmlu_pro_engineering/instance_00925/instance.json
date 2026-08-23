@@ -1,0 +1,5 @@
+{
+  "game_id": 925,
+  "input": "Question:\n(1) The terminal voltage of a motor is 240 volts and the armature current is 60 amp. The armature resistance is 0.08 ohm. The counter emf is 235.2 volts. What is the power developed by the motor (a) in watts and (b) in horsepower ? (2) The measured speed of a motor is 1,100 rpm. The net force registered on the scale used with a prony brake is 16 lb. If the brake arm measures 28 in., what is the horsepower output of the motor ?\nOptions:\nA. 13,000 watts, 17.44 hp, 7.50 hp\nB. 12,000 watts, 16.10 hp, 6.90 hp\nC. 10,000 watts, 13.41 hp, 5.95 hp\nD. 15,500 watts, 20.77 hp, 8.50 hp\nE. 15,000 watts, 20.12 hp, 8.25 hp\nF. 12,500 watts, 16.76 hp, 6.50 hp\nG. 14,400 watts, 19.31 hp, 8.00 hp\nH. 13,500 watts, 18.10 hp, 7.60 hp\nI. 14,112 watts, 18.92 hp, 7.82 hp\nJ. 11,800 watts, 15.82 hp, 7.00 hp\n",
+  "target": "I"
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_created_basic_hard",
+    "game_id": 3,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:39:40.764538",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can seash, andect, lotis, belity, irear and deint.\n\nYour goal for this game is: Make the prolly lingly, the proark incry and the acion arliced.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a distral now. There are a rabish, a proark, a shness, a arger, a prolly and a hypner. There is a passage to a comper here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:39:40.764610",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Text adventure game player.\n    *   **Input:** I receive descriptions of the game world.\n    *   **Output:** A single action starting with ``.\n    *   **Constraint:** Only reply with an action (no explanations, no extra text).\n    *   **Special Commands:** `seash`, `andect`, `lotis`, `belity`, `irear`, `deint` (in addition to common actions).\n    *   **Goal:** \"Make the prolly lingly, the proark incry and the acion arliced.\" (This looks like garbled text, likely intentional or a test of handling nonsense/gibberish goals).\n    *   **Current State:** \"You are in a distral now. There are a rabish, a proark, a shness, a arger, a prolly and a hypner. There is a passage to a comper here.\"\n    *   **Entities:** distral (location?), rabish, proark, shness, arger, prolly, hypner, passage, comper.\n    *   **Goal Decoding:** \"Make the prolly lingly, the proark incry and the acion arliced.\"\n        *   \"prolly\" - prolly (exists in room)\n        *",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:39:40.764675",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:39:40.764764",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:39:40.764849",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 6,
+    "goal_count": 3
+  }
+}

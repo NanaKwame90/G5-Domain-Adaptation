@@ -1,0 +1,5 @@
+{
+  "game_id": 111,
+  "input": "Question:\nA 4-year-old boy is brought to the physician because of temperatures to 39.4°C (102.9°F) for 8 days. Examination shows anterior cervical lymphadenopathy, nonexudative conjunctivitis bilaterally, a strawberry tongue, an erythematous truncal rash, and edema of the hands and feet. Which of the following is the most appropriate pharmacotherapy to prevent complications of this illness? \nOptions:\nA. Oral amoxicillin\nB. Intravenous corticosteroids\nC. Intravenous azithromycin\nD. Intravenous penicillin\nE. Oral ibuprofen\nF. Intravenous immune globulin\nG. Oral isoniazid\nH. Intravenous prednisone\nI. Intravenous vancomycin\nJ. Oral aspirin\n",
+  "target": "F"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 221,
+  "input": "Question:\nSemir rolls a six-sided die every morning to determine what he will have for breakfast. If he rolls a 1 or 2, he takes time to cook himself a big breakfast. If he rolls a 3 or larger he grabs a quick lighter breakfast. When he cooks himself a big breakfast, there is a 15% chance he will be late for school. If he has a lighter breakfast, there is a 6% chance he will be late for school. What is the probability Semir will be on time for school any given day?\nOptions:\nA. 0.85\nB. 0.1\nC. 0.5\nD. 0.99\nE. 0.91\nF. 0.94\nG. 0.09\nH. 0.75\nI. 0.8\nJ. 0.21\n",
+  "target": "E"
+}

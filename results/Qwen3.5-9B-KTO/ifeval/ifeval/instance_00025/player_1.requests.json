@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 25,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:39:46.991665",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n(VERSE 1)\nWAKE UP IN THE ASH, FEEL THE HEAT RISE\nNO MORE SLEEPING ON THE SHINING LIES\nTHEY SAID WE WERE BROKEN, SAID WE WERE SMALL\nBUT WE BUILT A FIRE IN THE WALL OF ALL\n\n(VERSE 2)\nGRIT YOUR TEETH AND GRIP THE STEEL\nTHEY CAN'T BREAK WHAT THEY CAN'T FEEL\nFROM THE DUST TO THE SKY, WE ARE THE SOUND\nWHERE THE LOST AND THE FOUND ARE BOUND\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(VERSE 3)\nNO SOFT SONGS FOR THIS HEART OF STONE\nWE OWN THIS PLACE, WE OWN THIS THRONE\nEVERY NOTE IS A CLASH OF BONES\nEVERY CHORD IS A HOUSE OF STONES\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(OUTRO)\nNOT GIFTED...\nBUT GIFTED...\nBREAK IT ALL...\nBREAK IT ALL...\n(FINAL STRUM)<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:38:33.743412",
+            "call_duration": "0:01:13.247855",
+            "response": "(VERSE 1)\nWAKE UP IN THE ASH, FEEL THE HEAT RISE\nNO MORE SLEEPING ON THE SHINING LIES\nTHEY SAID WE WERE BROKEN, SAID WE WERE SMALL\nBUT WE BUILT A FIRE IN THE WALL OF ALL\n\n(VERSE 2)\nGRIT YOUR TEETH AND GRIP THE STEEL\nTHEY CAN'T BREAK WHAT THEY CAN'T FEEL\nFROM THE DUST TO THE SKY, WE ARE THE SOUND\nWHERE THE LOST AND THE FOUND ARE BOUND\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(VERSE 3)\nNO SOFT SONGS FOR THIS HEART OF STONE\nWE OWN THIS PLACE, WE OWN THIS THRONE\nEVERY NOTE IS A CLASH OF BONES\nEVERY CHORD IS A HOUSE OF STONES\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT GIFTED\nSHATTERING THE GLASS, WE ARE NOT SHIFTED\nWE ARE THE GIFTED AND THE NOT GIFTED\nROARING THROUGH THE NIGHT, WE ARE THE SHIFTED\nYEAH, WE ARE THE SHIFTED!\n\n(OUTRO)\nNOT GIFTED...\nBUT GIFTED...\nBREAK IT ALL...\nBREAK IT ALL...\n(FINAL STRUM)||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

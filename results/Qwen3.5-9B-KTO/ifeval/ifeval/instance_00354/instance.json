@@ -1,0 +1,13 @@
+{
+  "game_id": 354,
+  "input": "For a bunch of students, write a 200+ word poem that professionally describes a new line of shoes. Make sure to use markdown to highlight/bold at least one section of the poem. Example: *highlighted text*",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 1
+    },
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 200
+    }
+  }
+}

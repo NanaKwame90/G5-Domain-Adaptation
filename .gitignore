@@ -1,0 +1,25 @@
+# Model weights, caches, and large archives
+kto_qwen_stable_model/
+models--Qwen--Qwen3.5-9B/
+models/
+hf_cache/
+*.tar.gz
+*.bin
+*.safetensors
+
+# Virtual environments & execution logs
+venv/
+*.log
+nohup.out
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Granular episode instance dumps (keep summary CSVs only)
+src/playpen/tmp/
+src/playpen/results_backup*/
+src/playpen/results_baseline_2000_privacy_qa/Qwen3.5-9B/
+src/playpen/results/Qwen3.5-9B/
+results/Qwen3.5-9B/
+old_results/
+results_backup/

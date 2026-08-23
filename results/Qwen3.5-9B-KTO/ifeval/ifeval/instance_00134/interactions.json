@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 134,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:03:23.195899",
+        "action": {
+          "type": "send message",
+          "content": "Request:\n  1. What are the best places to visit in Bohemia, Czech Republic?\n  2. Include a list of recommended hotels.\n  3. Wrap the ENTIRE output in JSON format.\n  4. Do not include the following keywords: Moser, Glassworks, Pravcice, Karlovy, Vary",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:03:23.195978",
+        "action": {
+          "type": "get message",
+          "content": "{\n  \"destination\": \"Bohemia, Czech Republic\",\n  \"best_places_to_visit\": [\n    {\n      \"name\": \"Prague\",\n      \"description\": \"The capital city featuring the Prague Castle, Charles Bridge, and the Old Town Square with its famous Astronomical Clock.\"\n    },\n    {\n      \"name\": \"Kutná Hora\",\n      \"description\": \"Home to the stunning Sedlec Ossuary (Bone Church) and the Gothic St. Barbara's Cathedral.\"\n    },\n    {\n      \"name\": \"Český Krumlov\",\n      \"description\": \"A beautifully preserved medieval town with a castle complex, a winding Vltava river, and cobblestone streets.\"\n    },\n    {\n      \"name\": \"Telč\",\n      \"description\": \"A Renaissance gem known for its perfectly preserved town center, surrounded by a moat and featuring a magnificent castle.\"\n    },\n    {\n      \"name\": \"Lednice-Valtice Cultural Landscape\",\n      \"description\": \"A UNESCO World Heritage site combining a Baroque palace, an English-style park, and a functional canal system.\"\n    }\n  ],\n  \"recommended_hotels\": [\n    {\n      \"name\": \"Hotel Golden Well\",\n      \"location\": \"Prague\",\n      \"style\": \"Historic Luxury\"\n    },\n    {\n      \"name\": \"Grand Hotel Bohemia\",\n      \"location\": \"Prague\",\n      \"style\": \"Classic Art Nouveau\"\n    },\n    {\n      \"name\": \"Hotel U Zlaté Růže\",\n      \"location\": \"Český Krumlov\",\n      \"style\": \"Traditional Boutique\"\n    },\n    {\n      \"name\": \"Hotel Telč\",\n      \"location\": \"Telč\",\n      \"style\": \"Renaissance Luxury\"\n    },\n    {\n      \"name\": \"Lednice Palace Hotel\",\n      \"location\": \"Lednice\",\n      \"style\": \"Palace Stay\"\n    }\n  ]\n}||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:03:23.196072",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:json_format": {},
+            "keywords:forbidden_words": {
+              "forbidden_words": [
+                "moser",
+                "glassworks",
+                "pravcice",
+                "karlovy",
+                "vary"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:03:23.198320",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 476,
+  "input": "Question:\nWhat is the square root of 81 squared?\nOptions:\nA. 9^2\nB. 27\nC. 81^2\nD. 729\nE. 6561\nF. 12\nG. 162\nH. 243\nI. 81\nJ. 9\n",
+  "target": "I"
+}

@@ -1,0 +1,5 @@
+{
+  "timestamp": "2026-07-22T01:26:18.577630",
+  "error": "FileNotFoundError",
+  "message": "Background image '/Users/karlosswald/repositories/clemclass/clean-up/clean_up/resources/backgrounds/kitchen.png' does not exist."
+}

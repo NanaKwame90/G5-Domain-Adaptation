@@ -1,0 +1,5 @@
+{
+  "game_id": 6682,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Xevo has a direct effect on tijv and gyzp. Tijw has a direct effect on tijv and gyzp. Tijv has a direct effect on gyzp. Tijw is unobserved. The overall probability of xevo is 40%. The probability of not xevo and gyzp is 17%. The probability of xevo and gyzp is 14%. Is the chance of gyzp larger when observing xevo?",
+  "target": "yes"
+}

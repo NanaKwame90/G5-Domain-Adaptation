@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 307,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:40:54.806333",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a very short resume for a refinery operator who has 5 years of experience working in the chemical industry. Include the keywords \"friends\" and \"hanson\" in the resume. Make your entire output contain less than 50 words.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a very short resume for a refinery operator who has 5 years of experience working in the chemical industry. Include the keywords \"friends\" and \"hanson\" in the resume. Make your entire output contain less than 50 words.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nRefinery Operator with 5 years in chemical industry. Skilled in process control at Hanson facilities. Trusted by friends and colleagues for safety. Seeking new opportunities.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:40:48.089127",
+            "call_duration": "0:00:06.717054",
+            "response": "Refinery Operator with 5 years in chemical industry. Skilled in process control at Hanson facilities. Trusted by friends and colleagues for safety. Seeking new opportunities.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

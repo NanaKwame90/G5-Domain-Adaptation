@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_created_basic_hard",
+    "game_id": 1,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:37:47.459387",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can delly, heted, ousne, unalin, thoty and ceous.\n\nYour goal for this game is: Make the secti unpish, the rably nolog and the imped atory.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a perced now. There are a inet, a rably, a stism, a nond, a torish and a secti. There is a passage to a uner here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:37:47.459463",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Text adventure game player.\n    *   **Input:** I (the user) describe the current state/perception.\n    *   **Output:** A single action starting with ``.\n    *   **Constraint:** Only reply with an action (no explanations, no extra text).\n    *   **Special Actions:** I can use \"delly, heted, ousne, unalin, thoty and ceous\" (these look like scrambled or misspelled words, possibly specific commands for this game context).\n    *   **Goal:** \"Make the secti unpish, the rably nolog and the imped atory.\" (Again, scrambled/misspelled words).\n    *   **Current State:** \"You are in a perced now. There are a inet, a rably, a stism, a nond, a torish and a secti. There is a passage to a uner here.\"\n    *   **Interpretation of Scrambled Words:**\n        *   \"perced\" - \"perce\" (maybe \"perce\" is a room name? Or \"perceived\"? Likely \"perce\" or \"perce\" is a typo for \"place\" or \"room\"? Let's look at the goal words).\n        *   \"inet\" - \"tent\"? \"net",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:37:47.459531",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:37:47.459620",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:37:47.459709",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 6,
+    "goal_count": 3
+  }
+}

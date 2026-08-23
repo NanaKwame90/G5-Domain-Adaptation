@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 109,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:50:48.375836",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nCompose a poem all in lowercase letters about my friend Barnet.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nCompose a poem all in lowercase letters about my friend Barnet.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nbarnet walks with quiet feet\nthrough fields of golden wheat\nhis laughter is a sudden rain\nthat washes off the afternoon pain\n\nhe knows the names of every star\nand how to mend a broken jar\nwith patience soft and hands so true\nthere is a kindness in him too\n\nno crown he wears, no title loud\njust stories shared and friends around\nso here's to barnet, wild and free\nthe best of friends that i can see<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:50:29.861473",
+            "call_duration": "0:00:18.514126",
+            "response": "barnet walks with quiet feet\nthrough fields of golden wheat\nhis laughter is a sudden rain\nthat washes off the afternoon pain\n\nhe knows the names of every star\nand how to mend a broken jar\nwith patience soft and hands so true\nthere is a kindness in him too\n\nno crown he wears, no title loud\njust stories shared and friends around\nso here's to barnet, wild and free\nthe best of friends that i can see||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

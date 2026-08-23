@@ -1,0 +1,9 @@
+{
+  "game_id": 87,
+  "input": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+  "target": {
+    "language:response_language": {
+      "language": "fa"
+    }
+  }
+}

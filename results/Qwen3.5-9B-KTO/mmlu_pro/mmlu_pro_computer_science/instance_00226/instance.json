@@ -1,0 +1,5 @@
+{
+  "game_id": 226,
+  "input": "Question:\nA search engine has a trend-tracking feature that provides information on how popular a search term is. The data can be filtered by geographic region, date, and category. Categories include arts and entertainment, computers and electronics, games, news, people and society, shopping, sports, and travel. Which of the following questions is LEAST likely to be answerable using the trends feature?\nOptions:\nA. In which political candidates are people interested?\nB. Which region of the country has the greatest number of people searching for opera performances?\nC. What is the cost of a certain electronics product?\nD. In what month does a particular sport receive the most searches?\n",
+  "target": "C"
+}

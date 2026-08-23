@@ -1,0 +1,5 @@
+{
+  "game_id": 1057,
+  "input": "Question:\n\\lim_{x \\to 1}(1/(x - 1) - c/(x^3 - 1)) exists. What is the value of c?\nOptions:\nA. -1\nB. 5\nC. 4\nD. 2\nE. 0\nF. 1/2\nG. 3/2\nH. -3\nI. 1\nJ. 3\n",
+  "target": "J"
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 378,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:50:26.808302",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite me a letter in the style of Shakespeare about the mandates and instructions of the King. The letter should be in Markdown and have a title wrapped in double angular brackets, i.e. <<title>>.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite me a letter in the style of Shakespeare about the mandates and instructions of the King. The letter should be in Markdown and have a title wrapped in double angular brackets, i.e. <<title>>.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n<<The King's Decree to His Loyal Subjects>>\n\nTo all my faithful subjects, both near and far,\nWho dwell within this realm of sun and star,\nHear now the voice of him who holds the crown,\nAnd let your hearts beat true to his renown.\n\nBy royal mandate, signed with hand of might,\nI bid you cease your strife and put aside the night\nOf discord that hath plagued our peaceful land.\nLet every quarrel end, as by my word commanded.\n\nAttend the courts where justice shall be done,\nAnd pay the tolls that keep the realm as one.\nNo tax shall be withheld, no duty unpaid,\nFor I am he who guards your life and shade.\n\nIf any rebel rises, bold or small,\nAgainst the laws I set to rule them all,\nThen know that swift retribution shall befall,\nTo make the traitor's name a thing of thrall.\n\nYet to the good, who serve with heart and hand,\nI grant my favor, and a noble land.\nSo stand in awe of power, great and deep,\nAnd bow the knee, while I the scepter keep.\n\nThus ends my speech, written in ink of state,\nTo bind your souls to mine, in love and fate.\nLong live the King! Long live the golden age!\nObey, or face the wrath of royal rage.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:49:32.579760",
+            "call_duration": "0:00:54.228281",
+            "response": "The King's Decree to His Loyal Subjects\n\nTo all my faithful subjects, both near and far,\nWho dwell within this realm of sun and star,\nHear now the voice of him who holds the crown,\nAnd let your hearts beat true to his renown.\n\nBy royal mandate, signed with hand of might,\nI bid you cease your strife and put aside the night\nOf discord that hath plagued our peaceful land.\nLet every quarrel end, as by my word commanded.\n\nAttend the courts where justice shall be done,\nAnd pay the tolls that keep the realm as one.\nNo tax shall be withheld, no duty unpaid,\nFor I am he who guards your life and shade.\n\nIf any rebel rises, bold or small,\nAgainst the laws I set to rule them all,\nThen know that swift retribution shall befall,\nTo make the traitor's name a thing of thrall.\n\nYet to the good, who serve with heart and hand,\nI grant my favor, and a noble land.\nSo stand in awe of power, great and deep,\nAnd bow the knee, while I the scepter keep.\n\nThus ends my speech, written in ink of state,\nTo bind your souls to mine, in love and fate.\nLong live the King! Long live the golden age!\nObey, or face the wrath of royal rage.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

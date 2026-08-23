@@ -1,0 +1,5 @@
+{
+  "game_id": 7292,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Xyfo has a direct effect on yupt and muvq. Yupt has a direct effect on zupj. Zupj has a direct effect on muvq. Xyfo is unobserved. For those who are not yupt and are not zupj, the probability of muvq is 43%. For those who are not yupt and are zupj, the probability of muvq is 49%. For those who are yupt and are not zupj, the probability of muvq is 56%. For those who are yupt and are zupj, the probability of muvq is 56%. For those who are not yupt, the probability of zupj is 3%. For those who are yupt, the probability of zupj is 92%. For those who are yupt, would it be more likely to see muvq if the individual was not yupt?",
+  "target": "no"
+}

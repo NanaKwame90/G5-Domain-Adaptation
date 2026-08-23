@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 361,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:47:15.873210",
+        "action": {
+          "type": "send message",
+          "content": "Write a poem about the history of reductions in the context of the church. Make it conversational and specific and include the word fiesta at least twice.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:47:15.873285",
+        "action": {
+          "type": "get message",
+          "content": "Back in the day, when the Church was young and lean,\nWe had a few priests running the whole sheen.\nBut then the gold came pouring in from Spain,\nAnd suddenly, the budget wasn't plain.\n\nSo they started cutting corners, trimming the fat,\nTo make the numbers balance on the chart.\nThey closed down the chapels that were far away,\nAnd told the people, \"Come another day.\"\n\nThey said, \"We need to save for the bigger things,\nLike building a cathedral with golden wings.\"\nBut the folks just laughed and said, \"Wait a minute, friend,\nWe need our *fiesta* where the old bells ring!\"\n\nSo they kept the feast, but moved it to the town square,\nWith less money spent and a lot more care.\nThey reduced the staff, the candles, and the vest,\nBut kept the spirit of the community blessed.\n\nNow look at the diocese, stretched thin and wide,\nWith priests who drive cars that are barely inside.\nThey cut the subsidies, the grants, and the aid,\nJust trying to keep the lights on in the shade.\n\nBut when the harvest comes and the crops are high,\nThey throw a *fiesta* just to see the sky.\nIt's a way to say, \"We're still here, we're still strong,\nEven if the budget is looking wrong.\"\n\nSo history shows us how the reductions grew,\nFrom closing a door to opening a view.\nWe trim the excess, we cut the fat and grease,\nBut never forget the joy of the *fiesta* peace.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:47:15.873376",
+        "action": {
+          "type": "target",
+          "content": {
+            "keywords:frequency": {
+              "relation": "at least",
+              "keyword": "fiesta",
+              "frequency": 2
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:47:15.874294",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

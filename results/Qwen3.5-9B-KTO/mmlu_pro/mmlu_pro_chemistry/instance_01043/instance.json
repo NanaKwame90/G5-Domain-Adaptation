@@ -1,0 +1,5 @@
+{
+  "game_id": 1043,
+  "input": "Question:\nWhat is the standard free energy for the oxidation of glucose given by the reaction C_6H_12O_6(s) + 60_2(g) = 6CO_2(g) + 6H_2O(l)? The standard free energy of formation of C_6H_12O_6(s) = -218 kcal mole^-1, for CO_2(g), it is -94.0 kcal mole^-1 and for H_2O(l), it is -57.0 kcal mole^-1.\nOptions:\nA. -300 kcal mole^-1\nB. -688 kcal mole^-1\nC. -57.0 kcal mole^-1\nD. -812 kcal mole^-1\nE. -474 kcal mole^-1\nF. -218 kcal mole^-1\nG. -540 kcal mole^-1\nH. -123 kcal mole^-1\nI. -350 kcal mole^-1\nJ. -94.0 kcal mole^-1\n",
+  "target": "B"
+}

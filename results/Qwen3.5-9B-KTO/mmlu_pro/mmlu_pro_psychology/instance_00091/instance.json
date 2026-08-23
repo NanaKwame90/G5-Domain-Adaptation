@@ -1,0 +1,5 @@
+{
+  "game_id": 91,
+  "input": "Question:\nDr. Marcos Manzetti uses a “sliding scale” that is based on a client’s current income to set his fees for therapy. Dr. Manzetti’s practice is:\nOptions:\nA. not mentioned in the ethical guidelines.\nB. ethically acceptable, as it provides opportunities for those with lower income.\nC. explicitly recommended in the ethical guidelines.\nD. ethically acceptable since it serves the best interests of his clients.\nE. explicitly recommended in the legal guidelines.\nF. ethically unacceptable, as it can be considered discriminatory.\nG. ethically questionable, as it may not consider a client's overall financial situation.\nH. explicitly prohibited in the ethical guidelines.\nI. a common practice, but not explicitly mentioned in the ethical guidelines.\nJ. ethically unacceptable since it treats clients inequitably.\n",
+  "target": "D"
+}

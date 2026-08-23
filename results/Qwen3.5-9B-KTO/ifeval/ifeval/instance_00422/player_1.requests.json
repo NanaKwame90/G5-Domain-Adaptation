@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 422,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:03:01.060499",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nPlan a 2 week Europe trip and visit London, Paris, and Rome. Answer in all caps. The response must contain at least 8 placeholders (i.e., [restaurant]).<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nPlan a 2 week Europe trip and visit London, Paris, and Rome. Answer in all caps. The response must contain at least 8 placeholders (i.e., [restaurant]).<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nSTART YOUR 2-WEEK EUROPEAN ADVENTURE IN LONDON ON DAY 1 BY BOOKING A TABLE AT [RESTAURANT] FOR DINNER. SPEND DAY 2 VISITING THE TOWER OF LONDON AND DAY 3 EXPLORING THE BRITISH MUSEUM. ON DAY 4, FLY TO PARIS AND CHECK INTO YOUR HOTEL AT [HOTEL NAME]. DAY 5 IS DEDICATED TO THE EIFFEL TOWER AND DAY 6 TO THE LOUVRE MUSEUM. ENJOY A COFFEE AT [CAFE] ON DAY 7 BEFORE FLYING TO ROME ON DAY 8. IN ROME, DAY 9 IS FOR THE COLOSSEUM AND DAY 10 FOR THE VATICAN. HAVE LUNCH AT [PASTA PLACE] ON DAY 11 AND DAY 12 IS FOR THE TREV Fountain. ON DAY 13, RELAX AT [SPA] AND ON DAY 14, FLY HOME FROM [AIRPORT CODE]. DON'T FORGET TO PACK YOUR [BAG TYPE] AND BRING YOUR [PASSPORT].<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:02:17.327221",
+            "call_duration": "0:00:43.732992",
+            "response": "START YOUR 2-WEEK EUROPEAN ADVENTURE IN LONDON ON DAY 1 BY BOOKING A TABLE AT [RESTAURANT] FOR DINNER. SPEND DAY 2 VISITING THE TOWER OF LONDON AND DAY 3 EXPLORING THE BRITISH MUSEUM. ON DAY 4, FLY TO PARIS AND CHECK INTO YOUR HOTEL AT [HOTEL NAME]. DAY 5 IS DEDICATED TO THE EIFFEL TOWER AND DAY 6 TO THE LOUVRE MUSEUM. ENJOY A COFFEE AT [CAFE] ON DAY 7 BEFORE FLYING TO ROME ON DAY 8. IN ROME, DAY 9 IS FOR THE COLOSSEUM AND DAY 10 FOR THE VATICAN. HAVE LUNCH AT [PASTA PLACE] ON DAY 11 AND DAY 12 IS FOR THE TREV Fountain. ON DAY 13, RELAX AT [SPA] AND ON DAY 14, FLY HOME FROM [AIRPORT CODE]. DON'T FORGET TO PACK YOUR [BAG TYPE] AND BRING YOUR [PASSPORT].||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

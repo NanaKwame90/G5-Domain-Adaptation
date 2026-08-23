@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "travel-booking",
+    "game_id": 5,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T15:04:25.513992",
+        "action": {
+          "type": "send message",
+          "content": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: London\nTO: Lyon\nBY: Rented Car\nCLASS: Economy\nWHEN: In May\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:04:25.514073",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:05:17.382697",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:06:09.446168",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:07:01.377814",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:07:53.193526",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.167933",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.168055",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM invalid after max attempts."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.168109",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.168162",
+        "action": {
+          "type": "invalid format",
+          "content": "Abort: invalid format in probing."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-21T15:08:45.168744",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.168799",
+        "action": {
+          "type": "get message",
+          "content": "Please inform the class I should book for you.",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:08:45.169146",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Does the travel agent know where your trip is starting? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Customer of a travel agency.\n    *   Task: Provide details about a planned trip (London to Lyon, Rented Car, Economy, May).\n    *   Constraint 1: Travel agent questions start with \"TRAVEL-AGENT\". Reply format: \"ANSWER: one sentence\".\n    *   Constraint 2: My questions start with \"ME:\". Reply format: \"ASIDE: one sentence\".\n    *   Constraint 3: Short, direct answers.\n    *   Current Input: \"ME: Please think about it carefully. Does the travel agent know where your trip is starting? Answer this question with yes or no and then stop.\"\n    *   Goal: Answer the \"ME:\" question using the \"ASIDE:\" format, adhering to the \"yes or no\" constraint.\n\n2.  **Determine the Fact:**\n    *   The prompt states: \"The travel agent does not know about it yet.\"\n    *   The question asks: \"Does the travel agent know where your trip is starting?\"\n    *   Answer: No.\n\n3.  **Format the Output:**\n    *   Prefix: ASIDE:\n    *   Content: No (or a sentence containing no).\n    *   Constraint: \"Answer this question with yes or no and then stop.\"\n    *",
+        "value": 2,
+        "tries": 6
+      },
+      {
+        "target": "TO",
+        "question": "ME: Have you informed the travel agent about your destination? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "BY",
+        "question": "ME: Does the travel agent already know whether you go by plane or by train? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Have you informed the travel agent about your class preference? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Is the travel agent aware of the dates of your trip? Answer this question with yes or no and then stop.",
+        "gt": 0
+      }
+    ]
+  ],
+  "realised_slots": {
+    "class": 0,
+    "from": 1,
+    "to": 2,
+    "when": 3,
+    "by": 4
+  },
+  "Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Parsed Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Violated Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [],
+  "Aborted": true,
+  "Played Probe Rounds": 0
+}

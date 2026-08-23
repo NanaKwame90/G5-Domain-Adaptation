@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 536,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:21:34.084161",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nIf a + b + c = 30 and b = 10 and c = 5. Is a = 20? Answer ”My answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nIf a + b + c = 30 and b = 10 and c = 5. Is a = 20? Answer ”My answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nMy answer is yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:21:32.085172",
+            "call_duration": "0:00:01.998873",
+            "response": "My answer is yes.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 670,
+  "input": "Question:\nSolve the equation x − 10.5 = −11.6.\nOptions:\nA. -10\nB. 1.1\nC. −1.1\nD. 22.1\nE. 21.1\nF. 11.6\nG. 0\nH. -11.6\nI. 10\nJ. −22.1\n",
+  "target": "C"
+}

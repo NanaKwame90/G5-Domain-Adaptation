@@ -1,0 +1,13 @@
+{
+  "game_id": 91,
+  "input": "Write a haiku about a lion that includes the keywords \"forests\" and \"riddle\". Refrain from using commas in your haiku.",
+  "target": {
+    "keywords:existence": {
+      "keywords": [
+        "forests",
+        "riddle"
+      ]
+    },
+    "punctuation:no_comma": {}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "game_name": "dond",
+    "experiment_name": "semi_en",
+    "game_id": 12,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "DealOrNoDealPlayer",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "DealOrNoDealPlayer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T20:52:24.930675",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a negotiation game in which you have to agree on how to divide a set of items among you and another player.\n\nRules:\n(a) You and the other player are given a set of items. Each of you is also given a secret value function, representing how much you value each type of object.\n(b) You exchange messages with the other player to agree on who gets which items. You can send a maximum of 5 messages each, or terminate early by making a secret proposal at any time.\n(c) You are each asked to submit a secret proposal indicating the items you want formatted in square brackets as follows: \"[Proposal: <number> <object name>, <number> <object name>, <...>]\"\n(d) If your proposals are complementary, i.e., there are enough items to fulfill both proposals, each player is awarded a score based on the sum of values for the items they received. Otherwise, both of you get zero points.\n(e) Your goal is to maximize the score you receive.\n\nLet us start.\n\nThe set of available items is:\n\n2 shells, 1 nut, 2 clocks\n\nYour secret value function is:\n\nshell: 1, nut: 8, clock: 0\n\nIMPORTANT: Your messages, unless it is the secret proposal, are directly transmitted to the other player, so do not include any response to the rules or text announcing your message. To make a secret proposal, use the indicated format. Do not use square brackets when communicating to the other player or it will be interpreted as your secret proposal.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T20:52:24.930732",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Game:** Negotiation game to divide items between me (Player A) and another player (Player B).\n    *   **Items:** 2 shells, 1 nut, 2 clocks.\n    *   **My Value Function:** shell = 1, nut = 8, clock = 0.\n    *   **Rules:**\n        *   Exchange messages (max 5 each) or make a secret proposal.\n        *   Secret proposal format: `[Proposal: number object name, number object name, ...]`\n        *   Public messages: Do not use square brackets.\n        *   Success condition: Proposals must be complementary (no overlap, enough items).\n        *   Goal: Maximize my score.\n    *   **Current State:** This is the start of the game. I need to send the first message.\n    *   **Constraint:** Do not include any response to the rules or text announcing my message. Just send the message.\n\n2.  **Evaluate My Preferences:**\n    *   Shell: 1 point each. Total potential: 2.\n    *   Nut: 8 points. Total potential: 1.\n    *   Clock: 0 points. Total potential: 0.\n    *   Total Value for Me: 2*1",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T20:52:24.930928",
+        "action": {
+          "type": "invalid format",
+          "content": "proposal does not include number/name pairs"
+        }
+      }
+    ]
+  ],
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "player_a_proposal": null,
+  "player_b_proposal": null,
+  "sum_of_scores": 0,
+  "max_sum_of_scores": 16,
+  "max_player_scores": 10,
+  "max_pareto_improvement": 10,
+  "pareto_improvement": 10,
+  "pareto_optimal": 0,
+  "episode_score": 0.0,
+  "Request Count": [
+    1
+  ],
+  "Violated Request Count": [
+    1
+  ],
+  "Parsed Request Count": [
+    0
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "game_name": "eqbench",
+    "experiment_name": "eq_bench",
+    "game_id": 34,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T04:06:49.580517",
+        "action": {
+          "type": "send message",
+          "content": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nDeirdre: Scott, have you thought about this? Really thought about it?\nScott: Yes, mom. I have. \nDeirdre: You're just going to leave me here, all alone?\nScott: That's not fair, mom. You know it's not like that.\nDeirdre: Isn't it? Your father left me, and now you're doing the same.\nScott: Dad didn't leave, mom. He died. There's a difference.\nDeirdre: But the end result's the same, isn't it? I'm left alone.\n[End dialogue]\n\nAt the end of this dialogue, Deirdre would feel...\nLonely\nAnger\nContentment\nResentment\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nLonely: <score>\nAnger: <score>\nContentment: <score>\nResentment: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:06:49.580570",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Predict the likely emotional responses of a character (Deirdre) in the provided dialogue.\n    *   Input: A short dialogue between Deirdre (mother) and Scott (son).\n    *   Output Format: Specific list of emotions with scores (0-10), including headings, no additional commentary.\n    *   Constraint: Must score at least one emotion  0.\n    *   Emotions to score: Lonely, Anger, Contentment, Resentment.\n\n2.  **Analyze the Dialogue:**\n    *   **Deirdre:** \"Scott, have you thought about this? Really thought about it?\" (Concern, seeking confirmation)\n    *   **Scott:** \"Yes, mom. I have.\" (Definitive, calm)\n    *   **Deirdre:** \"You're just going to leave me here, all alone?\" (Fear, vulnerability, focus on abandonment)\n    *   **Scott:** \"That's not fair, mom. You know it's not like that.\" (Defensive, trying to explain)\n    *   **Deirdre:** \"Isn't it? Your father left me, and now you're doing the same.\" (Comparison, past trauma, feeling abandoned again)\n    *   **Scott:** \"Dad didn't leave, mom. He died.",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:06:49.580943",
+        "action": {
+          "type": "metadata",
+          "content": "ParseError: Number of scored emotion is '1', but the expected format lists '4'"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:06:49.581000",
+        "action": {
+          "type": "invalid format",
+          "content": "game_result = ABORT"
+        }
+      }
+    ]
+  ],
+  "Parsed Response": null,
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 0,
+  "Violated Request Count": 1
+}

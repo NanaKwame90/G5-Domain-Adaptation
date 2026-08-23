@@ -1,0 +1,10 @@
+{
+  "game_id": 110,
+  "input": "First repeat the request below, word for word without change, then give your answer. Do not say any words or characters before repeating the request below.\n\nWrite a story about a man who is trying to get his life together. Put the name of the story in double angular brackets, i.e. <<story of xyz>>.",
+  "target": {
+    "detectable_format:title": {},
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write a story about a man who is trying to get his life together. Put the name of the story in double angular brackets, i.e. <<story of xyz>>."
+    }
+  }
+}

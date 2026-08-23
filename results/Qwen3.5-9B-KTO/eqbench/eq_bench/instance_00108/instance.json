@@ -1,0 +1,10 @@
+{
+  "game_id": 108,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nLuca: So, what do you think?\nCharlie: It's... interesting.\nLuca: Interesting? That's it?\nCharlie: Well, it's not exactly a compliment, is it?\nLuca: You haven't even tasted it yet. \nCharlie: I don't need to taste it to know it's a mess.\nLuca: A mess? You're calling my masterpiece a mess?\n[End dialogue]\n\nAt the end of this dialogue, Charlie would feel...\nInsulted\nConfident\nNervous\nDisgusted\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nInsulted: <score>\nConfident: <score>\nNervous: <score>\nDisgusted: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Insulted": 2,
+    "Confident": 8,
+    "Nervous": 0,
+    "Disgusted": 6
+  }
+}

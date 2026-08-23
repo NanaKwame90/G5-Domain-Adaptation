@@ -1,0 +1,5 @@
+{
+  "game_id": 349,
+  "input": "Question:\nA student sets up a Young's experiment using a sodium vapor lamp as a light source and placing his slits 1 m from a screen. He is unsure of the slit separation and, standing beside the slits, he varies the separation and finds the interference pattern vanishes if the slits are too far apart. If the angular resolution of his eye is 1 minute of arc, how far apart are the slits when he just cannot see the interference fringes ?\nOptions:\nA. 3.025 mm\nB. 3.525 mm\nC. 2.025 mm\nD. 2.525 mm\nE. 1.025 mm\nF. 2.225 mm\nG. 4.025 mm\nH. 0.525 mm\nI. 4.525 mm\nJ. 1.525 mm\n",
+  "target": "C"
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "medium_en",
+    "game_id": 18,
+    "player_name": "Player 1",
+    "game_role": "WordDescriber",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T13:51:00.794690",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\ngeorgia\n\nRelated words are:\n\n- state\n- country\n- atlanta\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\ngeorgia\n\nRelated words are:\n\n- state\n- country\n- atlanta\n\nImportant: You are under time pressure, give short descriptions that are to the point!<|im_end|>\n<|im_start|>assistant\n<think>\nThinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"georgia\"\n    *   Related Words (Forbidden): \"state\", \"country\", \"atlanta\".\n    *   Rules:\n        *   Reply format: `CLUE: <some text>`.\n        *   No target word or related words (or their variants) in the description.\n        *   Lose if I use forbidden words.\n        *   Win if user guesses in 3 tries.\n        *   Constraint: Short descriptions due to time pressure.\n\n2.  **Analyze the Target Word (\"georgia\"):**\n    *   It's a US state.\n    *   It's a country (in the Caucasus).\n    *   It's associated with Atlanta (capital of the US state).\n    *   It's associated with the Peach State.\n    *   It's associated with the Civil War (Confederacy).\n    *   It's associated with the movie \"Georgia\" (maybe too specific).\n    *   It's associated with the name \"George\" (common name).\n    *   It's associated with the letter 'G' (starts with G).\n    *   It's associated with the number 7 (7th state? No, 4th state? No.",
+          "clem_player": {
+            "call_start": "2026-07-30 13:50:07.680649",
+            "call_duration": "0:00:53.113770",
+            "response": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"georgia\"\n    *   Related Words (Forbidden): \"state\", \"country\", \"atlanta\".\n    *   Rules:\n        *   Reply format: `CLUE: some text`.\n        *   No target word or related words (or their variants) in the description.\n        *   Lose if I use forbidden words.\n        *   Win if user guesses in 3 tries.\n        *   Constraint: Short descriptions due to time pressure.\n\n2.  **Analyze the Target Word (\"georgia\"):**\n    *   It's a US state.\n    *   It's a country (in the Caucasus).\n    *   It's associated with Atlanta (capital of the US state).\n    *   It's associated with the Peach State.\n    *   It's associated with the Civil War (Confederacy).\n    *   It's associated with the movie \"Georgia\" (maybe too specific).\n    *   It's associated with the name \"George\" (common name).\n    *   It's associated with the letter 'G' (starts with G).\n    *   It's associated with the number 7 (7th state? No, 4th state? No.",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

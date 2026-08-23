@@ -1,0 +1,5 @@
+{
+  "game_id": 909,
+  "input": "Question:\nThe amount of paint that David needs to cover a cube is directly proportional to the surface area. If David can completely cover a cube of side length 2 feet with exactly 16 quarts of paint, how big a cube (in terms of edge length in feet) can David cover with 169 quarts of paint?\nOptions:\nA. \\frac{13}{4}\nB. \\frac{13}{2}\nC. 16\nD. 26\nE. 13\nF. \\frac{13}{8}\nG. 8\nH. \\frac{26}{3}\nI. \\frac{8}{13}\nJ. 169\n",
+  "target": "B"
+}

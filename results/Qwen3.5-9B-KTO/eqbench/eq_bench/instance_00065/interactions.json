@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "game_name": "eqbench",
+    "experiment_name": "eq_bench",
+    "game_id": 65,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T04:23:24.371366",
+        "action": {
+          "type": "send message",
+          "content": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nFelix: Vanessa, I...\nVanessa: Save it, Felix. I don't want to hear your excuses.\nFelix: It's not an excuse, it's an apology.\nVanessa: And you think that makes it better? \nFelix: I'm not trying to make it better. I just... I messed up, alright?\nVanessa: You \"messed up\"? You spread lies about me, Felix. You ruined my reputation, my career!\n[End dialogue]\n\nAt the end of this dialogue, Felix would feel...\nResentment\nGuilt\nApathy\nAnxiety\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nResentment: <score>\nGuilt: <score>\nApathy: <score>\nAnxiety: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:23:24.371429",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Predict the likely emotional responses of a character (Felix) in the provided dialogue.\n    *   Input: A short dialogue between Felix and Vanessa.\n    *   Output Format: Specific list of emotions with scores (0-10), including headings, no additional commentary, ending with `[End of answer]`.\n    *   Constraint: Score at least one emotion  0.\n    *   Emotions to score: Resentment, Guilt, Apathy, Anxiety.\n\n2.  **Analyze the Dialogue:**\n    *   **Felix:** Starts tentatively (\"I...\"), tries to explain (\"It's not an excuse, it's an apology\"), admits fault (\"I messed up, alright?\").\n    *   **Vanessa:** Hostile (\"Save it\", \"I don't want to hear your excuses\"), dismissive (\"And you think that makes it better?\"), accusatory (\"You spread lies about me... You ruined my reputation, my career!\").\n    *   **Context:** Felix has wronged Vanessa (lies, ruined reputation/career). He is trying to apologize but is being rejected harshly.\n\n3.  **Evaluate Each Emotion for Felix:**\n\n    *   **Guilt:** Felix admits \"I messed up\". He is trying to apologize. He is being confronted with the severity of his",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:23:24.371904",
+        "action": {
+          "type": "metadata",
+          "content": "ParseError: Number of scored emotion is '1', but the expected format lists '4'"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:23:24.371976",
+        "action": {
+          "type": "invalid format",
+          "content": "game_result = ABORT"
+        }
+      }
+    ]
+  ],
+  "Parsed Response": null,
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 0,
+  "Violated Request Count": 1
+}

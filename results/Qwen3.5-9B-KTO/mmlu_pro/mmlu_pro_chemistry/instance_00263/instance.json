@@ -1,0 +1,5 @@
+{
+  "game_id": 263,
+  "input": "Question:\nCalculate the number of electrons that can be removed from metallic cesium with the energy required to remove one electron from an isolated cesium atom. Assume the following: the ionization potential of Cs = 3.89eV, h = 6.63 × 10^-34 J sec, and Cs metal is sensitive to red light of 700 nm.\nOptions:\nA. 1\nB. 7\nC. 4\nD. 3\nE. 6\nF. 2\nG. 9\nH. 8\nI. 5\nJ. 10\n",
+  "target": "F"
+}

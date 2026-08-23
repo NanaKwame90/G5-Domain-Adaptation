@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "game_name": "mm_mapworld_specificroom",
+    "experiment_name": "close",
+    "game_id": 5,
+    "player_name": "Player 1",
+    "game_role": "PathDescriber",
+    "model_name": "programmatic",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-21T09:58:21.935892",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"start\": [0, 2], \"size\": 8, \"game\": \"mm_mapworld_specificroom\"}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Please help me with the following task. The goal is to explore rooms and find target room. In each room I will show you an image of the room and tell you in what directions we can go from there. You then give me a description of the room you see in exactly one sentence. Please give your answer in the following format: \"{\"description\": \"<room description>\", \"action\": \"<action>\"}\". To move to a neighboring room, replace <action> with \"GO: DIRECTION\" where DIRECTION can be one of [north, south, east, west]. Most importantly, once we have found the target room, replace <action> with \"DONE\" instead. Omit any other text.\nHere is an example:\nThe target room is a bathroom.\nWe have made a step and are now in this room. From here we can go: north, west. What is your next instruction?\n{\"description\": \"We are in a kitchen with a red fridge.\", \"action\": \"GO: north\"}\nWe have made a step and are now in this room. From here we can go: south, east. What is your next instruction?\n{\"description\": \"We are in a living room with a couch and a tv.\", \"action\": \"GO: east\"}\n...\nWe have made a step and are now in this room. From here we can go: south, east. What is your next instruction?\n{\"description\": \"We are in a bathroom, there is a shower and a sink\", \"action\": \"DONE\"}\nLet us start. The target room is a doorway\nWe are now in this room. From here we can go: east. What is your next instruction?\n",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

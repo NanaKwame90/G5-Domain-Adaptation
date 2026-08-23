@@ -1,0 +1,11 @@
+{
+  "game_id": 146,
+  "input": "Hallucinate a resume for a glass artist in Adelaide. Make sure the resume is in English and all lowercase. The resume should have at least 800 words.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 800
+    },
+    "change_case:english_lowercase": {}
+  }
+}

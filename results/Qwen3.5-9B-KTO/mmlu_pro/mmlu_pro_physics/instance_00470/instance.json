@@ -1,0 +1,5 @@
+{
+  "game_id": 470,
+  "input": "Question:\nA 100 g block of copper (s_cu= .095) is heated to 95°C and is then plunged quickly into 1000 g of water at 20° C in a copper container whose mass is 700 g. It is stirred with a copper paddle of mass 50 g until the temperature of the water rises to a steady final value. What is the final temperature?\nOptions:\nA. 23.3°C\nB. 26.1°C\nC. 25.9°C\nD. 20.6°C\nE. 17.5°C\nF. 24.7°C\nG. 21.4°C\nH. 22.5°C\nI. 18.2°C\nJ. 19.8°C\n",
+  "target": "D"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 390,
+  "input": "Question:\nThere is an appreciative sigh throughout the audience in the \"mad\\textquotedblright scene of \"LuciadiLammermoor\", when the soprano hits high C. On the musical scale, high C has a frequency of 1,024 sec-^1 . Assuming the velocity of sound in air is 3.317 × 10^4 cmsec-^1 , compute the wavelength of the high C sound wave.\nOptions:\nA. 12.14 cm\nB. 40.96 cm\nC. 24.29 cm\nD. 8.59 cm\nE. 81.92 cm\nF. 32.39 cm\nG. 64.78 cm\nH. 48.59 cm\nI. 97.18 cm\nJ. 16.19 cm\n",
+  "target": "F"
+}

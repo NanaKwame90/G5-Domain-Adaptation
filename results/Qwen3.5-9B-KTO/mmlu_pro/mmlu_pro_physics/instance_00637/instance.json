@@ -1,0 +1,5 @@
+{
+  "game_id": 637,
+  "input": "Question:\nThe first five harmonics produced by an organ pipe open at both ends are 50 Hz, 100 Hz, 150 Hz, 200 Hz, and 250 Hz. Which of the harmonics, if any, will survive once the pipe is closed at one end?\nOptions:\nA. All harmonics will survive\nB. 75 Hz, 150 Hz, and 225 Hz only\nC. 100 Hz and 200 Hz only\nD. 50 Hz, 100 Hz, 200 Hz, and 250 Hz\nE. nan\nF. 150 Hz and 250 Hz only\nG. 50 Hz and 100 Hz only\nH. No harmonics will survive\nI. 200 Hz only\nJ. 50 Hz, 150 Hz, and 250 Hz only\n",
+  "target": "E"
+}

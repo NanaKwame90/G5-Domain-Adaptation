@@ -1,0 +1,16 @@
+{
+  "game_id": 438,
+  "input": "What is an SRE? Use only Korean in your response and provide a title wrapped in double angular brackets, such as <<SRE>>. Use the keywords 'indicator', 'objective' and 'management'.",
+  "target": {
+    "language:response_language": {
+      "language": "ko"
+    },
+    "detectable_format:title": {},
+    "keywords:existence": {
+      "keywords": [
+        "indicator",
+        "management"
+      ]
+    }
+  }
+}

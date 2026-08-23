@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "medium_en",
+    "game_id": 12,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "WordDescriber",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "WordGuesser",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T13:45:41.954724",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\ndemographic\n\nRelated words are:\n\n- people\n- group\n- statistic\n\nImportant: You are under time pressure, give short descriptions that are to the point!",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:45:41.954789",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Game: Collaborative word guessing (I describe, user guesses).\n    *   Target Word: \"demographic\"\n    *   Related Words (Forbidden): \"people\", \"group\", \"statistic\" (and their variants).\n    *   Constraint: Cannot use target word or related words (or their parts/morphological variants) in the description.\n    *   Format: \"CLUE: some text\".\n    *   Goal: Help the user guess within 3 tries.\n    *   Tone: Short, to the point (time pressure).\n\n2.  **Analyze the Target Word (\"demographic\"):**\n    *   Meaning: Statistical data relating to the population and particular groups within it (age, sex, income, etc.).\n    *   Context: Often used in marketing, sociology, government reports.\n    *   Synonyms/Associations: Population, census, survey, data, numbers, age, gender, market, segment, profile.\n    *   Forbidden Words: \"people\", \"group\", \"statistic\" (and variants like \"statistics\", \"demographics\", \"demography\", \"people's\", \"group's\", \"statistical\").\n\n3.  **Drafting Clues:**\n    *   *Attempt 1:* CLUE: It describes population data. (Too close to \"people\"",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:45:41.954874",
+        "action": {
+          "type": "invalid format",
+          "content": "abort game"
+        }
+      }
+    ]
+  ]
+}

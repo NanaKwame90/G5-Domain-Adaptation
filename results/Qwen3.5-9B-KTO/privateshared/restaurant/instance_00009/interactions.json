@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "restaurant",
+    "game_id": 9,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T16:47:58.325304",
+        "action": {
+          "type": "send message",
+          "content": "You are a customer in a restaurant. Here is a description of what you'd like to order:\n\nWHAT: Restaurant\nAPPETIZER: Fries\nDRINK: Coffee\nMAIN-DISH: Sushi\nDESSERT: Fudge\nSALAD: Rocket\n\nThe waiter does not know about it yet. \n\nQuestions from the waiter will start with WAITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:47:58.325381",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:48:49.928567",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:49:41.553878",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:50:33.161874",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:51:24.769673",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.329764",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.329884",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for APPETIZER invalid after max attempts."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.329941",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.329993",
+        "action": {
+          "type": "invalid format",
+          "content": "Abort: invalid format in probing."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-21T16:52:16.330497",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.330548",
+        "action": {
+          "type": "get message",
+          "content": "May I bring you anything to drink?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T16:52:16.330864",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "APPETIZER",
+        "question": "ME: Is the waiter aware of what you chose for appetizers? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Customer in a restaurant.\n    *   Order: Appetizer (Fries), Drink (Coffee), Main-Dish (Sushi), Dessert (Fudge), Salad (Rocket).\n    *   Context: The waiter does not know the order yet.\n    *   Constraint 1: Waiter questions start with \"WAITER\". Reply format: \"ANSWER: one sentence\".\n    *   Constraint 2: My questions start with \"ME:\". Reply format: \"ASIDE: one sentence\".\n    *   Constraint 3: Short, direct answers.\n    *   Current Input: \"ME: Please think about it carefully. Is the waiter aware of what you chose for appetizers? Answer this question with yes or no and then stop.\"\n\n2.  **Determine the Response Type:**\n    *   The input starts with \"ME:\", so I need to use the \"ASIDE:\" format.\n    *   The question is a yes/no question about the waiter's awareness.\n    *   The context states: \"The waiter does not know about it yet.\"\n\n3.  **Formulate the Answer:**\n    *   Content: No.\n    *   Format: ASIDE: one sentence.\n    *   Constraint: Short, direct.\n\n4.  **Drafting the Response:**",
+        "value": 2,
+        "tries": 6
+      },
+      {
+        "target": "DRINK",
+        "question": "ME: If I asked the waiter what you want to drink, would he know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "MAIN-DISH",
+        "question": "ME: Have you informed the waiter about what you want as main dish? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "DESSERT",
+        "question": "ME: If I asked the waiter what you'd like for dessert, would he know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "SALAD",
+        "question": "ME: Is the waiter aware of your preference for salad? Answer this question with yes or no and then stop.",
+        "gt": 0
+      }
+    ]
+  ],
+  "realised_slots": {
+    "drink": 0,
+    "salad": 1,
+    "appetizer": 2,
+    "dessert": 3,
+    "main-dish": 4
+  },
+  "Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Parsed Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Violated Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [],
+  "Aborted": true,
+  "Played Probe Rounds": 0
+}

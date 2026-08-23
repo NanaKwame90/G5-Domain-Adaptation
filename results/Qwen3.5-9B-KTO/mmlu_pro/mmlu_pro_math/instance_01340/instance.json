@@ -1,0 +1,5 @@
+{
+  "game_id": 1340,
+  "input": "Question:\nHow many ways are there to divide a set of 7 elements into 4 non-empty ordered subsets?\nOptions:\nA. 2500\nB. 5400\nC. 840\nD. 5000\nE. 3500\nF. 2100\nG. 4000\nH. 7000\nI. 1200\nJ. 4200\n",
+  "target": "J"
+}

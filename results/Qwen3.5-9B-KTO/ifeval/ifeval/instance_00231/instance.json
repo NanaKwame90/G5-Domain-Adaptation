@@ -1,0 +1,11 @@
+{
+  "game_id": 231,
+  "input": "Write a freestyle rap about the president of the united states. The letter q should show up at least 4 times.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "at least",
+      "letter": "q",
+      "let_frequency": 4
+    }
+  }
+}

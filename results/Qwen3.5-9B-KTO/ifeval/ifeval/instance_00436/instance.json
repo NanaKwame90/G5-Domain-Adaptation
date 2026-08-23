@@ -1,0 +1,19 @@
+{
+  "game_id": 436,
+  "input": "First repeat the request below word for word without change, then give your answer. Do not say any words or characters before repeating the request.\n\nWrite an essay about how the current economic crisis is affecting the environment. In your essay, include the keywords: \"climate\", \"energy\", and \"green\". Make sure your entire response is in Hindi, no other language is allowed.",
+  "target": {
+    "language:response_language": {
+      "language": "hi"
+    },
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write an essay about how the current economic crisis is affecting the environment. In your essay, include the keywords: \"climate\", \"energy\", and \"green\". Make sure your entire response is in Hindi, no other language is allowed."
+    },
+    "keywords:existence": {
+      "keywords": [
+        "climate",
+        "energy",
+        "green"
+      ]
+    }
+  }
+}

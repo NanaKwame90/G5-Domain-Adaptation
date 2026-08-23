@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 46,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:41:35.775414",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite me a template for a product description in the form of a poem and end it with a post script starting with P.P.S<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite me a template for a product description in the form of a poem and end it with a post script starting with P.P.S<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n**The Canvas of Your Dreams**\n\nBehold the vessel, sleek and bright,\nDesigned to turn the darkest night\nInto a dawn of golden hue,\nWith every feature made anew.\n\nNo heavy weight to slow your stride,\nNo rust to mar the polished side.\nIt fits your hand like glove and skin,\nA masterpiece where function begins.\n\nFrom morning's first to evening's last,\nIt stands as guardian, built to last.\nWith power deep and silence true,\nIt does exactly what you do.\n\nSo let the old and broken fade,\nAnd claim this gift that you have made.\nA tool for life, a friend to keep,\nThe finest promise that you'll reap.\n\nP.P.S. Don't forget to check the limited-time offer before the sun sets low!<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:41:04.148453",
+            "call_duration": "0:00:31.626619",
+            "response": "**The Canvas of Your Dreams**\n\nBehold the vessel, sleek and bright,\nDesigned to turn the darkest night\nInto a dawn of golden hue,\nWith every feature made anew.\n\nNo heavy weight to slow your stride,\nNo rust to mar the polished side.\nIt fits your hand like glove and skin,\nA masterpiece where function begins.\n\nFrom morning's first to evening's last,\nIt stands as guardian, built to last.\nWith power deep and silence true,\nIt does exactly what you do.\n\nSo let the old and broken fade,\nAnd claim this gift that you have made.\nA tool for life, a friend to keep,\nThe finest promise that you'll reap.\n\nP.P.S. Don't forget to check the limited-time offer before the sun sets low!||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

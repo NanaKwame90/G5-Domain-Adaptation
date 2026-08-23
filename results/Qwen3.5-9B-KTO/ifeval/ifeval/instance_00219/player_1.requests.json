@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 219,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:26:26.167975",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nI am a clutches sales specialist with 10 years of experience working in the automotive industry. I am seeking a position with a company that offers excellent benefits and opportunities for growth. Can you please write a two paragraph story about me? Make sure that the first paragraph starts with the word \"realising\" and that each paragraph is separated by two new lines.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nI am a clutches sales specialist with 10 years of experience working in the automotive industry. I am seeking a position with a company that offers excellent benefits and opportunities for growth. Can you please write a two paragraph story about me? Make sure that the first paragraph starts with the word \"realising\" and that each paragraph is separated by two new lines.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nrealising that a decade of dedicated service in the automotive industry had equipped me with a unique mastery of clutch systems, I stepped forward with a renewed sense of purpose. My ten years as a clutch sales specialist have been defined by an unwavering commitment to understanding the intricate mechanics behind every vehicle, allowing me to translate complex technical specifications into compelling value propositions for clients. This deep expertise has not only built a robust network of satisfied customers but also honed my ability to navigate the competitive landscape with confidence and strategic insight.\n\nNow, I am eager to bring this wealth of experience to a forward-thinking company that prioritizes employee well-being and fosters a culture of continuous development. I am seeking a role where I can leverage my extensive background to drive revenue while simultaneously unlocking new opportunities for professional growth within a supportive environment. By joining an organization that offers excellent benefits and a clear path for advancement, I aim to contribute to long-term success while building a career that aligns with my personal and professional aspirations.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:25:48.926277",
+            "call_duration": "0:00:37.241403",
+            "response": "realising that a decade of dedicated service in the automotive industry had equipped me with a unique mastery of clutch systems, I stepped forward with a renewed sense of purpose. My ten years as a clutch sales specialist have been defined by an unwavering commitment to understanding the intricate mechanics behind every vehicle, allowing me to translate complex technical specifications into compelling value propositions for clients. This deep expertise has not only built a robust network of satisfied customers but also honed my ability to navigate the competitive landscape with confidence and strategic insight.\n\nNow, I am eager to bring this wealth of experience to a forward-thinking company that prioritizes employee well-being and fosters a culture of continuous development. I am seeking a role where I can leverage my extensive background to drive revenue while simultaneously unlocking new opportunities for professional growth within a supportive environment. By joining an organization that offers excellent benefits and a clear path for advancement, I aim to contribute to long-term success while building a career that aligns with my personal and professional aspirations.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "game_id": 109,
+  "input": "Compose a poem all in lowercase letters about my friend Barnet.",
+  "target": {
+    "change_case:english_lowercase": {}
+  }
+}

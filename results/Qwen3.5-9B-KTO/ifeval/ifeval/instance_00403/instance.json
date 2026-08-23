@@ -1,0 +1,11 @@
+{
+  "game_id": 403,
+  "input": "Write a short fiction about adulthood. Make sure the word cousins appears more than 2 times.",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "cousins",
+      "frequency": 3
+    }
+  }
+}

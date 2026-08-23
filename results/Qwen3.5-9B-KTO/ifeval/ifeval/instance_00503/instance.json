@@ -1,0 +1,7 @@
+{
+  "game_id": 503,
+  "input": "Come up with 3 names for a 2B software company. Make sure your names are in English and all capital letters.",
+  "target": {
+    "change_case:english_capital": {}
+  }
+}

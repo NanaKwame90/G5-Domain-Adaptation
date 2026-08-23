@@ -1,0 +1,5 @@
+{
+  "game_id": 922,
+  "input": "Question:\nCalculate the kinetic energy of an automobile weighing 2000 pounds and moving at a speed of 50 miles per hour. Record your answer in (a) Joules and (b) ergs.\nOptions:\nA. 3.0 × 10^5 Joules, 3.0 × 10^12 ergs\nB. 2.5 × 10^5 Joules, 2.5 × 10^12 ergs\nC. 2.0 × 10^5 Joules, 2.0 × 10^12 ergs\nD. 1.8 × 10^5 Joules, 1.8 × 10^12 ergs\nE. 3.56 × 10^5 Joules, 3.56 × 10^12 ergs\nF. 1.5 × 10^5 Joules, 1.5 × 10^12 ergs\nG. 2.27 × 10^5 Joules, 2.27 × 10^12 ergs\nH. 4.5 × 10^5 Joules, 4.5 × 10^12 ergs\nI. 3.2 × 10^5 Joules, 3.2 × 10^12 ergs\nJ. 1.0 × 10^5 Joules, 1.0 × 10^12 ergs\n",
+  "target": "G"
+}

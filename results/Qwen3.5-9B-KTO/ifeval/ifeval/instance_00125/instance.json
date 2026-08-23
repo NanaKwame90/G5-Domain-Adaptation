@@ -1,0 +1,9 @@
+{
+  "game_id": 125,
+  "input": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nFirst repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible."
+    }
+  }
+}

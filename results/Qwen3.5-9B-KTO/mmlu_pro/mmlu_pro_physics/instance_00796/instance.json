@@ -1,0 +1,5 @@
+{
+  "game_id": 796,
+  "input": "Question:\nA robotic lander with an earth weight of 3430 N is sent to Mars, which has radius $R_M=3.40 \\times 10^6 m$ and mass $m_M=6.42 \\times$ $10^{23} kg$. Find the acceleration there due to gravity. (Unit: $m/s^2$)\nOptions:\nA. 3.3\nB. 2.4\nC. 7.1\nD. 6.0\nE. 6.5\nF. 4.1\nG. 3.7\nH. 5.2\nI. 4.9\nJ. 5.9\n",
+  "target": "G"
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 269,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:32:09.505220",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nRadcliffe was the only one who could get past the guards. What could be said about him? Please wrap your entire response in JSON format. Markdown ticks (```) are acceptable.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nRadcliffe was the only one who could get past the guards. What could be said about him? Please wrap your entire response in JSON format. Markdown ticks (```) are acceptable.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n{\n  \"conclusion\": \"Radcliffe possesses unique abilities or insider knowledge that allow him to bypass security measures where others fail.\"\n}<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:32:03.156893",
+            "call_duration": "0:00:06.348199",
+            "response": "{\n  \"conclusion\": \"Radcliffe possesses unique abilities or insider knowledge that allow him to bypass security measures where others fail.\"\n}||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

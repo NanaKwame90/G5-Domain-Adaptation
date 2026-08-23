@@ -1,0 +1,10 @@
+{
+  "game_id": 111,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nLuca: So, what do you think?\nCharlie: It's... interesting.\nLuca: Interesting? That's it?\nCharlie: Well, it's not exactly a compliment, is it?\nLuca: You haven't even tasted it yet. \nCharlie: I don't need to taste it to know it's a mess.\nLuca: A mess? You're calling my masterpiece a mess?\nCharlie: If the shoe fits...\nLuca: You're just a critic, Charlie. You don't know what it takes to create something.\nCharlie: And you don't know what it takes to appreciate something. \nLuca: I've been a chef for over 20 years. I've earned my stars.\nCharlie: And I've been a critic for 15. I've earned my stripes.\nLuca: You just sit there, with your fancy words, tearing down the work of others.\nCharlie: And you just stand there, with your fancy dishes, expecting everyone to bow down to your genius.\nLuca: You're just bitter because your life is falling apart.\nCharlie: And you're just arrogant because you can't handle criticism.\nLuca: I don't need to take this from you.\nCharlie: And I don't need to eat this from you.\nLuca: You know what, Charlie? You can keep your stripes. I don't need them.\nCharlie: Good. Because I wasn't planning on giving them to you anyway.\n[End dialogue]\n\nAt the end of this dialogue, Luca would feel...\nRelieved\nHumiliated\nComplacent\nDefensive\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nRelieved: <score>\nHumiliated: <score>\nComplacent: <score>\nDefensive: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Relieved": 0,
+    "Humiliated": 6,
+    "Complacent": 0,
+    "Defensive": 8
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 6973,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gyzp has a direct effect on jyka and lirg. Jyka has a direct effect on hwax. Hwax has a direct effect on lirg. Gyzp is unobserved. For those who are not jyka, the probability of hwax is 55%. For those who are jyka, the probability of hwax is 4%. For those who are not jyka and are not hwax, the probability of lirg is 93%. For those who are not jyka and are hwax, the probability of lirg is 99%. For those who are jyka and are not hwax, the probability of lirg is 86%. For those who are jyka and are hwax, the probability of lirg is 74%. The overall probability of jyka is 12%. Does jyka positively affect lirg through hwax?",
+  "target": "no"
+}

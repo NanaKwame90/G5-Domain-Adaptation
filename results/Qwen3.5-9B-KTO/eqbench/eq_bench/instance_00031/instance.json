@@ -1,0 +1,10 @@
+{
+  "game_id": 31,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nBrenda: So, you thought it was a good idea to turn our home into a nightclub?\nTessa: It wasn't a nightclub, Mom. Just a few friends hanging out.\nBrenda: Hanging out? The neighbors called the police, Tessa!\nTessa: Maybe if you weren't so uptight, they wouldn't have to.\nBrenda: This is not about me being uptight. This is about you respecting our home.\nTessa: Our home? Or your home?\n[End dialogue]\n\nAt the end of this dialogue, Brenda would feel...\nDefensive\nAnger\nSurprise\nBetrayal\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nDefensive: <score>\nAnger: <score>\nSurprise: <score>\nBetrayal: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Defensive": 7,
+    "Anger": 9,
+    "Surprise": 0,
+    "Betrayal": 6
+  }
+}

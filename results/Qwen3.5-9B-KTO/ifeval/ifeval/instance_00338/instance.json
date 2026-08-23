@@ -1,0 +1,10 @@
+{
+  "game_id": 338,
+  "input": "Can you provide me with the timetable for the next train to London? Please respond in less than 6 sentences.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 6
+    }
+  }
+}

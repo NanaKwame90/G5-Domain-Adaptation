@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 121,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T19:53:58.468024",
+        "action": {
+          "type": "send message",
+          "content": "Write a cover letter for a job at a local coffee shop in the form of a poem. Highlight at least 5 text sections using \"*\". For example: *3 years of experience*.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:53:58.468086",
+        "action": {
+          "type": "get message",
+          "content": "To the Barista Who Keeps the Roast Alive,\n\nI write this verse to apply for your crew,\nWith a heart that beats to the morning brew.\nThough I may not know the exact grind size,\nI bring a passion that will never cease.\n\n*3 years of experience* in serving smiles,\nIs something I offer, not just for miles.\nI know how to steam milk with a gentle hand,\nAnd keep the espresso machine from standing.\n\nMy *attention to detail* is sharp and keen,\nI'll ensure every cup is perfectly clean.\nFrom wiping down counters to polishing rings,\nI'll make your busy shop feel like a spring.\n\nI understand that *customer service* is key,\nTo making every guest feel free.\nI'll listen to their orders with a warm, bright eye,\nAnd watch the coffee steam rise to the sky.\n\nEven when the rush is loud and fast,\nI'll keep my cool and do my best.\nWith *positive energy* that I will share,\nI'll make your coffee shop a place to care.\n\nSo let me pour my heart into this line,\nAnd hope I can be part of your design.\nI'm ready to start my shift today,\nAnd help you serve the best way.\n\nSincerely,\n\nA Future Barista||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:53:58.468162",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:number_highlighted_sections": {
+              "num_highlights": 5
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T19:53:58.468381",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

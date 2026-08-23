@@ -1,0 +1,7 @@
+{
+  "game_id": 269,
+  "input": "Radcliffe was the only one who could get past the guards. What could be said about him? Please wrap your entire response in JSON format. Markdown ticks (```) are acceptable.",
+  "target": {
+    "detectable_format:json_format": {}
+  }
+}

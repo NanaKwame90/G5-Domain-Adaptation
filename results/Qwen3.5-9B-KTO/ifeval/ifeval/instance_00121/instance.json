@@ -1,0 +1,9 @@
+{
+  "game_id": 121,
+  "input": "Write a cover letter for a job at a local coffee shop in the form of a poem. Highlight at least 5 text sections using \"*\". For example: *3 years of experience*.",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 5
+    }
+  }
+}

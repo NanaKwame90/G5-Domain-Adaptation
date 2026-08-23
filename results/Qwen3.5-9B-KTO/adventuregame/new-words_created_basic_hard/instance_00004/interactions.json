@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_created_basic_hard",
+    "game_id": 4,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:40:36.868673",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can iscad, eriat, ovesis, mingne, setral and lepht.\n\nYour goal for this game is: Make the strood aphistic, the aciong dolam and the swaiced ailly.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a encal now. There are a oming, a inchan, a strood, a aciong, a eucty and a perent. There is a passage to a stful here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:40:36.868754",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** Text adventure game player.\n    *   **Input:** I receive descriptions of the current state/perception.\n    *   **Output:** A single action starting with ``.\n    *   **Constraint:** Only reply with an action (e.g., ` open cupboard`).\n    *   **Special Commands:** `iscad`, `eriat`, `ovesis`, `mingne`, `setral`, `lepht` (these seem to be scrambled or specific game commands, likely related to the goal).\n    *   **Goal:** \"Make the strood aphistic, the aciong dolam and the swaiced ailly.\" (This is also scrambled/gibberish, but I need to interpret it based on the context of the room).\n    *   **Current State:** \"You are in a encal now. There are a oming, a inchan, a strood, a aciong, a eucty and a perent. There is a passage to a stful here.\"\n    *   **Interpretation of Scrambled Text:**\n        *   \"encal\" - \"cell\"? \"hall\"? \"cave\"?\n        *   \"oming\" - \"omming\"? \"coming\"? \"lamp\"? \"bomb\"?\n        *   \"inchan\" - \"inch\"? \"",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:40:36.868821",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:40:36.868909",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:40:36.868991",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 6,
+    "goal_count": 3
+  }
+}

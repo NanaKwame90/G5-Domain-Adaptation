@@ -1,0 +1,11 @@
+{
+  "game_id": 229,
+  "input": "Write exactly 4 paragraphs about tips for installing a car seat for moms. Use 2 new lines to separate paragraphs. Start the 4th paragraph with the word \"elm\".",
+  "target": {
+    "length_constraints:nth_paragraph_first_word": {
+      "num_paragraphs": 4,
+      "first_word": "elm",
+      "nth_paragraph": 4
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "game_id": 106,
+  "input": "Criticize this sentence in a funny way: \"Nhiệm vụ của mẹ là nuôi dạy con cái.\"\n\nProvide exactly two critiques separated by ******. Each response should be entirely in Vietnamese, no other language is allowed, and should not contain commas.",
+  "target": {
+    "combination:two_responses": {},
+    "language:response_language": {
+      "language": "vi"
+    },
+    "punctuation:no_comma": {}
+  }
+}

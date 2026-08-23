@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 483,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T21:11:10.090575",
+        "action": {
+          "type": "send message",
+          "content": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas.\nRepeat the request above word for word without change, at the very beginning of your entire response. After that, you can give the requested pros and cons list.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:11:10.090642",
+        "action": {
+          "type": "get message",
+          "content": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas.\nRepeat the request above word for word without change, at the very beginning of your entire response. After that, you can give the requested pros and cons list.\n\n**Pros**\n*   The craftsmanship shines with a luster that rivals fine porcelain\n*   One finds a seamless harmony between hardware and software\n*   The resale value remains high like a well-kept estate\n*   Privacy is guarded with the vigilance of a loyal butler\n*   The ecosystem binds devices together in a most convenient fashion\n\n**Cons**\n*   The price tag often exceeds the means of a modest household\n*   Repair costs are steep and require the aid of authorized masters\n*   Proprietary locks prevent the user from installing third party tools\n*   The learning curve may bewilder those accustomed to simpler machines\n*   Software updates sometimes arrive with bugs that disrupt daily work||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:11:10.090722",
+        "action": {
+          "type": "target",
+          "content": {
+            "punctuation:no_comma": {},
+            "combination:repeat_prompt": {
+              "prompt_to_repeat": "Write a pros and cons list of apple products in the style of a 19th century novelist and do not use any commas."
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:11:10.090893",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

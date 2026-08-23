@@ -1,0 +1,9 @@
+{
+  "game_id": 129,
+  "input": "Generate a business proposal to start a sweatshirt company in Bremen. The proposal should contain 5 or more sections. Highlight each section name using the this format:\n*section name*",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 5
+    }
+  }
+}

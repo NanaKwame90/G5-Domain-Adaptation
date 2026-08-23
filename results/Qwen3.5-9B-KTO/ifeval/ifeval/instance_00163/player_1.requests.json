@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 163,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:16:03.684416",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a song about being excited to go on vacation, without using the letter e whatsoever in your entire response. Separate your song into 3 parts, where each part is separated with ***.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a song about being excited to go on vacation, without using the letter e whatsoever in your entire response. Separate your song into 3 parts, where each part is separated with ***.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nSun shines bright, sky turns blue.\nPack my bag, I'm ready too.\nCars roar loud, we start to go.\nLeaves are green, the wind blows low.\n\n***\n\nBeach is wide, sand is white.\nSalt air feels so pure and light.\nWaves crash down, a joyful sound.\nBest day ever, best ground found.\n\n***\n\nSleep well now, dream of fun.\nSummer heat has just begun.\nNo more work, no more stress.\nThis trip is pure, this trip is blessed.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:15:41.549091",
+            "call_duration": "0:00:22.135101",
+            "response": "Sun shines bright, sky turns blue.\nPack my bag, I'm ready too.\nCars roar loud, we start to go.\nLeaves are green, the wind blows low.\n\n***\n\nBeach is wide, sand is white.\nSalt air feels so pure and light.\nWaves crash down, a joyful sound.\nBest day ever, best ground found.\n\n***\n\nSleep well now, dream of fun.\nSummer heat has just begun.\nNo more work, no more stress.\nThis trip is pure, this trip is blessed.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "game_id": 181,
+  "input": "What are some startup ideas that could help improve the lives of people in developing regions? Make sure your response is in English and only use lowercase letters. Your response should contain less than 20 sentences.",
+  "target": {
+    "change_case:english_lowercase": {},
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 20
+    }
+  }
+}

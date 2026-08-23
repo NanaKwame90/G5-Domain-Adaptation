@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_home-delivery_medium_basic_medium",
+    "game_id": 3,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T14:31:19.868916",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can ortid, enerk and alism.\n\nYour goal for this game is: Put the delly in the thot, the plate on the micon and the penol on the table.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a ationee now. There are a pillow, a delly, a wardrobe and a bed. The pillow is on the bed. The delly is on the floor. The wardrobe is closed. There is a passage to a het here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:31:19.868983",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Text adventure game player.\n    *   Input: Description of the current state/perception.\n    *   Output: A single action starting with ``.\n    *   Constraint: Only reply with an action (no explanations, no extra text).\n    *   Special Actions: `ortid`, `enerk`, `alism` (in addition to common actions).\n    *   Goal: Put the `delly` in the `thot`, the `plate` on the `micon` and the `penol` on the `table`.\n    *   Current State: In a `ationee`. Items: `pillow` (on `bed`), `delly` (on `floor`), `wardrobe` (closed). Passage to a `het`.\n    *   Note: The text seems to have typos/obfuscations (`delly` instead of `dolly`? `thot` instead of `box`? `plate`? `micon`? `penol`? `ationee`? `het`?). I need to work with the provided text exactly as is, assuming these are the specific item names and locations defined by the game logic, even if they look like typos.\n    *   Goal Breakdown:\n        1.  Put `delly` in `",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:31:19.869052",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:31:19.869148",
+        "action": {
+          "type": "invalid_format",
+          "content": "command_tag_missing"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T14:31:19.869236",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 14,
+    "goal_count": 3
+  }
+}

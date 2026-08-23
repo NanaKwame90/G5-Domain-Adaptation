@@ -1,0 +1,5 @@
+{
+  "game_id": 47,
+  "input": "Question:\nThe list price of a book is $4.95. It sells in a bookstore at a net price of $2.95. What is the amount of trade discount?\nOptions:\nA. $3.95\nB. $4.00\nC. $2.95\nD. $2.50\nE. $0.95\nF. $1.00\nG. $1.50\nH. $1.95\nI. $2.00\nJ. $3.00\n",
+  "target": "I"
+}

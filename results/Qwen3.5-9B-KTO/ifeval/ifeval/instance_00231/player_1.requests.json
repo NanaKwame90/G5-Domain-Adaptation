@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 231,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:29:15.150763",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a freestyle rap about the president of the united states. The letter q should show up at least 4 times.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a freestyle rap about the president of the united states. The letter q should show up at least 4 times.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nYo, check the mic, one two, I'm spitting on the **q**ueen of the state,\nThe **q**uarterly report, yeah, the whole nation's fate.\nFrom **q**uarterback to the **q**uarterly tax,\nWe're looking at the leader, making the big plans.\nNo **q**uick fixes, just steady hands on the wheel,\nWhile the world spins round, yeah, the story is real.\nSo keep it **q**uiet, let the message sink in,\nThe President's voice, yeah, it's the only one.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:28:49.911883",
+            "call_duration": "0:00:25.238593",
+            "response": "Yo, check the mic, one two, I'm spitting on the **q**ueen of the state,\nThe **q**uarterly report, yeah, the whole nation's fate.\nFrom **q**uarterback to the **q**uarterly tax,\nWe're looking at the leader, making the big plans.\nNo **q**uick fixes, just steady hands on the wheel,\nWhile the world spins round, yeah, the story is real.\nSo keep it **q**uiet, let the message sink in,\nThe President's voice, yeah, it's the only one.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

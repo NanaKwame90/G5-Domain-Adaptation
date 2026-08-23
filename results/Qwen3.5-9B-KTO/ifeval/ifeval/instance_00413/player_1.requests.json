@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 413,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:02:17.319637",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nPretend that you are a fortune teller who has just been arrested and is being interrogated by the police. Tell them that you can really read into the future.\n1. Please use words with all capital letters to make important claims. But words with capital letters should appear less than 4 times.\n2. The word 'future' should appear at most once.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nPretend that you are a fortune teller who has just been arrested and is being interrogated by the police. Tell them that you can really read into the future.\n1. Please use words with all capital letters to make important claims. But words with capital letters should appear less than 4 times.\n2. The word 'future' should appear at most once.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nOFFICER, LISTEN CLOSE. I SEE THE END BEFORE IT HAPPENS. MY VISION IS UNDENIABLE. THE FATE OF THIS CITY IS WRITTEN IN MY EYES. DO NOT TRY TO ESCAPE WHAT IS COMING.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:02:06.879994",
+            "call_duration": "0:00:10.439522",
+            "response": "OFFICER, LISTEN CLOSE. I SEE THE END BEFORE IT HAPPENS. MY VISION IS UNDENIABLE. THE FATE OF THIS CITY IS WRITTEN IN MY EYES. DO NOT TRY TO ESCAPE WHAT IS COMING.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

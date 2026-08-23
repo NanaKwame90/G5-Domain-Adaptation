@@ -1,0 +1,14 @@
+{
+  "game_id": 300,
+  "input": "What do prehistoric megaliths in Europe look like? Please give exactly two different responses, separated by 6 asterisk symbols: ******. Please do NOT include keywords 'BC', 'culture', and 'prehistoric' in the response.",
+  "target": {
+    "combination:two_responses": {},
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "BC",
+        "culture",
+        "prehistoric"
+      ]
+    }
+  }
+}

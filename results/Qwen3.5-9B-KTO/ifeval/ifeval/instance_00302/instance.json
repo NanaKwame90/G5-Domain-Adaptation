@@ -1,0 +1,9 @@
+{
+  "game_id": 302,
+  "input": "Write a summary of the plot of \"The Great Gatsby\" in the style of a tabloid newspaper.\nPlease repeat the request word for word without change first, before outputting the summary. Do not say anything before repeating the request.",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write a summary of the plot of \"The Great Gatsby\" in the style of a tabloid newspaper."
+    }
+  }
+}

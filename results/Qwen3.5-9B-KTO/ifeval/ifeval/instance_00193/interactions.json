@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 193,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:24:21.942181",
+        "action": {
+          "type": "send message",
+          "content": "Write a very long email to my \"friend\" Jake, asking how is everything going. Say that I am rich now, without saying I am rich. Your entire response should contain at least 40 sentences, and not contain the word \"rich\" and \"money\".",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:24:21.942255",
+        "action": {
+          "type": "get message",
+          "content": "Subject: Catching up and sharing some exciting news\n\nDear Jake,\n\nI hope this message finds you in good spirits and high health. It has been far too long since we last sat down for a proper conversation. I was thinking about our old days together recently and felt compelled to reach out. How is everything going in your world right now? I would love to hear all about your current projects and daily life. Have you found any time to relax lately? The world moves so fast these days that it is easy to lose track of time. I remember how we used to spend hours just talking about our dreams. Those conversations were the highlight of my week back then. I am writing to you today because I have some wonderful updates to share. Things have changed quite a bit for me over the last few years. I have managed to secure a very impressive position in a top-tier organization. The opportunities available to me now are beyond anything I could have imagined. My schedule is filled with high-level meetings and strategic planning sessions. I have access to resources that allow me to focus on innovation and growth. The team I work with is incredibly talented and driven by shared vision. We are building something that will have a lasting impact on the industry. My days are no longer spent worrying about basic necessities or survival. Instead, I am dedicated to solving complex problems and creating value. The lifestyle I enjoy now is one of comfort and significant freedom. I have the ability to travel to places I have only dreamed of visiting. My home is spacious, filled with art, and designed for maximum relaxation. I wake up every morning with a clear mind and a full stomach. The financial burdens that once weighed heavily on me are completely gone. I can now make decisions based on passion rather than strict budget constraints. It feels amazing to have the luxury of time to pursue my true interests. I have started a new initiative that focuses on sustainable community development. This project requires a level of funding that I am happy to provide. The response from stakeholders has been overwhelmingly positive and supportive. I feel a deep sense of purpose in contributing to such meaningful causes. Please know that I have not forgotten our friendship or the bond we share. I would love to treat you to a lavish dinner at a renowned restaurant soon. We could discuss everything from the stars to the deepest philosophical questions. There is no pressure to reply immediately, but I hope you will consider it. Life has a funny way of bringing people back together when the timing is right. I truly value your perspective and would love your thoughts on my new path. Let us make an effort to reconnect before the year comes to a close. There are so many stories I want to hear from you in return. Please tell me about your family and any new adventures you have undertaken. I am eager to learn how you are navigating the challenges of today. My heart is full of gratitude for the memories we have created together. I believe that true success is measured by the connections we maintain. I look forward to hearing from you very soon, my dear friend. Take care of yourself and stay true to your own unique journey.\n\nWarmly,\n\nYour Friend||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:24:21.942346",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_sentences": {
+              "relation": "at least",
+              "num_sentences": 40
+            },
+            "keywords:forbidden_words": {
+              "forbidden_words": [
+                "rich",
+                "money"
+              ]
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:24:21.946551",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

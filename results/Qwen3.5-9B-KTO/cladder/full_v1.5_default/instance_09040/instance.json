@@ -1,0 +1,5 @@
+{
+  "game_id": 9040,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Wibl has a direct effect on vubr and zuph. Zuph has a direct effect on uvzi. Vubr has a direct effect on uvzi. The overall probability of zuph is 46%. The probability of not zuph and uvzi is 17%. The probability of zuph and uvzi is 30%. Is the chance of uvzi larger when observing zuph?",
+  "target": "yes"
+}

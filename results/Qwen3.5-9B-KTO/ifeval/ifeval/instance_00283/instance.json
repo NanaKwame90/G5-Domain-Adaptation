@@ -1,0 +1,7 @@
+{
+  "game_id": 283,
+  "input": "Can you write rap songs about the history of the prefecture system in Japan? Give exactly two different responses separated by 6 asterisk symbols ******.",
+  "target": {
+    "combination:two_responses": {}
+  }
+}

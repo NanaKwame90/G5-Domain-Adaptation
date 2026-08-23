@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 265,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:31:35.750604",
+        "action": {
+          "type": "send message",
+          "content": "Write me a poem about a long lasting war. Add a postscript at the end starting with P.P.S",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:31:35.750674",
+        "action": {
+          "type": "get message",
+          "content": "The sky is gray, a bruised and heavy lid,\nWhere suns have died and stars are hard to find.\nThe fields that once held harvests, rich and red,\nNow hold the bones of men who left behind\nNo names, no faces, just a rusted gear\nAnd silence where the children used to play.\nThe rivers run with oil and iron dust,\nAnd wash the memory of the olden day.\n\nGenerals sleep in coffins made of lead,\nWhile boys too young to know the cost of bread\nMarch on in lines that stretch from sea to sea,\nWith nothing left but hunger and the dead.\nThe seasons turn, the crops do not take root,\nThe wind blows cold through hollowed-out the huts.\nA century of smoke, a century of fear,\nThat turns the living into ghosts, and ghosts to dust.\n\nYet still they fight, though hands are numb and cold,\nFor something lost, or something yet to be found.\nThe war has no end, it is the only truth\nThat binds the world in chains of rust and sound.\nNo peace treaty signed, no flag to fly,\nJust endless gray beneath a weeping sky.\n\nP.P.S. If you are reading this from a time of peace, remember that the silence after the storm is often the loudest sound of all.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:31:35.750754",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_content:postscript": {
+              "postscript_marker": "P.P.S"
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:31:35.751064",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

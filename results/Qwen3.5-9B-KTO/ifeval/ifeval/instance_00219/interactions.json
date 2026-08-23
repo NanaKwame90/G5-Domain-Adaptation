@@ -1,0 +1,103 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 219,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:26:26.168236",
+        "action": {
+          "type": "send message",
+          "content": "I am a clutches sales specialist with 10 years of experience working in the automotive industry. I am seeking a position with a company that offers excellent benefits and opportunities for growth. Can you please write a two paragraph story about me? Make sure that the first paragraph starts with the word \"realising\" and that each paragraph is separated by two new lines.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:26:26.168308",
+        "action": {
+          "type": "get message",
+          "content": "realising that a decade of dedicated service in the automotive industry had equipped me with a unique mastery of clutch systems, I stepped forward with a renewed sense of purpose. My ten years as a clutch sales specialist have been defined by an unwavering commitment to understanding the intricate mechanics behind every vehicle, allowing me to translate complex technical specifications into compelling value propositions for clients. This deep expertise has not only built a robust network of satisfied customers but also honed my ability to navigate the competitive landscape with confidence and strategic insight.\n\nNow, I am eager to bring this wealth of experience to a forward-thinking company that prioritizes employee well-being and fosters a culture of continuous development. I am seeking a role where I can leverage my extensive background to drive revenue while simultaneously unlocking new opportunities for professional growth within a supportive environment. By joining an organization that offers excellent benefits and a clear path for advancement, I aim to contribute to long-term success while building a career that aligns with my personal and professional aspirations.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:26:26.168390",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:nth_paragraph_first_word": {
+              "num_paragraphs": 2,
+              "first_word": "realising",
+              "nth_paragraph": 1
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:26:26.169213",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

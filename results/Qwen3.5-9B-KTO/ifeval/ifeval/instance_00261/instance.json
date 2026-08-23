@@ -1,0 +1,14 @@
+{
+  "game_id": 261,
+  "input": "Can you expand the following sentences: \"I have never seen a localized version of the software. I have seen an international version.\"\n\nI would like for there to be exactly 3 paragraphs each separated by three asterisk symbols (***) and for the word humming to be used at least once.",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 3
+    },
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "humming",
+      "frequency": 1
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 9662,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Yomx has a direct effect on gwet and xevu. Cwoi has a direct effect on gwet and xevu. Gwet has a direct effect on xevu. Cwoi is unobserved. We know that yomx or cwoi causes gwet. yomx or cwoi or gwet causes xevu. We observed an individual is cwoi. Would an individual is not xevu if not yomx instead of yomx?",
+  "target": "no"
+}

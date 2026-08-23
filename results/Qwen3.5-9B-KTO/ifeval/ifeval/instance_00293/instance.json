@@ -1,0 +1,7 @@
+{
+  "game_id": 293,
+  "input": "Create a product description for a product that will help me to stop snoring. Use all lowercase letters.",
+  "target": {
+    "change_case:english_lowercase": {}
+  }
+}

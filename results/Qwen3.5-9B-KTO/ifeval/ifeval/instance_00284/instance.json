@@ -1,0 +1,16 @@
+{
+  "game_id": 284,
+  "input": "Write a college academic paper about President of the United States being stressed. Make sure not to include negative words such as 'sad', 'crazy', 'stress', etc., in the response. Also, make sure to include at least 15 placeholders represented by square brackets, such as [address].",
+  "target": {
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "sad",
+        "crazy",
+        "stress"
+      ]
+    },
+    "detectable_content:number_placeholders": {
+      "num_placeholders": 15
+    }
+  }
+}

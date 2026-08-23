@@ -1,0 +1,73 @@
+{
+  "name": "ifeval",
+  "meta": {
+    "task": "playschool_ifeval",
+    "dataset_path": "google/IFEval",
+    "output_type": "generate_until",
+    "test_split": "train",
+    "doc_to_text": "prompt",
+    "doc_to_target": "instruction_id_list",
+    "generation_kwargs": {
+      "until": [],
+      "do_sample": false,
+      "temperature": 0.0,
+      "max_gen_toks": 1280
+    },
+    "process_results": "utils.process_results",
+    "metric_list": [
+      {
+        "metric": "prompt_level_strict_acc",
+        "aggregation": "mean",
+        "higher_is_better": true
+      },
+      {
+        "metric": "inst_level_strict_acc",
+        "aggregation": "utils.agg_inst_level_acc",
+        "higher_is_better": true
+      },
+      {
+        "metric": "prompt_level_loose_acc",
+        "aggregation": "mean",
+        "higher_is_better": true
+      },
+      {
+        "metric": "inst_level_loose_acc",
+        "aggregation": "utils.agg_inst_level_acc",
+        "higher_is_better": true
+      }
+    ],
+    "metadata": {
+      "version": 4.0
+    }
+  },
+  "timestamp": "2026-07-30T19:38:24.277794",
+  "game_name": "ifeval",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 1280
+      }
+    }
+  }
+}

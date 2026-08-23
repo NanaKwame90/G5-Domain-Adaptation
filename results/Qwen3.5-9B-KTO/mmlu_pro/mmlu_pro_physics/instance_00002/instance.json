@@ -1,0 +1,5 @@
+{
+  "game_id": 2,
+  "input": "Question:\nWhat about asteroids makes them stand out in sky surveys searching for them?\nOptions:\nA. They reflect enough of the sun's light to make them brighter than most background stars\nB. Asteroids rotate at a high speed, making them stand out\nC. Asteroids are larger than most celestial bodies, hence easier to spot\nD. Asteroids have substantial motion relative to the background stars\nE. Asteroids have a distinct color that makes them stand out\nF. Asteroids emit a lot of their own radiation\nG. They emit a high amount of heat, making them detectable\nH. They emit a unique sound frequency that can be detected\nI. Asteroids emit pulsed radiation\n",
+  "target": "D"
+}

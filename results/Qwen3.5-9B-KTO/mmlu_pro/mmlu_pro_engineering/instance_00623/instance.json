@@ -1,0 +1,5 @@
+{
+  "game_id": 623,
+  "input": "Question:\nThe density of liquid gallium is 6.09 g/cm^3 at 35°C. If this element is employed in a barometer instead of mercury, what is the height of a column of gallium sustained in the barometer at 1 atm. pressure?\nOptions:\nA. 1750 mmGa\nB. 1600 mmGa\nC. 1900 mmGa\nD. 1450 mmGa\nE. 1800 mmGa\nF. 1400 mmGa\nG. 1697 mmGa\nH. 1650 mmGa\nI. 1500 mmGa\nJ. 1550 mmGa\n",
+  "target": "G"
+}

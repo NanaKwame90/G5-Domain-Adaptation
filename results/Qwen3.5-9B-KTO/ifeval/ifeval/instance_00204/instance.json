@@ -1,0 +1,12 @@
+{
+  "game_id": 204,
+  "input": "Write a rap for moms about the pros and cons of breast feeding versus formula. The rap song should have exactly 3 paragraphs each separated by *** and exactly 3 bullet points in markdown format.",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 3
+    },
+    "detectable_format:number_bullet_lists": {
+      "num_bullets": 3
+    }
+  }
+}

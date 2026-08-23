@@ -1,0 +1,5 @@
+{
+  "game_id": 466,
+  "input": "Question:\nWhich of the following is NOT a group?\nOptions:\nA. The integers under addition\nB. The positive real numbers under multiplication\nC. The nonzero integers under multiplication\nD. The complex numbers under addition\nE. The nonzero real numbers under multiplication\n",
+  "target": "C"
+}

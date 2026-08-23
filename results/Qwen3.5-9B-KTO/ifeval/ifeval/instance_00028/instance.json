@@ -1,0 +1,14 @@
+{
+  "game_id": 28,
+  "input": "Rewrite the following statement to make it sound more formal, like a President of the United States:\n\"Hi guys. The work was done to add in a fix for the issue that was observed in the field with the SSO. We are working with our collaborators closely. We will get it done. Thanks ya all.\"\nDo not include the following keywords: field, thanks, issue, collaborator.",
+  "target": {
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "field",
+        "thanks",
+        "issue",
+        "collaborator"
+      ]
+    }
+  }
+}

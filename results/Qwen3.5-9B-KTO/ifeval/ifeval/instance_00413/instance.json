@@ -1,0 +1,15 @@
+{
+  "game_id": 413,
+  "input": "Pretend that you are a fortune teller who has just been arrested and is being interrogated by the police. Tell them that you can really read into the future.\n1. Please use words with all capital letters to make important claims. But words with capital letters should appear less than 4 times.\n2. The word 'future' should appear at most once.",
+  "target": {
+    "change_case:capital_word_frequency": {
+      "capital_relation": "at least",
+      "capital_frequency": 1
+    },
+    "keywords:frequency": {
+      "relation": "less than",
+      "keyword": "future",
+      "frequency": 2
+    }
+  }
+}

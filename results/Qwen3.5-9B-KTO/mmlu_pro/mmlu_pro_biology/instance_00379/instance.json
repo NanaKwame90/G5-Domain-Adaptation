@@ -1,0 +1,5 @@
+{
+  "game_id": 379,
+  "input": "Question:\nAlgae may be microscopic single-celled organisms or enormousmulticellularseaweeds hundreds of feet long. The body of one of these organisms is termed athallus. How does athallusdiffer from a plant body?\nOptions:\nA. A plant body shows differentiation of parts, with its roots, stems, and leaves all varying greatly in structure and in function. Multicellular algae show very little, if any, tissue differentiation.\nB. Algae have a more complex structure than plants\nC. A thallus has a rigid cell wall made of cellulose, which is absent in plant cells\nD. A thallus consists of a single layer of cells, unlike the multilayered tissues of plants\nE. Algae possess true flowers and seeds, which differentiates them from plants\nF. Algae cells are much smaller than plant cells\nG. Algae have vascular systems similar to plants for transporting nutrients\nH. Algae bodies are typically organized into root-like, stem-like, and leaf-like structures\nI. Algae are capable of photosynthesis while plants are not\nJ. Algae perform cellular respiration, while plants only perform photosynthesis\n",
+  "target": "A"
+}

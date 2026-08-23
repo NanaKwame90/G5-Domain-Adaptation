@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 204,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:25:33.238630",
+        "action": {
+          "type": "send message",
+          "content": "Write a rap for moms about the pros and cons of breast feeding versus formula. The rap song should have exactly 3 paragraphs each separated by *** and exactly 3 bullet points in markdown format.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:25:33.238692",
+        "action": {
+          "type": "get message",
+          "content": "Yo, check the mic, one for the moms out there juggling the load,\nWe talkin' nutrition, bonding, and the choices that we've got.\nSome say nature's best, the milk that flows from mom,\nOthers say science wins with a bottle full of foam.\nIt's a debate that rages loud in every room we roam,\nBut the truth is, love is what makes the baby feel at home.\nSo let's break it down real quick, no judgment, just the facts,\nWhether you choose the natural route or the formula tracks.\n\n***\n\n*   Breast milk offers unique antibodies and adapts to your baby's changing needs as they grow.\n*   Formula provides a consistent, measured nutrition that allows other caregivers to feed the little one.\n*   Breastfeeding can strengthen the emotional bond through skin-to-skin contact and hormonal release.\n\n***\n\n*   Formula feeding offers flexibility for moms who need to return to work or have health concerns.\n*   Breastfeeding requires a significant time commitment and can be physically demanding for the mother.\n*   Both methods can be successful when done with patience, support, and a whole lot of heart.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:25:33.238767",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_paragraphs": {
+              "num_paragraphs": 3
+            },
+            "detectable_format:number_bullet_lists": {
+              "num_bullets": 3
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:25:33.240116",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

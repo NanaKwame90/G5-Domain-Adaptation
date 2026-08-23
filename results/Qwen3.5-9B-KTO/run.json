@@ -1,0 +1,251 @@
+{
+  "clem_version": "3.7.2",
+  "created": "2026-07-19T16:24:37.741392",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "chat_template_kwargs": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are a text adventure game player. Every action MUST start with the '>' character. Do not include spaces before the '>', do not include any other symbols like '||', and do not provide conversational text. Respond ONLY with the command in the format '> <action>'."
+            }
+          ]
+        },
+        "eos_to_cull": "<|im_end|>",
+        "huggingface_id": "Qwen/Qwen2.5-7B-Instruct",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen2.5-7B-Instruct",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "games": {
+    "mm_mapworld_specificroom": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/mm_mapworld/mm_mapworld_specificroom",
+      "benchmark_start": "2026-07-21T09:44:42.537299",
+      "benchmark_end": "2026-07-21T10:12:00.843264",
+      "duration": "0:27:18.305965",
+      "duration_seconds": 1638.305965,
+      "num_instances": 30
+    },
+    "matchit_ascii": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/matchit_ascii",
+      "benchmark_start": "2026-07-21T13:42:07.456780",
+      "benchmark_end": "2026-07-21T14:16:43.221942",
+      "duration": "0:34:35.765162",
+      "duration_seconds": 2075.765162,
+      "num_instances": 40
+    },
+    "imagegame": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/imagegame",
+      "benchmark_start": "2026-07-21T12:15:21.567633",
+      "benchmark_end": "2026-07-21T12:50:02.627073",
+      "duration": "0:34:41.059440",
+      "duration_seconds": 2081.05944,
+      "num_instances": 40
+    },
+    "textmapworld_graphreasoning": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/textmapworld/textmapworld_graphreasoning",
+      "benchmark_start": "2026-07-21T10:12:01.064108",
+      "benchmark_end": "2026-07-21T10:39:20.708881",
+      "duration": "0:27:19.644773",
+      "duration_seconds": 1639.644773,
+      "num_instances": 30
+    },
+    "mm_mapworld": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/mm_mapworld/mm_mapworld_main",
+      "benchmark_start": "2026-07-21T10:39:21.418907",
+      "benchmark_end": "2026-07-21T11:23:25.020986",
+      "duration": "0:44:03.602079",
+      "duration_seconds": 2643.602079,
+      "num_instances": 50
+    },
+    "wordle": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/wordle",
+      "benchmark_start": "2026-07-21T11:23:25.062777",
+      "benchmark_end": "2026-07-21T11:49:23.109464",
+      "duration": "0:25:58.046687",
+      "duration_seconds": 1558.046687,
+      "num_instances": 30
+    },
+    "matchit": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/matchit",
+      "benchmark_start": "2026-07-21T11:49:23.130140",
+      "benchmark_end": "2026-07-21T12:15:21.547927",
+      "duration": "0:25:58.417787",
+      "duration_seconds": 1558.417787,
+      "num_instances": 30
+    },
+    "guesswhat": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/guesswhat",
+      "benchmark_start": "2026-07-21T12:50:02.652077",
+      "benchmark_end": "2026-07-21T13:42:07.437039",
+      "duration": "0:52:04.784962",
+      "duration_seconds": 3124.784962,
+      "num_instances": 60
+    },
+    "wordle_withcritic": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/wordle",
+      "benchmark_start": "2026-07-21T14:16:43.249127",
+      "benchmark_end": "2026-07-21T14:42:46.918894",
+      "duration": "0:26:03.669767",
+      "duration_seconds": 1563.669767,
+      "num_instances": 30
+    },
+    "privateshared": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/privateshared",
+      "benchmark_start": "2026-07-21T14:42:46.952955",
+      "benchmark_end": "2026-07-21T18:19:44.387032",
+      "duration": "3:36:57.434077",
+      "duration_seconds": 13017.434077,
+      "num_instances": 50
+    },
+    "referencegame": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/referencegame",
+      "benchmark_start": "2026-07-21T18:19:44.412760",
+      "benchmark_end": "2026-07-21T19:39:20.114616",
+      "duration": "1:19:35.701856",
+      "duration_seconds": 4775.701856,
+      "num_instances": 90
+    },
+    "textmapworld": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/textmapworld/textmapworld_main",
+      "benchmark_start": "2026-07-21T19:39:20.315722",
+      "benchmark_end": "2026-07-21T20:23:37.650621",
+      "duration": "0:44:17.334899",
+      "duration_seconds": 2657.334899,
+      "num_instances": 50
+    },
+    "dond": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/dond",
+      "benchmark_start": "2026-07-21T20:23:37.674181",
+      "benchmark_end": "2026-07-21T20:58:27.988827",
+      "duration": "0:34:50.314646",
+      "duration_seconds": 2090.314646,
+      "num_instances": 40
+    },
+    "bbh": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/static/bbh",
+      "benchmark_start": "2026-07-21T20:58:28.006733",
+      "benchmark_end": "2026-07-21T22:25:01.049329",
+      "duration": "1:26:33.042596",
+      "duration_seconds": 5193.042596,
+      "num_instances": 100
+    },
+    "mmlu_pro": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/static/mmlu_pro",
+      "benchmark_start": "2026-07-21T22:25:01.068436",
+      "benchmark_end": "2026-07-21T23:51:52.628876",
+      "duration": "1:26:51.560440",
+      "duration_seconds": 5211.56044,
+      "num_instances": 100
+    },
+    "hot_air_balloon": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/air_balloon_survival",
+      "benchmark_start": "2026-07-21T23:51:52.662458",
+      "benchmark_end": "2026-07-22T01:26:17.227400",
+      "duration": "1:34:24.564942",
+      "duration_seconds": 5664.564942,
+      "num_instances": 36
+    },
+    "mm_clean_up": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/clean_up",
+      "benchmark_start": "2026-07-22T01:26:18.565894",
+      "benchmark_end": "2026-07-22T01:26:18.590335",
+      "duration": "0:00:00.024441",
+      "duration_seconds": 0.024441,
+      "num_instances": 0
+    },
+    "clean_up": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/clean_up",
+      "benchmark_start": "2026-07-22T01:26:19.230836",
+      "benchmark_end": "2026-07-30T03:21:23.384953",
+      "duration": "8 days, 1:55:04.154117",
+      "duration_seconds": 698104.154117,
+      "num_instances": 27
+    },
+    "hybrid_clean_up": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/clean_up",
+      "benchmark_start": "2026-07-30T03:21:24.100428",
+      "benchmark_end": "2026-07-30T03:21:24.242020",
+      "duration": "0:00:00.141592",
+      "duration_seconds": 0.141592,
+      "num_instances": 27
+    },
+    "wordle_withclue": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/wordle",
+      "benchmark_start": "2026-07-30T03:21:24.264731",
+      "benchmark_end": "2026-07-30T03:49:17.487593",
+      "duration": "0:27:53.222862",
+      "duration_seconds": 1673.222862,
+      "num_instances": 30
+    },
+    "eqbench": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/static/eqbench",
+      "benchmark_start": "2026-07-30T03:49:17.529914",
+      "benchmark_end": "2026-07-30T05:22:46.790758",
+      "duration": "1:33:29.260844",
+      "duration_seconds": 5609.260844,
+      "num_instances": 100
+    },
+    "multimodal_referencegame": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/multimodal_referencegame",
+      "benchmark_start": "2026-07-30T05:22:46.826216",
+      "benchmark_end": "2026-07-30T11:18:44.628550",
+      "duration": "5:55:57.802334",
+      "duration_seconds": 21357.802334,
+      "num_instances": 390
+    },
+    "mm_mapworld_graphs": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/mm_mapworld/mm_mapworld_graphs",
+      "benchmark_start": "2026-07-30T11:18:45.544470",
+      "benchmark_end": "2026-07-30T11:45:28.173746",
+      "duration": "0:26:42.629276",
+      "duration_seconds": 1602.629276,
+      "num_instances": 30
+    },
+    "cladder": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/static/cladder",
+      "benchmark_start": "2026-07-30T11:45:28.195069",
+      "benchmark_end": "2026-07-30T13:16:15.220631",
+      "duration": "1:30:47.025562",
+      "duration_seconds": 5447.025562,
+      "num_instances": 100
+    },
+    "taboo": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/taboo",
+      "benchmark_start": "2026-07-30T13:16:15.435395",
+      "benchmark_end": "2026-07-30T14:11:50.170557",
+      "duration": "0:55:34.735162",
+      "duration_seconds": 3334.735162,
+      "num_instances": 60
+    },
+    "adventuregame": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/adventuregame",
+      "benchmark_start": "2026-07-30T14:11:50.302655",
+      "benchmark_end": "2026-07-30T14:51:49.745485",
+      "duration": "0:39:59.442830",
+      "duration_seconds": 2399.44283,
+      "num_instances": 40
+    },
+    "st_clean_up": {
+      "game_path": "/home/users/kagyemang-dua/clembench_repo/clean_up",
+      "benchmark_start": "2026-07-30T19:27:14.167724",
+      "benchmark_end": "2026-08-01T19:36:17.624049",
+      "duration": "2 days, 0:09:03.456325",
+      "duration_seconds": 173343.456325,
+      "num_instances": 6
+    }
+  }
+}

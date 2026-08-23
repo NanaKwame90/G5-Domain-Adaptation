@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 81,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:44:52.743108",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a joke about morphology that's professional and includes the word \"cat\" at least once, and the word \"knock\" at least twice. Wrap your whole response with double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a joke about morphology that's professional and includes the word \"cat\" at least once, and the word \"knock\" at least twice. Wrap your whole response with double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n\"In the realm of professional morphology, we often discuss how a single root can undergo various derivations; much like a cat that learns to knock on a door, but if it knocks too hard, the entire structure of the household gets knocked down.\"<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:44:40.408989",
+            "call_duration": "0:00:12.333981",
+            "response": "\"In the realm of professional morphology, we often discuss how a single root can undergo various derivations; much like a cat that learns to knock on a door, but if it knocks too hard, the entire structure of the household gets knocked down.\"||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

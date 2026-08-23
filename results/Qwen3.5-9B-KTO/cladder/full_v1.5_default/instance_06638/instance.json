@@ -1,0 +1,5 @@
+{
+  "game_id": 6638,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Tijw has a direct effect on xevo and gyzp. Xevo has a direct effect on tijv. Tijv has a direct effect on gyzp. Tijw is unobserved. For those who are not xevo, the probability of tijv is 29%. For those who are xevo, the probability of tijv is 62%. For those who are not xevo and are not tijv, the probability of gyzp is 60%. For those who are not xevo and are tijv, the probability of gyzp is 79%. For those who are xevo and are not tijv, the probability of gyzp is 57%. For those who are xevo and are tijv, the probability of gyzp is 78%. The overall probability of xevo is 44%. Will xevo increase the chance of gyzp?",
+  "target": "yes"
+}

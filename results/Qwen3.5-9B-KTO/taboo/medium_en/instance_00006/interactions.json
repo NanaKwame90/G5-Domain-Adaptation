@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "medium_en",
+    "game_id": 6,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "WordDescriber",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "WordGuesser",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T13:40:22.956945",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a collaborative word guessing game in which you have to describe a target word for another player to guess.\n\nRules:\n(a) You have to reply in the form: CLUE: <some text>. Guesses from the other player will start with GUESS.\n(b) You cannot use the target word itself, parts or morphological variants of it in your description.\n(c) In addition, the same rules apply for related words which are provided below.\n\nEnd conditions:\n(i) If you use the target word or a related word in your description, then you lose.\n(ii) If the other player can guess the target word in 3 tries, you both win.\n\nLet us start.\n\nThis is the target word that you need to describe and that the other player needs to guess:\n\nsteward\n\nRelated words are:\n\n- attendant\n- caretaker\n- servant\n\nImportant: You are under time pressure, give short descriptions that are to the point!",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:40:22.957014",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   **Role:** I am the describer (clue giver).\n    *   **Target Word:** \"steward\".\n    *   **Related Words (Forbidden):** \"attendant\", \"caretaker\", \"servant\".\n    *   **Rules:**\n        *   Reply format: `CLUE: some text`.\n        *   Cannot use target word, parts, morphological variants, or related words.\n        *   Lose if I use forbidden words.\n        *   Win if the other player guesses in 3 tries.\n        *   Constraint: Short descriptions due to time pressure.\n    *   **Goal:** Describe \"steward\" without using \"steward\", \"attendant\", \"caretaker\", \"servant\", or their variants.\n\n2.  **Analyze the Target Word (\"steward\"):**\n    *   **Meaning:** A person responsible for managing a ship, plane, or event; a person who serves food and drinks on a ship/plane; a manager of funds/property.\n    *   **Contexts:** Air travel, ships, events, management.\n    *   **Synonyms (to avoid):** Attendant, caretaker, servant, manager, host, crew member.\n    *   **Key Associations:** Flight, plane, ship, cabin, service, food, drink,",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T13:40:22.957101",
+        "action": {
+          "type": "invalid format",
+          "content": "abort game"
+        }
+      }
+    ]
+  ]
+}

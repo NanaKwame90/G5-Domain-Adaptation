@@ -1,0 +1,9 @@
+{
+  "game_id": 245,
+  "input": "Name exactly 3 names for a black and white dog using markdown bullet points such as:\n* Bullet point 1",
+  "target": {
+    "detectable_format:number_bullet_lists": {
+      "num_bullets": 3
+    }
+  }
+}

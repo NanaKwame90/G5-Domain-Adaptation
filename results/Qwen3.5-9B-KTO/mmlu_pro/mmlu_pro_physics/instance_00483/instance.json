@@ -1,0 +1,5 @@
+{
+  "game_id": 483,
+  "input": "Question:\nAt what distance from the center of the earth does the acceleration due to gravity have one half of the value that it has on the surface of the earth?\nOptions:\nA. 2.64 × 10^6 meters\nB. 5.08 × 10^6 meters\nC. 12.76 × 10^6 meters\nD. 9.02 × 10^6 meters\nE. 8.16 × 10^6 meters\nF. 3.20 × 10^6 meters\nG. 1.414 × 10^6 meters\nH. 4.50 × 10^6 meters\nI. 6.38 × 10^6 meters\nJ. 11.34 × 10^6 meters\n",
+  "target": "D"
+}

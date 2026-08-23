@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 523,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:19:33.078714",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nCreate a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nCreate a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nCreate a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.\n\n<<resume of xyz>>\n\nJOHN DOE\nSENIOR OPERATIONS OFFICER\n\nSUMMARY\nDedicated leader with extensive combat experience in Iraq and specialized training in private security operations. Proven track record of strategic planning and team management in high-risk environments.\n\nEXPERIENCE\n\nUNITED STATES ARMY\nINFANTRY OFFICER\n2005 TO 2010\n- Led squad operations during conflict zones in Iraq\n- Trained local forces on security protocols\n- Executed direct action missions with zero casualties\n\nBLACK OAK SECURITY SOLUTIONS\nCONTRACT OPERATIONS MANAGER\n2011 TO 2015\n- Managed private military teams in unstable regions\n- Developed risk assessment frameworks for client sites\n- Coordinated logistics for international deployment teams\n\nSKILLS\n- Tactical Leadership\n- Crisis Management\n- Strategic Planning\n- Foreign Language Proficiency\n- Security Operations\n\nEDUCATION\nBACHELOR OF SCIENCE IN MILITARY SCIENCE\nUNIVERSITY OF TEXAS AT AUSTIN\n2001 TO 2005<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:18:37.420020",
+            "call_duration": "0:00:55.658524",
+            "response": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. resume of xyz. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.\n\nresume of xyz\n\nJOHN DOE\nSENIOR OPERATIONS OFFICER\n\nSUMMARY\nDedicated leader with extensive combat experience in Iraq and specialized training in private security operations. Proven track record of strategic planning and team management in high-risk environments.\n\nEXPERIENCE\n\nUNITED STATES ARMY\nINFANTRY OFFICER\n2005 TO 2010\n- Led squad operations during conflict zones in Iraq\n- Trained local forces on security protocols\n- Executed direct action missions with zero casualties\n\nBLACK OAK SECURITY SOLUTIONS\nCONTRACT OPERATIONS MANAGER\n2011 TO 2015\n- Managed private military teams in unstable regions\n- Developed risk assessment frameworks for client sites\n- Coordinated logistics for international deployment teams\n\nSKILLS\n- Tactical Leadership\n- Crisis Management\n- Strategic Planning\n- Foreign Language Proficiency\n- Security Operations\n\nEDUCATION\nBACHELOR OF SCIENCE IN MILITARY SCIENCE\nUNIVERSITY OF TEXAS AT AUSTIN\n2001 TO 2005||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "game_id": 498,
+  "input": "Brainstorm a name for a company that collects and analyzes public transportation fares. The response should be in English, and in all capital letters.",
+  "target": {
+    "change_case:english_capital": {}
+  }
+}

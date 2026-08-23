@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "job-interview",
+    "game_id": 6,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-21T15:51:59.388623",
+        "action": {
+          "type": "send message",
+          "content": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Literature\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: PhD\nOTHER-SKILLS: Communication\nAVAILABILITY: Next month, first week\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:51:59.388704",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:52:51.214445",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:53:43.019296",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:54:34.687522",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:55:26.493489",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.296860",
+        "action": {
+          "type": "parse",
+          "content": "NA"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.296960",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR invalid after max attempts."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.297013",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.297065",
+        "action": {
+          "type": "invalid format",
+          "content": "Abort: invalid format in probing."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-21T15:56:18.297604",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.297655",
+        "action": {
+          "type": "get message",
+          "content": "Please tell me when you could start working for us.",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-21T15:56:18.297947",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: Does the interviewer know what you have studied in your bachelor? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Role: Job applicant.\n    *   CV Info: Bachelor (Literature), Industry Experience (5 years), Highest Education (PhD), Other Skills (Communication), Availability (Next month, first week).\n    *   Constraint 1: Recruiter questions start with \"RECRUITER\". Reply format: \"ANSWER: one sentence\".\n    *   Constraint 2: My questions start with \"ME\". Reply format: \"ASIDE: one sentence\".\n    *   Constraint 3: Short, direct answers.\n    *   Current Input: \"ME: Please think about it carefully. Does the interviewer know what you have studied in your bachelor? Answer this question with yes or no and then stop.\"\n    *   Task: Answer the \"ME\" question using the \"ASIDE\" format, adhering to the \"yes or no\" constraint.\n\n2.  **Determine the Answer:**\n    *   The prompt states: \"The recruiter does not know about it yet.\"\n    *   The question asks: \"Does the interviewer know what you have studied in your bachelor?\"\n    *   Based on the provided context, the answer is \"no\".\n\n3.  **Format the Output:**\n    *   Must start with \"ASIDE: \".\n    *   Must be one sentence.\n    *   Must be short",
+        "value": 2,
+        "tries": 6
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Have you told the interviewer about the years of your experience in the industry? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Does the interviewer know your level of education? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Do you think the recruiter knows what other skills you have? Answer this question with yes or no and then stop.",
+        "gt": 0
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: Have you informed the interviewer about your dates? Answer this question with yes or no and then stop.",
+        "gt": 0
+      }
+    ]
+  ],
+  "realised_slots": {
+    "availability": 0,
+    "other-skills": 1,
+    "industry-experience": 2,
+    "bachelor": 3,
+    "highest-education": 4
+  },
+  "Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Parsed Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Violated Request Count": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [],
+  "Aborted": true,
+  "Played Probe Rounds": 0
+}

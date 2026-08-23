@@ -1,0 +1,5 @@
+{
+  "game_id": 641,
+  "input": "Question:\nJacob and Sons Plumbing bought a forklift for $10,000. The forklift is expected to last 5 years, and to have a residual value of $3,000. Jacob wishes to use the straight line depreciation method, while his sons wish to use the sum-of-the-years'-digits method. What will the difference in the depreciation allowances be for the third year?\nOptions:\nA. $600\nB. zero\nC. $500\nD. $150\nE. $400\nF. $200\nG. $250\nH. $300\nI. $350\nJ. $100\n",
+  "target": "B"
+}

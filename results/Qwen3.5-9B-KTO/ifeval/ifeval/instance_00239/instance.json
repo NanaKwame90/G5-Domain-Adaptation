@@ -1,0 +1,9 @@
+{
+  "game_id": 239,
+  "input": "Write a lame joke about engagements in entirely Swahili, no other language is allowed.",
+  "target": {
+    "language:response_language": {
+      "language": "sw"
+    }
+  }
+}

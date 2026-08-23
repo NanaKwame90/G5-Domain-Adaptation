@@ -1,0 +1,5 @@
+{
+  "game_id": 664,
+  "input": "Question:\nWhat properties of water make it an essential component of living matter?\nOptions:\nA. Water is useful just because of its cooling properties.\nB. Water is only important for hydration.\nC. Water's role is limited to acting as a chemical reactant in cellular processes.\nD. Water is important primarily because it contributes to the structural rigidity of cells.\nE. Water's only function is to provide a medium for aquatic organisms.\nF. Water is essential because it is the only liquid found naturally on Earth.\nG. Water is essential only because it is a good solvent.\nH. Water's significance is due to its high compressibility, which is vital for life.\nI. Water is the most abundant molecule in the cell, an excellent solvent for living systems, has high heat capacity, functions in heat regulation, serves as a lubricant, and aids in the transport of nutrients.\nJ. Water is vital because it is the least reactive chemical compound, preventing unwanted reactions in living matter.\n",
+  "target": "I"
+}

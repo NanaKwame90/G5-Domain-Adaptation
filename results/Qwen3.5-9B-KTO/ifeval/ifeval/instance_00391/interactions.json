@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 391,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:51:46.195592",
+        "action": {
+          "type": "send message",
+          "content": "Write a poem about the top 20 tallest buildings in the world and their heights. End your response with the exact question: Is there anything else I can help with?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:51:46.195662",
+        "action": {
+          "type": "get message",
+          "content": "In steel and glass, a skyline rises high,\nWhere giants stand beneath the open sky.\nFrom Burj Khalifa's peak, where clouds begin,\nTo Merdeka's grace, the tallest in the din.\n\nThe first, the tallest, pierces through the air,\nBurj Khalifa stands with eight hundred feet of care,\nEighty-three stories, a needle sharp and bright,\nThe crown jewel of the world, a beacon of the light.\n\nNext comes Merdeka, in Kuala Lumpur's view,\nSix hundred and twelve, a tower bold and new.\nThen Shanghai's Tower, the second in the line,\nSix hundred and thirty-two, a modern design.\n\nThe Makkah Royal Clock stands tall and grand,\nSix hundred and one, across the desert land.\nThe Merdeka Tower follows, then the Shanghai's height,\nA race of concrete and of steel in the night.\n\nThe Lotte World in Seoul, six hundred and one,\nThe Ping An Finance, a pillar of the sun.\nThe Tianjin CTF, the Shanghai World,\nEach one a giant, reaching for the sun.\n\nThe Jin Mao Tower, the Shanghai's pride,\nFour hundred and ninety-two, where secrets hide.\nThe Bank of China, the Petronas twin,\nFour hundred and fifty-one, where the day begins.\n\nThe Taipei 101, a dragon in the sky,\nFive hundred and zero-nine, beneath the cloudy sky.\nThe Shanghai Tower, the third in the race,\nSix hundred and thirty-two, a graceful space.\n\nThe Guangzhou CTF, the Ping An's neighbor,\nFour hundred and ninety-two, a structure of power.\nThe Jin Mao's spire, the Bank's distinct form,\nThey build a legacy, a towering storm.\n\nFrom Dubai's heat to New York's cold,\nThese twenty giants, their stories are told.\nIn numbers and names, they reach for the stars,\nThe tallest of all, the world's architectural bars.\n\nIs there anything else I can help with?||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:51:46.195748",
+        "action": {
+          "type": "target",
+          "content": {
+            "startend:end_checker": {
+              "end_phrase": "Is there anything else I can help with?"
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:51:46.195939",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

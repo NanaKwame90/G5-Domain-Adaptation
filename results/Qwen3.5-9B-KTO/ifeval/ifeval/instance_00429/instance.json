@@ -1,0 +1,7 @@
+{
+  "game_id": 429,
+  "input": "Is \"jiang\" a Chinese name? What are other names similar to \"jiang\"? Separate your two answers with ******",
+  "target": {
+    "combination:two_responses": {}
+  }
+}

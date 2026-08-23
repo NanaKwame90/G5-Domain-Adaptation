@@ -1,0 +1,13 @@
+{
+  "game_id": 173,
+  "input": "Elaborate on the following sentence into a formal story: \"My dog is brown, and my cat is black.\" Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>, and should not contain any commas. In your response, the word flesh should appear less than 3 times.",
+  "target": {
+    "detectable_format:title": {},
+    "punctuation:no_comma": {},
+    "keywords:frequency": {
+      "relation": "less than",
+      "keyword": "flesh",
+      "frequency": 3
+    }
+  }
+}

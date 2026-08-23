@@ -1,0 +1,7 @@
+{
+  "game_id": 488,
+  "input": "Write a song about innovation with a positive tone that is appealing to teenagers. Put your entire response in double quotation marks.",
+  "target": {
+    "startend:quotation": {}
+  }
+}

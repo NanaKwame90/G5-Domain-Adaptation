@@ -1,0 +1,15 @@
+{
+  "game_id": 377,
+  "input": "Darth Vader is angry with you, his server, because you assassinated a fake Jedi. Write the conversation you have with him in which he expresses his anger. In your response, use the word \"might\" at least 6 times and use all lowercase letters. Make sure to break the conversation down to 3 parts, separated by ***, such as:\n[conversation part 1]\n***\n[conversation part 2]\n***\n[conversation part 3]",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "might",
+      "frequency": 6
+    },
+    "change_case:english_lowercase": {},
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 3
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "game_id": 359,
+  "input": "The hull of a ship is severely damaged in a storm. The ship has craters and some of its outer shell has been peeled off. How can I repair the hull? Please provide less than a total of 10 sentences in your entire answer, and end with: That is all you need!",
+  "target": {
+    "startend:end_checker": {
+      "end_phrase": "That is all you need!"
+    },
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 10
+    }
+  }
+}

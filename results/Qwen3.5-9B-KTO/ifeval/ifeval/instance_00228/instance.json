@@ -1,0 +1,7 @@
+{
+  "game_id": 228,
+  "input": "Write an essay about Alvin and the Chipmunks in English and in all capital letters.",
+  "target": {
+    "change_case:english_capital": {}
+  }
+}

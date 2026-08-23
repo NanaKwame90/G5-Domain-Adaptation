@@ -1,212 +1,280 @@
-# Privacy-Aware KTO Fine-Tuning of Qwen3.5-9B
+# G5 Domain Adaptation: KTO Fine-Tuning of Qwen3.5-9B
 
-This repository contains the code, data configurations, and evaluation pipeline for the **G5 Domain Adaptation project**. We investigate **Kahneman-Tversky Optimization (KTO)** applied to `Qwen/Qwen3.5-9B` to improve performance across static reasoning benchmarks, privacy question-answering (`privacy_qa`), and interactive dialogue games within the **Playpen/CLEMbench** framework.
+This repository documents the experiments for the **LM-Playschool Shared Task 2026**, in which `Qwen/Qwen3.5-9B` is fine-tuned using **Kahneman-Tversky Optimization (KTO)** on playpen-derived preference data and benchmarked across six evaluation conditions using the [Playpen](https://github.com/lm-playpen/playpen) / [CLEMbench](https://github.com/clp-research/clembench) framework.
 
 ---
 
 ## Repository Structure
 
-```text
+```
 g5_adaptation/
-├── train_kto_new.py              # KTO training script (LoRA + TRL KTOTrainer)
-├── train_kto.jsonl               # KTO training data (prompt/completion/label triples)
-├── config_kto.yaml               # Training hyper-parameter reference config
-├── run_benchmarks.sh             # Full-suite evaluation runner (KTO model)
-├── model_registry.json           # Model registry for the Playpen evaluation backend
-├── privacy_qa_2000_instances.json # privacy_qa game instances (2,000 items)
+├── train_kto_new.py           # KTO training script (LoRA + TRL KTOTrainer)
+├── train_kto.jsonl            # KTO training data (prompt/completion/label triples)
+├── config_kto.yaml            # Training hyper-parameter reference config
+├── run_benchmarks.sh          # Full-suite evaluation runner (KTO model)
+├── model_registry.json        # Model registry for the Playpen evaluation backend
+├── privacy_qa_2000_instances.json  # privacy_qa game instances (2 000 items)
 ├── src/
-│   ├── kto_trainer.py            # Stub - training logic lives in train_kto_new.py
-│   └── playpen/                  # Playpen workspace (clembench + model/game registries)
+│   ├── kto_trainer.py         # (stub — training logic lives in train_kto_new.py)
+│   └── playpen/               # Playpen workspace (clembench + model/game registries)
 │       ├── model_registry.json
 │       ├── game_registry.json
-│       ├── clembench/            # CLEMbench game suite (submodule / clone)
-│       └── results/              # Evaluation outputs (raw.csv, results.csv)
-└── results/                      # Aggregated results (Qwen3.5-9B-KTO full suite)
-
+│       ├── clembench/         # CLEMbench game suite (submodule / clone)
+│       └── results/           # Evaluation outputs (raw.csv, results.csv)
+└── results/                   # Aggregated results (Qwen3.5-9B-KTO full suite)
 ```
 
 ---
 
-## Key Methodology & Problem Formulation
+## Experimental Conditions
 
-* **The Problem:** Large language models often achieve high performance on static knowledge benchmarks but fail to maintain structured multi-turn dialogue protocols in interactive games, leading to format violations and early aborts (`Played_%`).
-* **Kahneman-Tversky Optimization (KTO):** Instead of paired preference comparisons (like DPO), KTO operates on singleton binary feedback $y \in \{+1, -1\}$, leveraging prospect theory's asymmetry between the psychological penalty of undesirable outputs and the reward of desirable outputs.
-* **Composite Evaluation Metric (`clemscore`):**
-  $\text{clemscore} = \sqrt{\text{Played} \times \text{Quality}}$
+Six conditions are evaluated, varying model (Baseline vs. KTO) and evaluation suite:
 
----
+| # | Model             | Evaluation suite             |
+|---|-------------------|------------------------------|
+| 1 | Baseline Qwen3.5-9B | Full CLEMbench suite        |
+| 2 | Baseline Qwen3.5-9B | + privacy_qa (2 000 instances) |
+| 3 | Baseline Qwen3.5-9B | + Static benchmarks          |
+| 4 | KTO Qwen3.5-9B    | Full CLEMbench suite         |
+| 5 | KTO Qwen3.5-9B    | + privacy_qa (2 000 instances) |
+| 6 | KTO Qwen3.5-9B    | + Static benchmarks          |
 
-## Training Setup & Hyperparameters
-
-* **Base Model:** `Qwen/Qwen3.5-9B` (`bfloat16`, `enable_thinking=false`)
-* **Parameter-Efficient Fine-Tuning (LoRA):** Rank $r = 8$, $\alpha = 16$, dropout $0.05$, targeting attention projection matrices (`q_proj`, `k_proj`, `v_proj`, `o_proj`). Updates $\sim$8.4M parameters out of 9.4B ($\sim$0.09%).
-* **Trainer Configuration:** TRL `KTOTrainer`, effective batch size of 8, learning rate $5 \times 10^{-6}$, max 500 steps.
-
-
-### Summary Scores Across Evaluation Suites
-
-| Model | Evaluation Suite | Clemscore | Avg % Played | Avg Quality |
-| --- | --- | --- | --- | --- |
-| Qwen3.5-9B (Baseline) | Full CLEMbench | 3.57 | 24.92 | 14.33 |
-| Qwen3.5-9B (Baseline) | + privacy_qa (2,000 inst.) | 4.35 | 28.49 | 15.28 |
-| Qwen3.5-9B (Baseline) | + Static benchmarks | 20.84 | 100.0 | 20.84 |
-| **Qwen3.5-9B-KTO** | Full CLEMbench | 4.66 | 11.58 | 34.52 |
-| **Qwen3.5-9B-KTO** | + privacy_qa | 5.11 | 14.81 | 40.25 |
-| **Qwen3.5-9B-KTO** | + Static benchmarks | **45.13** | **99.8** | **45.22** |
-
-### Static Benchmark Breakdown (Qwen3.5-9B-KTO)
-
-| Benchmark | % Played | Quality | Description |
-| --- | --- | --- | --- |
-| BBH | 100.0 | 0.0 | 23-task reasoning battery |
-| CLadder | 100.0 | **61.0** | Causal ladder counterfactuals |
-| EQBench | 99.0 | **72.12** | Emotional intelligence QA |
-| IFEval | 100.0 | 54.0 | Instruction-following evaluation |
-| MMLU-Pro | 100.0 | 39.0 | Academic multi-choice (12 domains) |
-
-# Complete Setup, Installation, and Evaluation Guide
-
-This guide provides step-by-step instructions from start to end for setting up the environment, training the KTO model, and executing evaluations for both the **Baseline** and **KTO** models across all **three evaluation variations**:
-
-1. **Full CLEMbench suite** (24 interactive multi-turn dialogue games)
-2. **CLEMbench + privacy_qa** (Full suite augmented with 2,000 privacy QA instances)
-3. **Static benchmarks** (BBH, CLadder, EQBench, IFEval, MMLU-Pro run as single-turn episodes)
+**Static benchmarks**: BBH, CLadder, EQBench, IFEval, MMLU-Pro (located in `clembench/static/`).  
+**privacy_qa**: A custom game testing privacy question-answering, using 2 000 generated instances.
 
 ---
 
-## 1. Installation & Environment Setup
+## Setup
 
-Clone the repository and set up a Python virtual environment containing PyTorch, TRL, and the Playpen/CLEMbench dependencies.
+### 1. Python environment
 
 ```bash
-# Clone or navigate to your working directory
-cd g5_adaptation
-
-# Create and activate a virtual environment
-python3 -m venv venv
+cd /home/users/kagyemang-dua/g5_adaptation/src/playpen
+python -m venv venv --system-site-packages
 source venv/bin/activate
-
-# Install core dependencies (PyTorch, TRL, Transformers, Accelerate)
-pip install --upgrade pip
-pip install torch torchvision torchaudio
-pip install transformers datasets accelerate peft trl pyyaml pandas scikit-learn
-
-# Install Playpen and CLEMbench backend requirements
-pip install -e src/playpen/clembench
-
+pip install -e .
+pip install '.[trl]'
+pip install peft
 ```
 
----
+### 2. CLEMbench
 
-## 2. Model & Game Registry Configuration
-
-Ensure your local model registry (`model_registry.json`) points to both the baseline model (`Qwen/Qwen3.5-9B`) and your trained KTO checkpoint, with `enable_thinking=false` configured for both.
+The CLEMbench game suite is already cloned at `src/playpen/clembench/`.  
+`game_registry.json` points to it:
 
 ```json
-{
-  "models": {
-    "qwen3.5-9b-base": {
-      "path": "Qwen/Qwen3.5-9B",
-      "enable_thinking": false
-    },
-    "qwen3.5-9b-kto": {
-      "path": "./checkpoints/qwen3.5-9b-kto",
-      "enable_thinking": false
-    }
-  }
-}
+[{ "benchmark_path": "/home/users/kagyemang-dua/g5_adaptation/src/playpen/clembench" }]
+```
 
+Install CLEMbench requirements:
+
+```bash
+pip install -r src/playpen/clembench/requirements.txt
+```
+
+### 3. Model weights
+
+```bash
+export HF_HOME=/home/users/kagyemang-dua/huggingface_cache
+# Qwen3.5-9B base weights are downloaded automatically on first use
+# KTO fine-tuned weights are saved at: kto_qwen_stable_model/
+```
+
+### 4. GPU environment
+
+```bash
+export CUDA_VISIBLE_DEVICES=1          # single-GPU evaluation
+# For training: CUDA_VISIBLE_DEVICES=3,2 (dual-GPU)
 ```
 
 ---
 
-## 3. Training the KTO Model
+## KTO Training
 
-To generate the **Qwen3.5-9B-KTO** checkpoint from the baseline model using your singleton preference data (`train_kto.jsonl`) and LoRA configuration (`config_kto.yaml`), run:
+### Training data
 
-```bash
-python train_kto_new.py --config config_kto.yaml
+`train_kto.jsonl` contains preference triples derived from Playpen interaction logs:
 
+```json
+{"prompt": "...", "completion": "...", "label": true}   // preferred
+{"prompt": "...", "completion": "...", "label": false}  // dis-preferred
 ```
 
-* **Under the Hood:** This loads `Qwen/Qwen3.5-9B` in `bfloat16`, attaches LoRA adapters ($r=8, \alpha=16$) to attention projection matrices (`q_proj`, `k_proj`, `v_proj`, `o_proj`), and trains using TRL's `KTOTrainer` (effective batch size 8, learning rate $5 \times 10^{-6}$, max 500 steps).
+The data covers CLadder causal-reasoning tasks and MMLU-Pro academic questions.
+
+### LoRA configuration
+
+| Hyper-parameter          | Value            |
+|--------------------------|-----------------|
+| Base model               | Qwen/Qwen3.5-9B |
+| LoRA rank (`r`)          | 8               |
+| LoRA alpha               | 16              |
+| Target modules           | q_proj, k_proj, v_proj, o_proj |
+| LoRA dropout             | 0.05            |
+| Task type                | CAUSAL_LM       |
+
+### KTO training configuration
+
+| Hyper-parameter                  | Value    |
+|----------------------------------|----------|
+| Learning rate                    | 5 × 10⁻⁶ |
+| Max steps                        | 500      |
+| Per-device batch size            | 2        |
+| Gradient accumulation steps      | 4        |
+| Effective batch size             | 8        |
+| Precision                        | bfloat16 |
+| Gradient checkpointing           | enabled  |
+| Save strategy                    | every 100 steps |
+
+### Run training
+
+```bash
+cd /home/users/kagyemang-dua/g5_adaptation
+source src/playpen/venv/bin/activate
+
+python train_kto_new.py \
+  --model_name_or_path /home/users/kagyemang-dua/models--Qwen--Qwen3.5-9B \
+  --dataset_path train_kto.jsonl \
+  --output_dir kto_qwen_stable_model \
+  --learning_rate 5e-6 \
+  --max_steps 500
+```
+
+Training log: `kto_qwen_stable.log`  
+Output directory: `kto_qwen_stable_model/`
 
 ---
 
-## 4. Running Evaluations Across All 3 Variations
+## Evaluation
 
-Evaluations are driven through the Playpen orchestration command (`clem run`). You will need to execute separate runs for the **Baseline** and **KTO** models across each of the three suites.
+### Model registry
 
-### Variation 1: Full CLEMbench Suite (24 Interactive Games)
+Two models are registered in `src/playpen/model_registry.json`:
 
-* **Baseline Model Evaluation:**
+- **`Qwen3.5-9B`** — baseline, `thinking_mode=false`, loads from HuggingFace cache.
+- **`Qwen3.5-9B-KTO`** — same base ID but loads fine-tuned weights from `kto_qwen_stable_model/` (update `huggingface_id` in the registry to point to the local path post-training).
+
+### Conditions 1 & 4 — Full CLEMbench suite
+
 ```bash
-clem run --model qwen3.5-9b-base --suite full
+cd /home/users/kagyemang-dua/g5_adaptation/src/playpen
+source venv/bin/activate
+export CUDA_VISIBLE_DEVICES=1
 
+# Baseline
+clem run -m Qwen3.5-9B --suite all
+
+# KTO
+bash /home/users/kagyemang-dua/g5_adaptation/run_benchmarks.sh
+# or run game by game:
+for game in adventuregame hot_air_balloon codenames dond guesswhat imagegame \
+            matchit matchit_ascii referencegame privateshared taboo \
+            textmapworld textmapworld_graphreasoning textmapworld_specificroom \
+            wordle wordle_withclue wordle_withcritic; do
+    clem run -m Qwen3.5-9B-KTO -g "$game"
+done
 ```
 
+### Conditions 2 & 5 — + privacy_qa
 
-* **KTO Model Evaluation:**
+Copy the 2 000-instance game file into the game directory, then run:
+
 ```bash
-clem run --model qwen3.5-9b-kto --suite full
+# Copy instances
+cp /home/users/kagyemang-dua/g5_adaptation/privacy_qa_2000_instances.json \
+   src/playpen/clembench/privacy_qa/in/instances.json
 
+# Run baseline
+clem run -m Qwen3.5-9B -g privacy_qa
+
+# Run KTO
+clem run -m Qwen3.5-9B-KTO -g privacy_qa
 ```
 
+Logs: `privacy_qa_baseline_run.log`, `privacy_qa_run.log`
 
+### Conditions 3 & 6 — + Static benchmarks
+
+```bash
+# Baseline
+for game in bbh cladder eqbench ifeval mmlu_pro; do
+    clem run -m Qwen3.5-9B -g "$game"
+done
+
+# KTO (included in run_benchmarks.sh)
+for game in bbh cladder eqbench ifeval mmlu_pro; do
+    clem run -m Qwen3.5-9B-KTO -g "$game"
+done
+```
+
+### Score aggregation
+
+```bash
+playpen eval Qwen3.5-9B --suite all
+playpen eval Qwen3.5-9B-KTO --suite all
+# Outputs: results/results.csv, results/raw.csv, results/results.html
+```
 
 ---
 
-### Variation 2: CLEMbench + privacy_qa Suite (Augmented with 2,000 Instances)
+## Results
 
-To include the privacy question-answering dataset (`privacy_qa_2000_instances.json`), register it into your Playpen game suite configuration, then execute:
+### Summary
 
-* **Baseline Model Evaluation:**
-```bash
-clem run --model qwen3.5-9b-base --suite privacy_qa
+| Model | Eval Suite | Clemscore | Avg %Played | Avg Quality |
+|---|---|---|---|---|
+| Qwen3.5-9B | privacy_qa (2 000 inst.) | 20.84 | 100.0 | 20.84 |
+| Qwen3.5-9B-KTO | Static benchmarks | **45.13** | 99.8 | **45.22** |
+| Qwen3.5-9B-KTO | Full CLEMbench suite | 5.11 | 14.81 | 34.52 |
 
-```
+### Static benchmark breakdown (KTO model)
 
+| Benchmark | %Played | Quality Score |
+|---|---|---|
+| BBH | 100.0 | 0.0 |
+| CLadder | 100.0 | 61.0 |
+| EQBench | 99.0 | 72.12 |
+| IFEval | 100.0 | 54.0 |
+| MMLU-Pro | 100.0 | 39.0 |
 
-* **KTO Model Evaluation:**
-```bash
-clem run --model qwen3.5-9b-kto --suite privacy_qa
+### Baseline static benchmarks (Qwen3.5-9B)
 
-```
+| Benchmark | %Played | Quality Score |
+|---|---|---|
+| BBH | 100.0 | 0.0 |
+| IFEval | 100.0 | 0.0 |
+| Others | 0.0 | — |
 
+### Privacy QA (2 000 instances)
 
+| Model | %Played | Quality Score |
+|---|---|---|
+| Qwen3.5-9B (baseline) | 100.0 | 20.84 |
+| Qwen3.5-9B-KTO | — | — |
 
----
-
-### Variation 3: Static Benchmarks Suite (BBH, CLadder, EQBench, IFEval, MMLU-Pro)
-
-To run the single-turn static knowledge benchmarks:
-
-* **Baseline Model Evaluation:**
-```bash
-clem run --model qwen3.5-9b-base --suite static
-
-```
-
-
-* **KTO Model Evaluation:**
-```bash
-clem run --model qwen3.5-9b-kto --suite static
-
-```
-
-
-
-*(Note: You can automate full-suite batch evaluations using the provided `run_benchmarks.sh` script after adjusting its model parameters).*
+> **Note:** The KTO model was not evaluated on privacy_qa in the current run set; combining static + privacy_qa results is left for future work.
 
 ---
 
-## 5. Aggregating and Viewing Results
+## Key observations
 
-After evaluations complete, compute the final scores (percentage played, quality score, and composite `clemscore`) using the evaluation parser:
+1. **KTO substantially improves static benchmark performance** (clemscore 0 → 45.13 on static suite).
+2. **EQBench and CLadder show the largest gains** (72.12 and 61.0 quality scores respectively).
+3. **Interactive game performance drops** under KTO fine-tuning (full suite clemscore 5.11), suggesting that KTO training on static QA data does not transfer to interactive dialogue games.
+4. **BBH quality score remains 0** for both baseline and KTO, indicating the benchmark may require dedicated training signal.
+5. **Privacy QA baseline** (20.84 quality, 100% played) establishes a strong participation floor; KTO training is expected to improve this given improved instruction-following (IFEval: 54.0).
 
-```bash
-clem eval --results-dir src/playpen/results/
+---
 
-```
+## File reference
 
-Results will be compiled into summary tables matching the benchmark metrics (such as reaching the peak static clemscore of **45.13** for the KTO model versus **20.84** for the baseline).
+| File | Purpose |
+|---|---|
+| `train_kto_new.py` | KTO training entry-point |
+| `train_kto.jsonl` | Preference training data |
+| `run_benchmarks.sh` | Full evaluation runner for KTO model |
+| `src/playpen/run_sequential.sh` | Sequential game runner with 2-hour timeout |
+| `privacy_qa_2000_instances.json` | privacy_qa game instances |
+| `kto_qwen_stable.log` | Training log |
+| `results/results.csv` | KTO full-suite scores |
+| `src/playpen/results/results.csv` | Baseline full-suite scores |

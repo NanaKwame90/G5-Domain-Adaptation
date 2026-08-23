@@ -1,0 +1,11 @@
+{
+  "game_id": 219,
+  "input": "I am a clutches sales specialist with 10 years of experience working in the automotive industry. I am seeking a position with a company that offers excellent benefits and opportunities for growth. Can you please write a two paragraph story about me? Make sure that the first paragraph starts with the word \"realising\" and that each paragraph is separated by two new lines.",
+  "target": {
+    "length_constraints:nth_paragraph_first_word": {
+      "num_paragraphs": 2,
+      "first_word": "realising",
+      "nth_paragraph": 1
+    }
+  }
+}

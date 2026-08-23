@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 422,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T21:03:01.060747",
+        "action": {
+          "type": "send message",
+          "content": "Plan a 2 week Europe trip and visit London, Paris, and Rome. Answer in all caps. The response must contain at least 8 placeholders (i.e., [restaurant]).",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:01.060827",
+        "action": {
+          "type": "get message",
+          "content": "START YOUR 2-WEEK EUROPEAN ADVENTURE IN LONDON ON DAY 1 BY BOOKING A TABLE AT [RESTAURANT] FOR DINNER. SPEND DAY 2 VISITING THE TOWER OF LONDON AND DAY 3 EXPLORING THE BRITISH MUSEUM. ON DAY 4, FLY TO PARIS AND CHECK INTO YOUR HOTEL AT [HOTEL NAME]. DAY 5 IS DEDICATED TO THE EIFFEL TOWER AND DAY 6 TO THE LOUVRE MUSEUM. ENJOY A COFFEE AT [CAFE] ON DAY 7 BEFORE FLYING TO ROME ON DAY 8. IN ROME, DAY 9 IS FOR THE COLOSSEUM AND DAY 10 FOR THE VATICAN. HAVE LUNCH AT [PASTA PLACE] ON DAY 11 AND DAY 12 IS FOR THE TREV Fountain. ON DAY 13, RELAX AT [SPA] AND ON DAY 14, FLY HOME FROM [AIRPORT CODE]. DON'T FORGET TO PACK YOUR [BAG TYPE] AND BRING YOUR [PASSPORT].||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:01.060918",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_content:number_placeholders": {
+              "num_placeholders": 8
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T21:03:01.061117",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

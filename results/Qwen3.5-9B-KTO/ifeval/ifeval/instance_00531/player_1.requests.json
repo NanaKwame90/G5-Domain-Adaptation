@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 531,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T21:21:32.078284",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nRewrite the haiku below into two versions. Both of them should be funny. Separate the two versions using six asterisk symbols (******). Include the keywords ['dog', 'day'] in the response.\n\nOn a chilly winter night\nA cat meows at the moon\nHoping for some warmth<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nRewrite the haiku below into two versions. Both of them should be funny. Separate the two versions using six asterisk symbols (******). Include the keywords ['dog', 'day'] in the response.\n\nOn a chilly winter night\nA cat meows at the moon\nHoping for some warmth<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nOn a chilly winter night,\nA cat meows at the moon,\nThen chases a dog.\n******\nOn a chilly winter day,\nA cat meows at the sun,\nHoping for a nap.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 21:21:22.583447",
+            "call_duration": "0:00:09.494664",
+            "response": "On a chilly winter night,\nA cat meows at the moon,\nThen chases a dog.\n******\nOn a chilly winter day,\nA cat meows at the sun,\nHoping for a nap.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

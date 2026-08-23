@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "game_name": "eqbench",
+    "experiment_name": "eq_bench",
+    "game_id": 126,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>"
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T04:58:32.874736",
+        "action": {
+          "type": "send message",
+          "content": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nSerepta: Argyle, how many times do I have to tell you to clean your mess? \nArgyle: Serepta, it's just a few sketches scattered around. It's not like I'm hoarding garbage.\nSerepta: It's not about the sketches, Argyle. It's about respect. This is our shared space.\nArgyle: Respect, huh? Like the respect you show when you rearrange my things without asking?\nSerepta: I do that because you never put things back where they belong.\nArgyle: Or maybe because you can't stand the thought of not being in control.\nSerepta: That's not fair, Argyle. You know I have a lot on my plate.\nArgyle: And you think I don't? \nSerepta: You? You're always so carefree, always with that sketchbook in your hand. What do you know about pressure?\nArgyle: You think I don't feel pressure? Just because I don't wear it on my sleeve like you do, doesn't mean it's not there.\nSerepta: Well, maybe if you spent less time sketching and more time studying, you wouldn't feel so pressured.\nArgyle: And maybe if you spent less time obsessing over every little thing, you'd actually enjoy life a little.\nSerepta: I don't have the luxury of being carefree, Argyle. Some of us have responsibilities.\n[End dialogue]\n\nAt the end of this dialogue, Argyle would feel...\nVindicated\nMisunderstood\nGuilty\nNonchalant\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nVindicated: <score>\nMisunderstood: <score>\nGuilty: <score>\nNonchalant: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:58:32.874795",
+        "action": {
+          "type": "get message",
+          "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Task: Predict the likely emotional responses of a character (Argyle) in the provided dialogue.\n    *   Input: A dialogue between Serepta and Argyle regarding cleanliness, respect, control, and pressure.\n    *   Output Format: Specific list of emotions with scores (0-10), including headings, no additional commentary.\n    *   Constraint: Score at least one emotion  0.\n    *   Emotions to score: Vindicated, Misunderstood, Guilty, Nonchalant.\n\n2.  **Analyze the Dialogue:**\n    *   **Serepta:** Accuses Argyle of making a mess, emphasizes respect and shared space. Claims Argyle never puts things back. Claims Argyle is carefree and doesn't understand pressure. Claims Argyle has responsibilities.\n    *   **Argyle:** Defends sketches as not garbage. Counters Serepta's accusation by pointing out Serepta rearranges his things without asking. Claims Serepta can't stand not being in control. Defends himself against the \"carefree\" label, stating he feels pressure too. Counters Serepta's advice (study more) with advice for Serepta (enjoy life more).\n    *   **Tone:** Defensive, confrontational, escalating tension. Both are justifying their behaviors and attacking the other's",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:58:32.875348",
+        "action": {
+          "type": "metadata",
+          "content": "ParseError: Number of scored emotion is '1', but the expected format lists '4'"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T04:58:32.875414",
+        "action": {
+          "type": "invalid format",
+          "content": "game_result = ABORT"
+        }
+      }
+    ]
+  ],
+  "Parsed Response": null,
+  "Aborted": 1,
+  "Lose": 0,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 0,
+  "Violated Request Count": 1
+}

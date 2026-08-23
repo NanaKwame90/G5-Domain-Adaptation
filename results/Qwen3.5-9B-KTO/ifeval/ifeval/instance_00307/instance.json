@@ -1,0 +1,16 @@
+{
+  "game_id": 307,
+  "input": "Write a very short resume for a refinery operator who has 5 years of experience working in the chemical industry. Include the keywords \"friends\" and \"hanson\" in the resume. Make your entire output contain less than 50 words.",
+  "target": {
+    "keywords:existence": {
+      "keywords": [
+        "friends",
+        "hanson"
+      ]
+    },
+    "length_constraints:number_words": {
+      "relation": "less than",
+      "num_words": 50
+    }
+  }
+}

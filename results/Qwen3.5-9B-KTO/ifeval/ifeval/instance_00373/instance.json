@@ -1,0 +1,9 @@
+{
+  "game_id": 373,
+  "input": "If a = 10, b = 30, and c = 20, what is the value of (a + b) / c? Give me the answer in exactly two paragraphs, separated with the markdown divider: ***",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 2
+    }
+  }
+}

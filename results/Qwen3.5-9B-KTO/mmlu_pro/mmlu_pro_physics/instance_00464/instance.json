@@ -1,0 +1,5 @@
+{
+  "game_id": 464,
+  "input": "Question:\nAn aluminum calorimeter of mass 50 g contains 95 g of a mixture of water and ice at 0°C. When 100 g of aluminum which has been heated in a steam jacket is dropped into the mixture, the temperature rises to 5°C. Find the mass of ice originally present if the specific heat capacity of aluminum is 0.22 cal/g\\bulletCdeg.\nOptions:\nA. 13.0 g\nB. 19.50 g\nC. 22.0 g\nD. 17.5 g\nE. 25.0 g\nF. 16.0 g\nG. 20.0 g\nH. 18.0 g\nI. 21.0 g\nJ. 15.0 g\n",
+  "target": "B"
+}

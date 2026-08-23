@@ -1,0 +1,5 @@
+{
+  "game_id": 463,
+  "input": "Question:\nTwo identical wires are stretched by the same tension of 100 N, and each emits a note of frequency 200 cycles\\textbullets^\\rule{1em}{1pt}1. The tension in one wire is increased by 1 N. Calculate the number of beats heard per second when the wires are plucked.\nOptions:\nA. 5 cycles per second\nB. 1 cycle per second\nC. 0.5 cycle per second\nD. 4 cycles per second\nE. 2.5 cycles per second\nF. 2 cycles per second\nG. 0.2 cycle per second\nH. 0.8 cycle per second\nI. 3 cycles per second\nJ. 1.5 cycles per second\n",
+  "target": "B"
+}

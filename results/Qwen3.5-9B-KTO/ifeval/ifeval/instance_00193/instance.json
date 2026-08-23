@@ -1,0 +1,16 @@
+{
+  "game_id": 193,
+  "input": "Write a very long email to my \"friend\" Jake, asking how is everything going. Say that I am rich now, without saying I am rich. Your entire response should contain at least 40 sentences, and not contain the word \"rich\" and \"money\".",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 40
+    },
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "rich",
+        "money"
+      ]
+    }
+  }
+}

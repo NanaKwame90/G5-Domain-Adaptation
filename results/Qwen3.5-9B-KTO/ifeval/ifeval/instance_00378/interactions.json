@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 378,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:50:26.808552",
+        "action": {
+          "type": "send message",
+          "content": "Write me a letter in the style of Shakespeare about the mandates and instructions of the King. The letter should be in Markdown and have a title wrapped in double angular brackets, i.e. <<title>>.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:50:26.808618",
+        "action": {
+          "type": "get message",
+          "content": "The King's Decree to His Loyal Subjects\n\nTo all my faithful subjects, both near and far,\nWho dwell within this realm of sun and star,\nHear now the voice of him who holds the crown,\nAnd let your hearts beat true to his renown.\n\nBy royal mandate, signed with hand of might,\nI bid you cease your strife and put aside the night\nOf discord that hath plagued our peaceful land.\nLet every quarrel end, as by my word commanded.\n\nAttend the courts where justice shall be done,\nAnd pay the tolls that keep the realm as one.\nNo tax shall be withheld, no duty unpaid,\nFor I am he who guards your life and shade.\n\nIf any rebel rises, bold or small,\nAgainst the laws I set to rule them all,\nThen know that swift retribution shall befall,\nTo make the traitor's name a thing of thrall.\n\nYet to the good, who serve with heart and hand,\nI grant my favor, and a noble land.\nSo stand in awe of power, great and deep,\nAnd bow the knee, while I the scepter keep.\n\nThus ends my speech, written in ink of state,\nTo bind your souls to mine, in love and fate.\nLong live the King! Long live the golden age!\nObey, or face the wrath of royal rage.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:50:26.808703",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_format:title": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:50:26.808899",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

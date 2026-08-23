@@ -1,0 +1,5 @@
+{
+  "game_id": 584,
+  "input": "Question:\nWhat three factors regulate stroke volume?\nOptions:\nA. Blood volume, preload, and afterload.\nB. Blood pressure, heart rate, and afterload.\nC. Afterload, cardiac output, and blood volume.\nD. Blood pressure, preload, and cardiac output.\nE. Preload, contractility, and afterload.\nF. Preload, blood volume, and heart rate.\nG. Contractility, blood volume, and blood pressure.\nH. Blood volume, heart rate, and contractility.\nI. Cardiac output, contractility, and blood volume.\nJ. Contractility, preload, and heart rate.\n",
+  "target": "E"
+}

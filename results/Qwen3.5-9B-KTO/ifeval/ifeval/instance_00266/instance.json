@@ -1,0 +1,9 @@
+{
+  "game_id": 266,
+  "input": "Give me a poem about California. The very end of your entire response should read exactly like: your love, and thanks.",
+  "target": {
+    "startend:end_checker": {
+      "end_phrase": "your love, and thanks."
+    }
+  }
+}

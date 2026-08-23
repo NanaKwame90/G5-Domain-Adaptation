@@ -1,0 +1,13 @@
+{
+  "game_id": 394,
+  "input": "Can you create an itinerary for a 5 day trip to switzerland that includes exactly 3 bullet points in markdown format, in all lowercase letters, and a postscript at the end starting with P.S.?",
+  "target": {
+    "detectable_format:number_bullet_lists": {
+      "num_bullets": 3
+    },
+    "change_case:english_lowercase": {},
+    "detectable_content:postscript": {
+      "postscript_marker": "P.S."
+    }
+  }
+}

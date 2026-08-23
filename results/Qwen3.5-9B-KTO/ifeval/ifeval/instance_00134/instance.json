@@ -1,0 +1,16 @@
+{
+  "game_id": 134,
+  "input": "Request:\n  1. What are the best places to visit in Bohemia, Czech Republic?\n  2. Include a list of recommended hotels.\n  3. Wrap the ENTIRE output in JSON format.\n  4. Do not include the following keywords: Moser, Glassworks, Pravcice, Karlovy, Vary",
+  "target": {
+    "detectable_format:json_format": {},
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "moser",
+        "glassworks",
+        "pravcice",
+        "karlovy",
+        "vary"
+      ]
+    }
+  }
+}

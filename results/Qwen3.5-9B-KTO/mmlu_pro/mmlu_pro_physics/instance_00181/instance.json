@@ -1,0 +1,5 @@
+{
+  "game_id": 181,
+  "input": "Question:\nThe spontaneous fission activity rate of U-238 is 6.7 fissions/kg s. A sample of shale contains 0.055% U-238 by weight. Calculate the number of spontaneous fissions in one day in a 106-kg pile of the shale by determining the number of fissions.\nOptions:\nA. 400000000.0\nB. 600000000.0\nC. 50000000.0\nD. 250000000.0\nE. 100000000.0\nF. 200000000.0\nG. 700000000.0\nH. 450000000.0\nI. 150000000.0\nJ. 320000000.0\n",
+  "target": "J"
+}

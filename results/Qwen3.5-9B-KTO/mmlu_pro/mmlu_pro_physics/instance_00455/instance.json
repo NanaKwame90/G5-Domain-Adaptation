@@ -1,0 +1,5 @@
+{
+  "game_id": 455,
+  "input": "Question:\nIf a disk is rotating at 1200 rev/min, what torque is required to stop it in 3.0 min?\nOptions:\nA. -26 lb-ft\nB. -15 lb-ft\nC. -40 lb-ft\nD. -35 lb-ft\nE. -20 lb-ft\nF. -22 lb-ft\nG. -45 lb-ft\nH. -28 lb-ft\nI. -30 lb-ft\nJ. -32 lb-ft\n",
+  "target": "A"
+}

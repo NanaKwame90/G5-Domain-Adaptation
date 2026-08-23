@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 283,
+    "results_folder": "Qwen3.5-9B-KTO",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B-KTO",
+        "backend": "huggingface_local",
+        "eos_to_cull": "<|im_end|>",
+        "gen_args": {
+          "temperature": 0.0,
+          "max_new_tokens": 512
+        },
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "lookup_source": "/home/users/kagyemang-dua/g5_adaptation/model_registry.json",
+        "model_config": {
+          "huggingface_id": "Qwen/Qwen3.5-9B",
+          "premade_chat_template": true,
+          "eos_to_cull": "<|im_end|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          }
+        },
+        "premade_chat_template": true
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B-KTO"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-30T20:35:49.792052",
+        "action": {
+          "type": "send message",
+          "content": "Can you write rap songs about the history of the prefecture system in Japan? Give exactly two different responses separated by 6 asterisk symbols ******.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:35:49.792121",
+        "action": {
+          "type": "get message",
+          "content": "(Beat drops: Traditional Taiko drums mixed with a modern boom-bap loop)\n\n**Verse 1: The Old Ways**\nYo, check the map before the Meiji sun came up,\nLand was owned by Daimyo, rules were strict and up.\nHundreds of fiefdoms, each one fighting for the throne,\nSamurai in armor, guarding every single stone.\nNo national ID, just loyalty to the lord,\nIf you crossed the line, you'd be cut down, no more.\nChaos in the air, warlords marching through the streets,\nUntil the Shogun fell and the new era meets.\n\n**Chorus**\nFrom the Han to the Ken, the system changed its name,\nFrom feudal lords to prefectures, nothing's the same.\nOne hundred and twenty-two, then down to forty-five,\nThe map of Japan got redrawn, now it's time to survive.\n\n**Verse 2: The Meiji Shift**\nThen came the Emperor, the Meiji Restoration,\nAbolished the fiefdoms, put the nation first, no question.\nCreated the *Fukken*, the prefecture system born,\nCentralized the power, the old ways were torn.\nFirst it was one hundred and twenty-two, a big number to start,\nThen in 1878, they cut it down to forty-five, smart.\nMerging the small, making the big, standardizing the law,\nFrom Tokyo down to Hokkaido, watching the power grow.\n\n**Verse 3: The Modern Era**\nFast forward to 1947, post-war reconstruction,\nThe Constitution came, a new political action.\nReorganized the borders, gave them more local say,\nBut the central government still held the keys to the day.\nNow we have forty-seven, each with its own pride,\nFrom Okinawa's waves to the snowy side.\nThey handle the schools, the roads, and the parks,\nWhile the Emperor sits high, watching the sparks.\nSo when you hear the history of the prefecture line,\nIt's the story of how Japan became one, not nine.\n\n******\n\n(Beat switches: A fusion of Koto strings and heavy 808 bass)\n\n**Intro**\nYeah.\nFrom the feudal dust to the modern street.\nThe story of the *Ken*, the *Fukken*, the *Do*.\nListen close.\n\n**Verse 1: The Fragmented Past**\nPicture Japan in the Edo, a patchwork quilt of land,\nDaimyo ruling their domains, holding the command.\nNo unified state, just a collection of wars,\nClashing swords and banners, opening the doors.\nThe Tokugawa Shogunate kept the peace for a while,\nBut the samurai code was the only rule, the only style.\nUntil the Black Ships came, forcing the change,\nThe old feudal system had to take a strange, new range.\n\n**Chorus**\nOne hundred and twenty-two, the initial count,\nThen the Great Consolidation, shaking the ground.\nForty-seven prefectures, the final count we know,\nFrom the northern snows to the southern flow.\nIt's the history of the prefecture, the map in your hand,\nThe backbone of the nation, the story of the land.\n\n**Verse 2: The Great Consolidation**\nIn 1871, the *Haihan Chiken*, the decree was signed,\nAbolishing the Han, leaving the old world behind.\nCreated the *Fukken*, the prefecture system new,\nCentralizing the power, the Emperor's decree too.\nStarted with one hundred and twenty-two, a massive list,\nThen in 1878, they cut it down to forty-five, distinct.\nMerging the small provinces into larger, stronger units,\nStandardizing the laws, putting the people in suits.\nIt wasn't just a name change, it was a total overhaul,\nTurning a feudal mess into a modern marvel.\n\n**Verse 3: The 1947 Reset**\nThen the war ended, the occupation came,\nThe US influence shaped the new political game.\nIn 1947, the Local Autonomy Law passed,\nGiving the prefectures more power, making the people blessed.\nReorganized the borders again, tweaking the lines,\nEnsuring stability for the future and the signs.\nNow each of the forty-seven has its own mayor and council,\nManaging the budget, the schools, and the school bell.\nFrom Aomori to Okinawa, the system stands tall,\nThe history of the prefecture, the story of it all.\n\n**Outro**\nFrom the Daimyo to the Governor, the journey is long.\nThe map of Japan, where the history belongs.\nForty-seven prefectures, one nation strong.\nYeah.\nPeace.||\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:35:49.792212",
+        "action": {
+          "type": "target",
+          "content": {
+            "combination:two_responses": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-30T20:35:49.792391",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

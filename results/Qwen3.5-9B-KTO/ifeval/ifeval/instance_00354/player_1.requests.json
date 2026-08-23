@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 354,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:45:40.726586",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nFor a bunch of students, write a 200+ word poem that professionally describes a new line of shoes. Make sure to use markdown to highlight/bold at least one section of the poem. Example: *highlighted text*<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nFor a bunch of students, write a 200+ word poem that professionally describes a new line of shoes. Make sure to use markdown to highlight/bold at least one section of the poem. Example: *highlighted text*<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nIn hallowed halls where youthful minds take flight,\nA new collection brings a spark of light.\nNo longer bound by canvas or by lace,\nThese shoes are built to conquer every space.\n\nDesigned with precision, crafted for the run,\nThey offer comfort that the weary can't outdone.\nThe **ergonomic sole provides a cushioned embrace**,\nTurning every step into a graceful race.\n\nFrom lecture halls to late-night study sessions,\nThese sneakers offer endless, reliable lessons.\nThe breathable mesh allows the feet to breathe,\nWhile the durable upper promises to never leave.\n\nA sleek silhouette that complements the uniform,\nIt signals that the student is truly becoming.\nWhether sprinting down the quad or walking slow,\nThis footwear makes the journey feel like home, you know.\n\nWith arch support that aligns the posture right,\nThey turn the longest day into a fleeting flight.\nNo blisters form, no pain can ever start,\nAs these premium shoes help every student's heart.\n\nSo lace them up and stride with confidence and grace,\nFor style and substance in this modern race.\nA perfect blend of function and of form,\nTo help the student find their inner storm.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:44:54.054471",
+            "call_duration": "0:00:46.671821",
+            "response": "In hallowed halls where youthful minds take flight,\nA new collection brings a spark of light.\nNo longer bound by canvas or by lace,\nThese shoes are built to conquer every space.\n\nDesigned with precision, crafted for the run,\nThey offer comfort that the weary can't outdone.\nThe **ergonomic sole provides a cushioned embrace**,\nTurning every step into a graceful race.\n\nFrom lecture halls to late-night study sessions,\nThese sneakers offer endless, reliable lessons.\nThe breathable mesh allows the feet to breathe,\nWhile the durable upper promises to never leave.\n\nA sleek silhouette that complements the uniform,\nIt signals that the student is truly becoming.\nWhether sprinting down the quad or walking slow,\nThis footwear makes the journey feel like home, you know.\n\nWith arch support that aligns the posture right,\nThey turn the longest day into a fleeting flight.\nNo blisters form, no pain can ever start,\nAs these premium shoes help every student's heart.\n\nSo lace them up and stride with confidence and grace,\nFor style and substance in this modern race.\nA perfect blend of function and of form,\nTo help the student find their inner storm.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

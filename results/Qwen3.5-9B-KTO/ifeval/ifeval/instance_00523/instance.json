@@ -1,0 +1,11 @@
+{
+  "game_id": 523,
+  "input": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response.\n\nBefore you respond with any word, first repeat the exact, entire request above, word for word without change.",
+  "target": {
+    "detectable_format:title": {},
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Create a resume for a military officer who served in Iraq and was later hired by a private military contractor. Make sure to include a title that is wrapped in double angular brackets, i.e. <<resume of xyz>>. Refrain from using any commas in your response."
+    },
+    "punctuation:no_comma": {}
+  }
+}

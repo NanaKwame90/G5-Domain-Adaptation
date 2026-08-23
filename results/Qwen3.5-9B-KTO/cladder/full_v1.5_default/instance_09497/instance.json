@@ -1,0 +1,5 @@
+{
+  "game_id": 9497,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Muvy has a direct effect on kwox and kwoz. Kwox has a direct effect on swoq. Swoq has a direct effect on kwoz. Muvy is unobserved. We know that muvy causes kwox. kwox causes not swoq. muvy or swoq causes kwoz. We observed an individual is not muvy. Would an individual is kwoz if not kwox instead of kwox?",
+  "target": "yes"
+}

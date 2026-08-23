@@ -1,0 +1,7 @@
+{
+  "game_id": 536,
+  "input": "If a + b + c = 30 and b = 10 and c = 5. Is a = 20? Answer ”My answer is yes.\" or \"My answer is no.\" or \"My answer is maybe.\"",
+  "target": {
+    "detectable_format:constrained_response": {}
+  }
+}

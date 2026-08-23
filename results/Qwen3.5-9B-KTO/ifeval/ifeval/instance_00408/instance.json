@@ -1,0 +1,10 @@
+{
+  "game_id": 408,
+  "input": "Write a blog post about the echoing biotechnology field in 2023, then criticize the blog post. Your answer must contain a title, wrapped in double angular brackets, such as <<blog post of ...>>. Also, add a postscript starting with P.S.",
+  "target": {
+    "detectable_format:title": {},
+    "detectable_content:postscript": {
+      "postscript_marker": "P.S."
+    }
+  }
+}

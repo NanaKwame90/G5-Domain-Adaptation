@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 121,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T19:53:58.467840",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a cover letter for a job at a local coffee shop in the form of a poem. Highlight at least 5 text sections using \"*\". For example: *3 years of experience*.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a cover letter for a job at a local coffee shop in the form of a poem. Highlight at least 5 text sections using \"*\". For example: *3 years of experience*.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nTo the Barista Who Keeps the Roast Alive,\n\nI write this verse to apply for your crew,\nWith a heart that beats to the morning brew.\nThough I may not know the exact grind size,\nI bring a passion that will never cease.\n\n*3 years of experience* in serving smiles,\nIs something I offer, not just for miles.\nI know how to steam milk with a gentle hand,\nAnd keep the espresso machine from standing.\n\nMy *attention to detail* is sharp and keen,\nI'll ensure every cup is perfectly clean.\nFrom wiping down counters to polishing rings,\nI'll make your busy shop feel like a spring.\n\nI understand that *customer service* is key,\nTo making every guest feel free.\nI'll listen to their orders with a warm, bright eye,\nAnd watch the coffee steam rise to the sky.\n\nEven when the rush is loud and fast,\nI'll keep my cool and do my best.\nWith *positive energy* that I will share,\nI'll make your coffee shop a place to care.\n\nSo let me pour my heart into this line,\nAnd hope I can be part of your design.\nI'm ready to start my shift today,\nAnd help you serve the best way.\n\nSincerely,\n\nA Future Barista<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 19:52:58.406990",
+            "call_duration": "0:01:00.060658",
+            "response": "To the Barista Who Keeps the Roast Alive,\n\nI write this verse to apply for your crew,\nWith a heart that beats to the morning brew.\nThough I may not know the exact grind size,\nI bring a passion that will never cease.\n\n*3 years of experience* in serving smiles,\nIs something I offer, not just for miles.\nI know how to steam milk with a gentle hand,\nAnd keep the espresso machine from standing.\n\nMy *attention to detail* is sharp and keen,\nI'll ensure every cup is perfectly clean.\nFrom wiping down counters to polishing rings,\nI'll make your busy shop feel like a spring.\n\nI understand that *customer service* is key,\nTo making every guest feel free.\nI'll listen to their orders with a warm, bright eye,\nAnd watch the coffee steam rise to the sky.\n\nEven when the rush is loud and fast,\nI'll keep my cool and do my best.\nWith *positive energy* that I will share,\nI'll make your coffee shop a place to care.\n\nSo let me pour my heart into this line,\nAnd hope I can be part of your design.\nI'm ready to start my shift today,\nAnd help you serve the best way.\n\nSincerely,\n\nA Future Barista||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

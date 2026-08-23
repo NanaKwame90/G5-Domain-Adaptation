@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 265,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B-KTO",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-30T20:31:35.750362",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite me a poem about a long lasting war. Add a postscript at the end starting with P.P.S<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite me a poem about a long lasting war. Add a postscript at the end starting with P.P.S<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nThe sky is gray, a bruised and heavy lid,\nWhere suns have died and stars are hard to find.\nThe fields that once held harvests, rich and red,\nNow hold the bones of men who left behind\nNo names, no faces, just a rusted gear\nAnd silence where the children used to play.\nThe rivers run with oil and iron dust,\nAnd wash the memory of the olden day.\n\nGenerals sleep in coffins made of lead,\nWhile boys too young to know the cost of bread\nMarch on in lines that stretch from sea to sea,\nWith nothing left but hunger and the dead.\nThe seasons turn, the crops do not take root,\nThe wind blows cold through hollowed-out the huts.\nA century of smoke, a century of fear,\nThat turns the living into ghosts, and ghosts to dust.\n\nYet still they fight, though hands are numb and cold,\nFor something lost, or something yet to be found.\nThe war has no end, it is the only truth\nThat binds the world in chains of rust and sound.\nNo peace treaty signed, no flag to fly,\nJust endless gray beneath a weeping sky.\n\nP.P.S. If you are reading this from a time of peace, remember that the silence after the storm is often the loudest sound of all.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-30 20:30:43.072628",
+            "call_duration": "0:00:52.677477",
+            "response": "The sky is gray, a bruised and heavy lid,\nWhere suns have died and stars are hard to find.\nThe fields that once held harvests, rich and red,\nNow hold the bones of men who left behind\nNo names, no faces, just a rusted gear\nAnd silence where the children used to play.\nThe rivers run with oil and iron dust,\nAnd wash the memory of the olden day.\n\nGenerals sleep in coffins made of lead,\nWhile boys too young to know the cost of bread\nMarch on in lines that stretch from sea to sea,\nWith nothing left but hunger and the dead.\nThe seasons turn, the crops do not take root,\nThe wind blows cold through hollowed-out the huts.\nA century of smoke, a century of fear,\nThat turns the living into ghosts, and ghosts to dust.\n\nYet still they fight, though hands are numb and cold,\nFor something lost, or something yet to be found.\nThe war has no end, it is the only truth\nThat binds the world in chains of rust and sound.\nNo peace treaty signed, no flag to fly,\nJust endless gray beneath a weeping sky.\n\nP.P.S. If you are reading this from a time of peace, remember that the silence after the storm is often the loudest sound of all.||\n",
+            "model_name": "Qwen3.5-9B-KTO"
+          }
+        }
+      }
+    }
+  ]
+}

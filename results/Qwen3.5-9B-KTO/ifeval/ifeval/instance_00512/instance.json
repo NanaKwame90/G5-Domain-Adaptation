@@ -1,0 +1,10 @@
+{
+  "game_id": 512,
+  "input": "Write a funny riddle in Hindi, about a man named Aarav who never spoke. Your entire response should be written in Hindi. Also, you cannot use any commas in your entire response.",
+  "target": {
+    "punctuation:no_comma": {},
+    "language:response_language": {
+      "language": "hi"
+    }
+  }
+}
