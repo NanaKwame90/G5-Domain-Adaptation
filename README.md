@@ -53,116 +53,26 @@ $$\text{clemscore} = \sqrt{\text{Played}_{\%} \times \text{Quality}}$$
 
 
 
----
-
-## Experimental Results
-
 ### Summary Scores Across Evaluation Suites
 
 | Model | Evaluation Suite | Clemscore | Avg % Played | Avg Quality |
 | --- | --- | --- | --- | --- |
-| Qwen3.5-9B (Baseline) | Full CLEMbench
-
- | 3.57
-
- | 24.92
-
- | 14.33
-
- |
-| Qwen3.5-9B (Baseline) | + privacy_qa (2,000 inst.)
-
- | 4.35
-
- | 28.49
-
- | 15.28
-
- |
-| Qwen3.5-9B (Baseline) | + Static benchmarks
-
- | 20.84
-
- | 100.0
-
- | 20.84
-
- |
-| **Qwen3.5-9B-KTO**<br> | Full CLEMbench
-
- | 4.66
-
- | 11.58
-
- | 34.52
-
- |
-| **Qwen3.5-9B-KTO**<br> | + privacy_qa
-
- | 5.11
-
- | 14.81
-
- | 40.25
-
- |
-| **Qwen3.5-9B-KTO**<br> | + Static benchmarks
-
- | **45.13**<br> | **99.8**<br> | **45.22**<br> |
+| Qwen3.5-9B (Baseline) | Full CLEMbench | 3.57 | 24.92 | 14.33 |
+| Qwen3.5-9B (Baseline) | + privacy_qa (2,000 inst.) | 4.35 | 28.49 | 15.28 |
+| Qwen3.5-9B (Baseline) | + Static benchmarks | 20.84 | 100.0 | 20.84 |
+| **Qwen3.5-9B-KTO** | Full CLEMbench | 4.66 | 11.58 | 34.52 |
+| **Qwen3.5-9B-KTO** | + privacy_qa | 5.11 | 14.81 | 40.25 |
+| **Qwen3.5-9B-KTO** | + Static benchmarks | **45.13** | **99.8** | **45.22** |
 
 ### Static Benchmark Breakdown (Qwen3.5-9B-KTO)
 
-| Benchmark | % Played
-
- | Quality
-
- | Description
-
- |
+| Benchmark | % Played | Quality | Description |
 | --- | --- | --- | --- |
-| BBH
-
- | 100.0
-
- | 0.0
-
- | 23-task reasoning battery
-
- |
-| CLadder
-
- | 100.0
-
- | **61.0**<br> | Causal ladder counterfactuals
-
- |
-| EQBench
-
- | 99.0
-
- | **72.12**<br> | Emotional intelligence QA
-
- |
-| IFEval
-
- | 100.0
-
- | 54.0
-
- | Instruction-following evaluation
-
- |
-| MMLU-Pro
-
- | 100.0
-
- | 39.0
-
- | Academic multi-choice (12 domains)
-
- |
-
----
+| BBH | 100.0 | 0.0 | 23-task reasoning battery |
+| CLadder | 100.0 | **61.0** | Causal ladder counterfactuals |
+| EQBench | 99.0 | **72.12** | Emotional intelligence QA |
+| IFEval | 100.0 | 54.0 | Instruction-following evaluation |
+| MMLU-Pro | 100.0 | 39.0 | Academic multi-choice (12 domains) |
 
 # Complete Setup, Installation, and Evaluation Guide
 
