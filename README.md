@@ -7,21 +7,34 @@ This repository documents the experiments for the **LM-Playschool Shared Task 20
 ## Repository Structure
 
 ```
-g5_adaptation/
-├── train_kto_new.py           # KTO training script (LoRA + TRL KTOTrainer)
-├── train_kto.jsonl            # KTO training data (prompt/completion/label triples)
-├── config_kto.yaml            # Training hyper-parameter reference config
-├── run_benchmarks.sh          # Full-suite evaluation runner (KTO model)
-├── model_registry.json        # Model registry for the Playpen evaluation backend
-├── privacy_qa_2000_instances.json  # privacy_qa game instances (2 000 items)
+g5-privacy-kto/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── config_kto.yaml
+├── train_kto_new.py
+├── run_benchmarks.sh
+├── data/
+│   └── train_kto.jsonl
+├── privacy_qa/
+│   ├── privacy_qa_2000_instances.json
+│   └── clembench_game/              # your custom clembench game folder
+│       ├── __init__.py
+│       ├── clemgame.json
+│       ├── instancegenerator.py
+│       ├── master.py
+│       └── in/
+│           └── instances.json
 ├── src/
-│   ├── kto_trainer.py         # (stub — training logic lives in train_kto_new.py)
-│   └── playpen/               # Playpen workspace (clembench + model/game registries)
-│       ├── model_registry.json
-│       ├── game_registry.json
-│       ├── clembench/         # CLEMbench game suite (submodule / clone)
-│       └── results/           # Evaluation outputs (raw.csv, results.csv)
-└── results/                   # Aggregated results (Qwen3.5-9B-KTO full suite)
+│   ├── game_master.py
+│   └── kto_trainer.py
+├── configs/
+│   └── model_registry.template.json   # paths stripped, placeholders only
+└── results/
+    ├── results.csv
+    ├── raw.csv
+    └── final_baseline_scores.csv
 ```
 
 ---
