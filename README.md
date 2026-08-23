@@ -31,26 +31,17 @@ g5_adaptation/
 
 * **The Problem:** Large language models often achieve high performance on static knowledge benchmarks but fail to maintain structured multi-turn dialogue protocols in interactive games, leading to format violations and early aborts ($\text{Played}_{\%}$).
 * **Kahneman-Tversky Optimization (KTO):** Instead of paired preference comparisons (like DPO), KTO operates on singleton binary feedback $y \in \{+1, -1\}$, leveraging prospect theory's asymmetry between the psychological penalty of undesirable outputs and the reward of desirable outputs.
-
-
-* **Composite Evaluation Metric (`clemscore`):**
+* **Composite Evaluation Metric ($\text{clemscore}$):**
 
 $$\text{clemscore} = \sqrt{\text{Played}_{\%} \times \text{Quality}}$$
-
-
 
 ---
 
 ## Training Setup & Hyperparameters
 
 * **Base Model:** `Qwen/Qwen3.5-9B` (`bfloat16`, `enable_thinking=false`)
-
-
 * **Parameter-Efficient Fine-Tuning (LoRA):** Rank $r = 8$, $\alpha = 16$, dropout $0.05$, targeting attention projection matrices (`q_proj`, `k_proj`, `v_proj`, `o_proj`). Updates $\sim$8.4M parameters out of 9.4B ($\sim$0.09%).
-
-
 * **Trainer Configuration:** TRL `KTOTrainer`, effective batch size of 8, learning rate $5 \times 10^{-6}$, max 500 steps.
-
 
 
 ### Summary Scores Across Evaluation Suites
