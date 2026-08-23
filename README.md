@@ -32,8 +32,7 @@ g5_adaptation/
 * **The Problem:** Large language models often achieve high performance on static knowledge benchmarks but fail to maintain structured multi-turn dialogue protocols in interactive games, leading to format violations and early aborts (`Played_%`).
 * **Kahneman-Tversky Optimization (KTO):** Instead of paired preference comparisons (like DPO), KTO operates on singleton binary feedback $y \in \{+1, -1\}$, leveraging prospect theory's asymmetry between the psychological penalty of undesirable outputs and the reward of desirable outputs.
 * **Composite Evaluation Metric (`clemscore`):**
-
-$$\text{clemscore} = \sqrt{\text{Played}_{\%} \times \text{Quality}}$$
+  $\text{clemscore} = \sqrt{\text{Played} \times \text{Quality}}$
 
 ---
 
